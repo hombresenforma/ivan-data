@@ -11,7 +11,7 @@ const workoutData = {
                 order: 1,
                 name: "Press Banca con Barra",
                 sets: 3,
-                reps: "6" "6 "10", // Tres series: dos de 6 reps, una de 10 reps
+                reps: "6-10", // Tres series: dos de 6 reps, una de 10 reps
                 rest: "120s",
                 rpe: "RPE 8-9",
                 notes: "Agarre medio, codos a 45º, retracción escapular. Enfocarse en la técnica.",
