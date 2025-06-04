@@ -1,11 +1,79 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (1 DÍAS)
+// DATOS DE LA RUTINA (2 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
-        name: "DÍA 1: Tracción Completa",
+        name: "Empuje Completo",
+        exercises: [
+            {
+                order: 1,
+                name: "Press Banca con Barra",
+                sets: 3,
+                reps: "6, 6, 10",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://youtu.be/PKpsrFS2uacPress"
+            },
+            {
+                order: 2,
+                name: "Hack Squat",
+                sets: 3,
+                reps: "12, 10, 8",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQsThruster"
+            },
+            {
+                order: 3,
+                name: "Press Banca con Mancuernas",
+                sets: 3,
+                reps: "10",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/hXCJC2ApcdgPress"
+            },
+            {
+                order: 4,
+                name: "Cruces en Polea Alta",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Cruces en Polea Alta",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        notes: "undefined",
+                        videoUrl: "https://youtu.be/Ht9awbF2fBAFitball"
+
+                    },
+                    {
+                        name: "Press Francés con Barra Z",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "12",
+                        notes: "",
+                        videoUrl: "https://www.youtube.com/watch?v=k8KH84637RwPress"
+                        ,rest: "90s"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/Ht9awbF2fBAFitball"
+            },
+            {
+                order: 5,
+                name: "Sentadilla Goblet con Mancuerna/Kettlebell",
+                sets: 2,
+                reps: "16",
+                notes: "",
+                videoUrl: "https://youtu.be/xPVfWX_9ytkSentadilla"
+            }
+        ]
+    },
+    "dia2": {
+        name: "Tracción Completa",
         exercises: [
             {
                 order: 1,
@@ -75,8 +143,11 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Remo en Barra T": [
-        { name: "Remo con Mancuerna Unilateral", videoUrl: "https://youtu.be/EPXL9QIasLMRemo" }
+    "Press Banca con Barra": [
+        { name: "Press Banca Inclinado", videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQPress" }
+    ],
+    "Press Banca con Mancuernas": [
+        { name: "Press Inclinado con Mancuernas", videoUrl: "https://youtu.be/ZE4M73kXB5APress" }
     ]
 };
 // =================================================================================
