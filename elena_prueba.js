@@ -61,12 +61,12 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Patada de Glúteo en Hold en Banco",
+                name: "Patada de Glúteo en Polea",
                 sets: 2,
                 reps: "10",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=JfJPwDmzyKM"
+                videoUrl: "https://www.youtube.com/watch?v=3KdH7vkEW6s"
             }
         ]
     },
