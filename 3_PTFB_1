@@ -238,9 +238,6 @@ const workoutData = {
     }
 };
 
-const exerciseAlternatives = {
-};
+const exerciseAlternatives = {};
 
 console.log("Datos de rutina cargados desde el creador.");
-// Export if using modules in the target app, or remove if it's a simple script include
-// export { workoutData, exerciseAlternatives };
