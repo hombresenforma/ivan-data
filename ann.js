@@ -13,7 +13,7 @@ const workoutData = {
                 sets: 4,
                 reps: "8,8,8,12",
                 rest: "120s",
-                notes: "",
+                notes: "Última serie haz 1 Drop-Set (12+8)",
                 videoUrl: "https://youtu.be/sbl1qYdkzUc"
             },
             {
@@ -178,7 +178,7 @@ const workoutData = {
                 sets: 3,
                 reps: "6, 6, 10",
                 rest: "90s",
-                notes: "",
+                notes: "Última serie haz 1 Drop-Set (10+8)",
                 videoUrl: "https://youtu.be/kA6bHiDdTO4"
             },
             {
@@ -239,6 +239,12 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
+    "Hip Thrust con Barra": [
+        { name: "Prensa Inclinada 45º", videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps" }
+    ],
+    "Sentadilla Búlgara con Mancuerna": [
+        { name: "Zancada Alterna con Barra", videoUrl: "https://youtu.be/Q2SUv47Qh4U" }
+    ]
 };
 
 console.log("Datos de rutina cargados desde el creador.");
