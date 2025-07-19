@@ -67,7 +67,7 @@ const workoutData = {
                 isEMOM: true,
                 emomDetails: {
                     totalIntervals: 8,
-                    workIntervalSeconds: 60s
+                    workIntervalSeconds: 60
                 },
                 items: [
                     {
