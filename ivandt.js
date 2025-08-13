@@ -4,9 +4,9 @@
 // DATOS DE LA RUTINA (3 DÍAS)
 // =================================================================================
 const datosCliente = {
-
-activeWeeks: "none", // o "even", "none", "all"
-
+    activeWeeks: "none"
+};
+// Opciones posibles: "odd", "even", "none", "all"
 const workoutData = {
     "dia1": {
         name: "Cadena Posterior Completa",
