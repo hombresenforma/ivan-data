@@ -1,7 +1,7 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (1 DÍAS)
+// DATOS DE LA RUTINA (3 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -107,6 +107,208 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/IwixiNKjpCA",
                 imageUrl: "https://i.ytimg.com/vi/IwixiNKjpCA/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia2": {
+        name: "Posterior IN-OUT",
+        exercises: [
+            {
+                order: 1,
+                name: "Dominadas con Peso Corporal",
+                sets: 3,
+                reps: "8",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
+                imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Peso Muerto Rumano con Mancuernas",
+                sets: 3,
+                reps: "8",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=mpg_qmBdmxc",
+                imageUrl: "https://i.ytimg.com/vi/mpg_qmBdmxc/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Remo con Mancuerna Unilateral",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Remo con Mancuerna Unilateral",
+                        subOrder: 1,
+                        sets: 4,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/EPXL9QIasLM",
+                        imageUrl: "https://i.ytimg.com/vi/EPXL9QIasLM/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Renegade Alterno con Mancuernas",
+                        subOrder: 2,
+                        sets: 4,
+                        reps: "16",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
+                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/EPXL9QIasLM",
+                imageUrl: "https://i.ytimg.com/vi/EPXL9QIasLM/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Remo Seal con Mancuernas",
+                sets: 3,
+                reps: "15, 12, 10",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Face Pull en TRX / Rings / Anillas",
+                sets: 3,
+                reps: "15, 12, 10",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=rIpWyPV45PU",
+                imageUrl: "https://i.ytimg.com/vi/rIpWyPV45PU/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "IN-OUT",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 30,
+                    restBetweenRoundsSeconds: 0
+                },
+                items: [
+                    {
+                        name: "Face Pull con Kettlebell",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/RIS2s-UkKOk",
+                        imageUrl: "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
+                    },
+                    {
+                        name: "Kettlebell - Swing Ruso",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/eKN0tj8q6Qc",
+                        imageUrl: "https://i.ytimg.com/vi/eKN0tj8q6Qc/mqdefault.jpg"
+                    }
+                ],
+                notes: "Puedes usar mancuernas o barra normal para el remo al cuello",
+                videoUrl: "https://www.youtube.com/shorts/RIS2s-UkKOk",
+                imageUrl: "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia3": {
+        name: "Fullbody IN-OUT",
+        exercises: [
+            {
+                order: 1,
+                name: "Curl con Mancuernas de Pie Alterno",
+                sets: 3,
+                reps: "16",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://youtu.be/85KCpAw9CE4",
+                imageUrl: "https://i.ytimg.com/vi/85KCpAw9CE4/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Press Cerrado en Banco Inclinado con Mancuernas",
+                sets: 3,
+                reps: "8",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/tdh7LSxUj1s",
+                imageUrl: "https://i.ytimg.com/vi/tdh7LSxUj1s/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Sentadilla Goblet con Pies Elevados",
+                sets: 3,
+                reps: "8",
+                rest: "90s",
+                notes: "Puedes ponerte una mancuerna sobre cada hombro para cargar más peso. Recuerda elevar tus talones para enfatizar el trabajo en tus cuádriceps.",
+                videoUrl: "https://youtu.be/E2n7V0o8B5A",
+                imageUrl: "https://i.ytimg.com/vi/E2n7V0o8B5A/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Curl Martillo con Mancuernas",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Curl Martillo con Mancuernas",
+                        subOrder: 1,
+                        sets: 4,
+                        reps: "15, 12, 10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/fcFsPoJY9lg",
+                        imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
+                    },
+                    {
+                        name: "Extensión Tríceps Trasnuca con Mancuernas/Kettlebell",
+                        subOrder: 2,
+                        sets: 4,
+                        reps: "15, 12, 10",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/1MgU2PO4_rI",
+                        imageUrl: "https://i.ytimg.com/vi/1MgU2PO4_rI/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/fcFsPoJY9lg",
+                imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "IN-OUT",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 30,
+                    restBetweenRoundsSeconds: 0
+                },
+                items: [
+                    {
+                        name: "Remo Renegade + Flexión con Mancuernas",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/hLPJik1MaaY",
+                        imageUrl: "https://i.ytimg.com/vi/hLPJik1MaaY/mqdefault.jpg"
+                    },
+                    {
+                        name: "Zancadas Caminando con Mancuernas/Kettlebells",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/7tRy9X0ibnk",
+                        imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/hLPJik1MaaY",
+                imageUrl: "https://i.ytimg.com/vi/hLPJik1MaaY/mqdefault.jpg"
             }
         ]
     }
