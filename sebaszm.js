@@ -1,7 +1,7 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
+// DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -309,6 +309,87 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/hLPJik1MaaY",
                 imageUrl: "https://i.ytimg.com/vi/hLPJik1MaaY/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia4": {
+        name: "Cardio y Core",
+        exercises: [
+            {
+                order: 1,
+                name: "Remo ",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 5,
+                    restBetweenExercisesSeconds: 120,
+                    restBetweenRoundsSeconds: 0
+                },
+                items: [
+                    {
+                        name: "Cardio - Remo en Máquina",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "120s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Crunch - Extensión Lumbar",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Crunch - Extensión Lumbar",
+                        subOrder: 1,
+                        sets: 4,
+                        reps: "15",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/BJTJdFViRsU",
+                        imageUrl: "https://i.ytimg.com/vi/BJTJdFViRsU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch - Lateral Piernas",
+                        subOrder: 2,
+                        sets: 4,
+                        reps: "15",
+                        videoUrl: "https://youtu.be/jjoqs9YMyrM",
+                        imageUrl: "https://i.ytimg.com/vi/jjoqs9YMyrM/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch - Lateral Piernas",
+                        subOrder: 3,
+                        sets: 4,
+                        reps: "15",
+                        videoUrl: "https://youtu.be/jjoqs9YMyrM",
+                        imageUrl: "https://i.ytimg.com/vi/jjoqs9YMyrM/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch - Flexión de Cadera",
+                        subOrder: 4,
+                        sets: 4,
+                        reps: "15",
+                        videoUrl: "https://youtu.be/XJFii9NYHNs",
+                        imageUrl: "https://i.ytimg.com/vi/XJFii9NYHNs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow - Nivel 3",
+                        subOrder: 5,
+                        sets: 4,
+                        reps: "30s",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/I6YISGE4Uvo",
+                        imageUrl: "https://i.ytimg.com/vi/I6YISGE4Uvo/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/BJTJdFViRsU",
+                imageUrl: "https://i.ytimg.com/vi/BJTJdFViRsU/mqdefault.jpg"
             }
         ]
     }
