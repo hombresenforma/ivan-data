@@ -1,8 +1,5 @@
 // Contenido de app_datos.js
-// Configuración global del cliente
-const datosCliente = {
-    activeWeeks: 'none' // Cambia este valor para modificar la configuración
-};
+
 // =================================================================================
 // DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
