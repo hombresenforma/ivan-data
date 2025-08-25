@@ -82,7 +82,7 @@ const workoutData = {
                 circuitDetails: {
                     totalRounds: 4,
                     restBetweenExercisesSeconds: 30,
-                    restBetweenRoundsSeconds: 0
+                    restBetweenRoundsSeconds: 30
                 },
                 items: [
                     {
@@ -188,7 +188,7 @@ const workoutData = {
                 circuitDetails: {
                     totalRounds: 4,
                     restBetweenExercisesSeconds: 30,
-                    restBetweenRoundsSeconds: 0
+                    restBetweenRoundsSeconds: 30
                 },
                 items: [
                     {
@@ -284,7 +284,7 @@ const workoutData = {
                 circuitDetails: {
                     totalRounds: 4,
                     restBetweenExercisesSeconds: 30,
-                    restBetweenRoundsSeconds: 0
+                    restBetweenRoundsSeconds: 30
                 },
                 items: [
                     {
