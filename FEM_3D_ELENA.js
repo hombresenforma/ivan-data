@@ -61,7 +61,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 12,
+                    totalIntervals: 8,
                     workIntervalSeconds: 60
                 },
                 items: [
@@ -202,18 +202,18 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 12,
+                    totalIntervals: 8,
                     workIntervalSeconds: 60
                 },
                 items: [
                     {
-                        name: "Zancadas Caminando con Mancuernas/Kettlebells",
+                        name: "High Pull con Kettlebell",
                         subOrder: 1,
                         sets: 1,
-                        reps: "18",
+                        reps: "10",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                        imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/rjAV_JCo7g0",
+                        imageUrl: "https://i.ytimg.com/vi/rjAV_JCo7g0/mqdefault.jpg"
                     },
                     {
                         name: "Fondos en Banco",
@@ -235,8 +235,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/rjAV_JCo7g0",
+                imageUrl: "https://i.ytimg.com/vi/rjAV_JCo7g0/mqdefault.jpg"
             }
         ]
     },
@@ -250,8 +250,8 @@ const workoutData = {
                 reps: "8, 8, 12",
                 rest: "120s",
                 notes: "Puedes hacerlo en Multipower",
-                videoUrl: "https://youtu.be/sbl1qYdkzUc",
-                imageUrl: "https://i.ytimg.com/vi/sbl1qYdkzUc/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
+                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -289,18 +289,18 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 12,
+                    totalIntervals: 8,
                     workIntervalSeconds: 60
                 },
                 items: [
                     {
-                        name: "Kettlebell - Swing con Sentadilla",
+                        name: "Sentadilla Goblet con Mancuerna/Kettlebell",
                         subOrder: 1,
                         sets: 1,
                         reps: "12",
                         isEMOMItem: true,
-                        videoUrl: "https://youtube.com/shorts/MUJ2UiP5gjc",
-                        imageUrl: "https://i.ytimg.com/vi/MUJ2UiP5gjc/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/xPVfWX_9ytk",
+                        imageUrl: "https://i.ytimg.com/vi/xPVfWX_9ytk/mqdefault.jpg"
                     },
                     {
                         name: "Plancha - Cambios de apoyo",
@@ -313,8 +313,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/MUJ2UiP5gjc",
-                imageUrl: "https://i.ytimg.com/vi/MUJ2UiP5gjc/mqdefault.jpg"
+                videoUrl: "https://youtu.be/xPVfWX_9ytk",
+                imageUrl: "https://i.ytimg.com/vi/xPVfWX_9ytk/mqdefault.jpg"
             }
         ]
     }
