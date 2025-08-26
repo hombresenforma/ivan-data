@@ -21,7 +21,7 @@ const workoutData = {
                 order: 2,
                 name: "Sentadilla Frontal con Barra",
                 sets: 3,
-                reps: "10",
+                reps: "15, 12, 10",
                 rest: "120s",
                 notes: "Puedes hacerlo en Multipower",
                 videoUrl: "https://youtu.be/ErXO1WKVlPI",
@@ -29,6 +29,16 @@ const workoutData = {
             },
             {
                 order: 3,
+                name: "Prensa Inclinada 45º",
+                sets: 3,
+                reps: "8-10",
+                rest: "90s",
+                notes: "Puedes hacerlo en Multipower",
+                videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps",
+                imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg"
+            },
+            {
+                order: 4,
                 name: "Curl Femoral en Máquina",
                 isSuperset: true,
                 items: [
@@ -56,7 +66,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/Zhnhz1r_u-Y/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 5,
                 name: "Metabólico Final",
                 isSuperset: true,
                 isEMOM: true,
@@ -134,7 +144,7 @@ const workoutData = {
                 order: 2,
                 name: "Remo con Barra",
                 sets: 3,
-                reps: "10",
+                reps: "15, 12, 10",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/MjnZ52mZgT0",
@@ -142,6 +152,16 @@ const workoutData = {
             },
             {
                 order: 3,
+                name: "Face Pull en Polea Alta",
+                sets: 3,
+                reps: "8-19",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=tZN8KYDSCRo",
+                imageUrl: "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
+            },
+            {
+                order: 4,
                 name: "Press Militar en Multipower",
                 isSuperset: true,
                 items: [
@@ -169,7 +189,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 5,
                 name: "Metabólico Final",
                 isSuperset: true,
                 isEMOM: true,
@@ -179,13 +199,13 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Zancadas Caminando con Mancuernas/Kettlebells",
+                        name: "High Pull con Kettlebell",
                         subOrder: 1,
                         sets: 1,
                         reps: "18",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                        imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/rjAV_JCo7g0",
+                        imageUrl: "https://i.ytimg.com/vi/rjAV_JCo7g0/mqdefault.jpg"
                     },
                     {
                         name: "Fondos en Banco",
@@ -207,8 +227,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/rjAV_JCo7g0",
+                imageUrl: "https://i.ytimg.com/vi/rjAV_JCo7g0/mqdefault.jpg"
             }
         ]
     },
@@ -218,8 +238,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Sentadilla Búlgara con Mancuerna",
-                sets: 3,
-                reps: "6, 6, 10",
+                sets: 4,
+                reps: "6, 6, 6, 15",
                 rest: "120s",
                 notes: "Puedes hacerlo en Multipower",
                 videoUrl: "https://youtu.be/kA6bHiDdTO4",
@@ -228,8 +248,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Militar con Barra de Pie",
-                sets: 3,
-                reps: "6, 6, 10",
+                sets: 4,
+                reps: "6, 6, 6, 15",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
@@ -309,7 +329,13 @@ const exerciseAlternatives = {
     "Sentadilla Frontal con Barra": [
         { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
     ],
+    "Prensa Inclinada 45º": [
+        { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
+    ],
     "Remo con Barra": [
+        { name: "Remo en Barra T", videoUrl: "https://www.youtube.com/watch?v=AgxCPp37waQ", imageUrl: "https://i.ytimg.com/vi/AgxCPp37waQ/mqdefault.jpg" }
+    ],
+    "Face Pull en Polea Alta": [
         { name: "Remo en Barra T", videoUrl: "https://www.youtube.com/watch?v=AgxCPp37waQ", imageUrl: "https://i.ytimg.com/vi/AgxCPp37waQ/mqdefault.jpg" }
     ]
 };
