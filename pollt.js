@@ -57,6 +57,16 @@ const workoutData = {
             },
             {
                 order: 4,
+                name: "Box Step Up",
+                sets: 3,
+                reps: "16",
+                rest: "60s",
+                notes: "Buscamos un ángulo óptimo de rodilla y cadera.",
+                videoUrl: "https://www.youtube.com/watch?v=V_GXrG-JXEs",
+                imageUrl: "https://i.ytimg.com/vi/V_GXrG-JXEs/mqdefault.jpg"
+            },
+            {
+                order: 5,
                 name: "Metabólico Final",
                 isSuperset: true,
                 isEMOM: true,
@@ -183,13 +193,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos en Banco",
+                        name: "Press Francés con Barra Z en Banco Inclinado",
                         subOrder: 2,
                         sets: 3,
                         reps: "12-15",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/NSB_HrDwd6I",
-                        imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/hFk6xzt1DWM",
+                        imageUrl: "https://i.ytimg.com/vi/hFk6xzt1DWM/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -216,13 +226,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/rjAV_JCo7g0/mqdefault.jpg"
                     },
                     {
-                        name: "High Pull con Kettlebell",
+                        name: "Fondos en Paralelas para Pecho",
                         subOrder: 2,
                         sets: 1,
                         reps: "15",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/rjAV_JCo7g0",
-                        imageUrl: "https://i.ytimg.com/vi/rjAV_JCo7g0/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/W9TfhUAvteE",
+                        imageUrl: "https://i.ytimg.com/vi/W9TfhUAvteE/mqdefault.jpg"
                     },
                     {
                         name: "Remo en TRX / Anillas",
