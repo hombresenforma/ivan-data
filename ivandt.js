@@ -3,10 +3,6 @@
 // =================================================================================
 // DATOS DE LA RUTINA (3 DÍAS)
 // =================================================================================
-const datosCliente = {
-    activeWeeks: "none"
-};
-// Opciones posibles: "odd", "even", "none", "all"
 const workoutData = {
     "dia1": {
         name: "Cadena Posterior Completa",
@@ -240,8 +236,8 @@ const workoutData = {
                 reps: "12, 10, 8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
-                imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
+                imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -285,6 +281,12 @@ const exerciseAlternatives = {
     ],
     "Curl con Barra Recta": [
         { name: "Curl Scott con Barra Z", videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag", imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg" }
+    ],
+    "Remo en Barra T": [
+        { name: "Máquina de Remo (Gironda)", videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A", imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg" }
+    ],
+    "Curl Martillo con Mancuernas": [
+        { name: "Curl en Polea Baja con Cuerda", videoUrl: "https://www.youtube.com/watch?v=2BFzjygU1Ic", imageUrl: "https://i.ytimg.com/vi/2BFzjygU1Ic/mqdefault.jpg" }
     ],
     "Press Banca con Barra": [
         { name: "Peso Muerto Rumano con Barra", videoUrl: "https://youtu.be/R7FKam5GyNw", imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg" }
