@@ -109,13 +109,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Banca con Barra",
+                name: "Press Banca con Barra (Explicado)",
                 sets: 3,
                 reps: "6, 6, 10",
                 rest: "150s",
                 notes: "",
-                videoUrl: "https://youtu.be/PKpsrFS2uac",
-                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+                videoUrl: "https://youtu.be/TXgcWBgHeJw",
+                imageUrl: "https://i.ytimg.com/vi/TXgcWBgHeJw/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -250,13 +250,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
                     },
                     {
-                        name: "Remo Unilateral con Mancuerna/KTB (Explicado)",
+                        name: "Remo Unilat con Mancuerna/KTB (Explicado)",
                         subOrder: 2,
                         sets: 3,
                         reps: "8, 8, 12",
                         rest: "90s",
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://youtu.be/uH9Hg4nWOG8",
+                        imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -343,7 +343,7 @@ const exerciseAlternatives = {
     "Curl con Mancuernas Sentado en Banco Inclinado": [
         { name: "Curl con Mancuernas de Pie", videoUrl: "https://youtu.be/8STuQuoDMR0", imageUrl: "https://i.ytimg.com/vi/8STuQuoDMR0/mqdefault.jpg" }
     ],
-    "Press Banca con Barra": [
+    "Press Banca con Barra (Explicado)": [
         { name: "Press Banca en Multipower", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
     ],
     "Hack Squat / Prensa Hack": [
