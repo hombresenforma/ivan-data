@@ -10,8 +10,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Peso Muerto Rumano con Barra",
-                sets: 3,
-                reps: "6, 6, 10",
+                sets: 4,
+                reps: "6, 6, 12, 12",
                 rest: "150s",
                 notes: "Salimos desde una ligera altura (steps o discos de 20kg)",
                 videoUrl: "https://youtu.be/R7FKam5GyNw",
@@ -39,35 +39,6 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Remo en Barra T",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Remo en Barra T",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "12, 10, 8",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=AgxCPp37waQ",
-                        imageUrl: "https://i.ytimg.com/vi/AgxCPp37waQ/mqdefault.jpg"
-                    },
-                    {
-                        name: "Curl Martillo con Mancuernas",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "12",
-                        notes: "Sin descanso. ",
-                        rest: "90s",
-                        videoUrl: "https://youtu.be/fcFsPoJY9lg",
-                        imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=AgxCPp37waQ",
-                imageUrl: "https://i.ytimg.com/vi/AgxCPp37waQ/mqdefault.jpg"
-            },
-            {
-                order: 5,
                 name: "Curl con Mancuernas Sentado en Banco Inclinado",
                 isSuperset: true,
                 items: [
@@ -94,13 +65,82 @@ const workoutData = {
                         sets: 3,
                         reps: "6",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/INcd--4kK5k",
-                        imageUrl: "https://i.ytimg.com/vi/INcd--4kK5k/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     }
                 ],
                 notes: "",
                 videoUrl: "https://youtu.be/S32a3nYiWko",
                 imageUrl: "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Remo Seal con Mancuernas",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Remo Seal con Mancuernas",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "12",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                        imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
+                    },
+                    {
+                        name: "High Pull con Kettlebell",
+                        subOrder: 2,
+                        sets: 2,
+                        reps: "15",
+                        videoUrl: "https://www.youtube.com/shorts/rjAV_JCo7g0",
+                        imageUrl: "https://i.ytimg.com/vi/rjAV_JCo7g0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Funcional - Mountain Climber",
+                        subOrder: 3,
+                        sets: 2,
+                        reps: "30",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/GZWmYzClS3s",
+                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
+                    }
+                ],
+                notes: "Trata de despegar el pecho al final del movimiento",
+                videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "HIIT",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 3,
+                    restBetweenRoundsSeconds: 3
+                },
+                items: [
+                    {
+                        name: "CARDIO - Bicicleta Ritmo Fuerte De Pie",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                    },
+                    {
+                        name: "Cardio - bicicleta Ritmo Suave",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
+                        imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
             }
         ]
     },
@@ -109,13 +149,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Banca con Barra",
-                sets: 3,
-                reps: "6, 6, 10",
+                name: "Press Banca con Mancuernas",
+                sets: 4,
+                reps: "6, 6, 12, 12",
                 rest: "150s",
                 notes: "",
-                videoUrl: "https://youtu.be/PKpsrFS2uac",
-                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+                videoUrl: "https://youtu.be/hXCJC2Apcdg",
+                imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -152,14 +192,14 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
                     },
                     {
-                        name: "Flexiones / Deficit Push Ups con Discos al lado",
+                        name: "Zancada Dinámica",
                         subOrder: 2,
                         sets: 3,
-                        reps: "12",
+                        reps: "16",
                         notes: "Sin descanso. ",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=nLnrNuQFlao",
-                        imageUrl: "https://i.ytimg.com/vi/nLnrNuQFlao/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=eSAN1E5usJI",
+                        imageUrl: "https://i.ytimg.com/vi/eSAN1E5usJI/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -174,7 +214,7 @@ const workoutData = {
                     {
                         name: "Snatch + Thruster Unilat Alterno con Mancuerna",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 2,
                         reps: "8",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
@@ -183,7 +223,7 @@ const workoutData = {
                     {
                         name: "Fondos en Banco",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 2,
                         reps: "12",
                         videoUrl: "https://youtu.be/NSB_HrDwd6I",
                         imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
@@ -191,7 +231,7 @@ const workoutData = {
                     {
                         name: "Hollow - Nivel 4",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 2,
                         reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/RxFdlQ4oelM",
@@ -201,6 +241,39 @@ const workoutData = {
                 notes: "Movimiento compuesto, controla la técnica.",
                 videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
                 imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "HIIT",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 3,
+                    restBetweenRoundsSeconds: 3
+                },
+                items: [
+                    {
+                        name: "CARDIO - Bicicleta Ritmo Fuerte De Pie",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                    },
+                    {
+                        name: "Cardio - bicicleta Ritmo Suave",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
+                        imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
             }
         ]
     },
@@ -255,8 +328,8 @@ const workoutData = {
                         sets: 3,
                         reps: "8, 8, 12",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=uH9Hg4nWOG8",
-                        imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     }
                 ],
                 notes: "",
@@ -334,20 +407,14 @@ const exerciseAlternatives = {
     "Curl con Barra Recta": [
         { name: "Curl Scott con Barra Z", videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag", imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg" }
     ],
-    "Remo en Barra T": [
-        { name: "Máquina de Remo (Gironda)", videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A", imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg" }
-    ],
-    "Curl Martillo con Mancuernas": [
-        { name: "Curl en Polea Baja con Cuerda", videoUrl: "https://www.youtube.com/watch?v=2BFzjygU1Ic", imageUrl: "https://i.ytimg.com/vi/2BFzjygU1Ic/mqdefault.jpg" }
-    ],
     "Curl con Mancuernas Sentado en Banco Inclinado": [
         { name: "Curl con Mancuernas de Pie", videoUrl: "https://youtu.be/8STuQuoDMR0", imageUrl: "https://i.ytimg.com/vi/8STuQuoDMR0/mqdefault.jpg" }
     ],
-    "Press Banca con Barra": [
+    "Press Banca con Mancuernas": [
         { name: "Press Banca en Multipower", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
     ],
     "Hack Squat / Prensa Hack": [
-        { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
+        { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
     ],
     "Cruces en Polea Alta": [
         { name: "Curl Scott con Barra Z", videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag", imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg" }
