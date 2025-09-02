@@ -327,8 +327,8 @@ const workoutData = {
                         sets: 1,
                         reps: "45s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/KKvRtN904g",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/shorts/KKvRtN904gk",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtN904gk/mqdefault.jpg"
                     },
                     {
                         name: "Cardio - Correr en Cinta Suave",
@@ -336,13 +336,13 @@ const workoutData = {
                         sets: 1,
                         reps: "45s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/KKvRtN904g",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/shorts/KKvRtN904gk",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtN904gk/mqdefault.jpg"
                     }
                 ],
                 notes: "SPRINT: Por encima de 11km/h\nSUAVE: Por encima de 7km/h",
-                videoUrl: "https://www.youtube.com/shorts/KKvRtN904g",
-                imageUrl: ""
+                videoUrl: "https://www.youtube.com/shorts/KKvRtN904gk",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtN904gk/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -502,9 +502,26 @@ const workoutData = {
                         subOrder: 6,
                         sets: 1,
                         reps: "10",
-                        rest: "60s",
                         videoUrl: "https://youtu.be/6bO-z38wmdk",
                         imageUrl: "https://i.ytimg.com/vi/6bO-z38wmdk/mqdefault.jpg"
+                    },
+                    {
+                        name: "Liberación Miofascial - Zona Lumbar",
+                        subOrder: 7,
+                        sets: 1,
+                        reps: "10",
+                        videoUrl: "https://youtu.be/iR4yp5nhlpA",
+                        imageUrl: "https://i.ytimg.com/vi/iR4yp5nhlpA/mqdefault.jpg"
+                    },
+                    {
+                        name: "Liberación Miofascial - Zona Torácica",
+                        subOrder: 8,
+                        sets: 1,
+                        reps: "10",
+                        notes: "Liberación Miofascial. Busca un punto de dolor (punto gatillo) e insiste en pasadas por esa zona. Entre 10 y 20 pasadas por zona. ",
+                        rest: "60s",
+                        videoUrl: "https://youtu.be/hESaRK6iaBg",
+                        imageUrl: "https://i.ytimg.com/vi/hESaRK6iaBg/mqdefault.jpg"
                     }
                 ],
                 notes: "Liberación Miofascial. Busca un punto de dolor (punto gatillo) e insiste en pasadas por esa zona. Entre 10 y 20 pasadas por zona. ",
