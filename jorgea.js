@@ -147,17 +147,17 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Remo en TRX",
+                name: "Remo Unilat con Mancuerna/KTB (Explicado)",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo en TRX",
+                        name: "Remo Unilat con Mancuerna/KTB (Explicado)",
                         subOrder: 1,
                         sets: 2,
-                        reps: "8",
+                        reps: "15",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=L6F1ZKsrRGI",
-                        imageUrl: "https://i.ytimg.com/vi/L6F1ZKsrRGI/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/uH9Hg4nWOG8",
+                        imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
                     },
                     {
                         name: "Funcional - Mountain Climber",
@@ -170,8 +170,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=L6F1ZKsrRGI",
-                imageUrl: "https://i.ytimg.com/vi/L6F1ZKsrRGI/mqdefault.jpg"
+                videoUrl: "https://youtu.be/uH9Hg4nWOG8",
+                imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -242,17 +242,17 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Remo Horizontal en TRX",
+                name: "Gorilla Row con Kettlebells/Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo Horizontal en TRX",
+                        name: "Gorilla Row con Kettlebells/Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
-                        imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/4hKPsdWsXl8",
+                        imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
                     },
                     {
                         name: "Remo Renegade Alterno con Mancuernas",
@@ -272,9 +272,9 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/lFEg3UQYM3g/mqdefault.jpg"
                     }
                 ],
-                notes: "Mantén una inclinación paralela al suelo.",
-                videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
-                imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
+                notes: "",
+                videoUrl: "https://youtu.be/4hKPsdWsXl8",
+                imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
             }
         ]
     },
