@@ -56,8 +56,8 @@ const workoutData = {
                         subOrder: 2,
                         sets: 3,
                         reps: "15",
-                        videoUrl: "https://www.youtube.com/shorts/RIS2s-UkKOk",
-                        imageUrl: "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
                         name: "Sit Up Unilateral con KTB",
@@ -65,8 +65,8 @@ const workoutData = {
                         sets: 3,
                         reps: "6",
                         rest: "90s",
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://youtu.be/INcd--4kK5k",
+                        imageUrl: "https://i.ytimg.com/vi/INcd--4kK5k/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -88,7 +88,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
                     },
                     {
-                        name: "High Pull con Kettlebell",
+                        name: "High Pull con KTB",
                         subOrder: 2,
                         sets: 2,
                         reps: "15",
@@ -120,7 +120,7 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "CARDIO - Bicicleta Ritmo Fuerte De Pie",
+                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
                         subOrder: 1,
                         sets: 1,
                         reps: "45s",
@@ -129,7 +129,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
                     },
                     {
-                        name: "Cardio - bicicleta Ritmo Suave",
+                        name: "CARDIO - Bicicleta (Ritmo Suave)",
                         subOrder: 2,
                         sets: 1,
                         reps: "45s",
@@ -138,7 +138,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
                     }
                 ],
-                notes: "",
+                notes: "Liberación.",
                 videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
                 imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
             }
@@ -192,7 +192,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
                     },
                     {
-                        name: "Zancada Dinámica",
+                        name: "Zancada Dinámica",
                         subOrder: 2,
                         sets: 3,
                         reps: "16",
@@ -253,27 +253,27 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "CARDIO - Bicicleta Ritmo Fuerte De Pie",
+                        name: "CARDIO - Correr (Sprint)",
                         subOrder: 1,
                         sets: 1,
                         reps: "45s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
-                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/KKvRtNn904g",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
                     },
                     {
-                        name: "Cardio - bicicleta Ritmo Suave",
+                        name: "CARDIO - Correr (Suave)",
                         subOrder: 2,
                         sets: 1,
                         reps: "45s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
-                        imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/KKvRtNn904g",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
-                imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                notes: "Puedes hacerlo al aire libre si lo prefieres.",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             }
         ]
     },
@@ -310,11 +310,11 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Militar Unilat con Mancuerna",
+                name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar Unilat con Mancuerna",
+                        name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                         subOrder: 1,
                         sets: 3,
                         reps: "8, 8, 12",
@@ -323,13 +323,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
                     },
                     {
-                        name: "Remo Unilateral con Mancuerna/KTB (Explicado)",
+                        name: "Kettlebell - Remo Inclinado Unilateral",
                         subOrder: 2,
                         sets: 3,
                         reps: "8, 8, 12",
                         rest: "90s",
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://youtube.com/shorts/JQYZ3sz3rko",
+                        imageUrl: "https://i.ytimg.com/vi/JQYZ3sz3rko/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -411,7 +411,7 @@ const exerciseAlternatives = {
         { name: "Curl con Mancuernas de Pie", videoUrl: "https://youtu.be/8STuQuoDMR0", imageUrl: "https://i.ytimg.com/vi/8STuQuoDMR0/mqdefault.jpg" }
     ],
     "Press Banca con Mancuernas": [
-        { name: "Press Banca en Multipower", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
+        { name: "Press Banca en Multipower", videoUrl: "https://youtu.be/w-5ovE5O5iU", imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg" }
     ],
     "Hack Squat / Prensa Hack": [
         { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
