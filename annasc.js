@@ -11,11 +11,11 @@ const workoutData = {
                 order: 1,
                 name: "Hip Thrust con Barra",
                 sets: 4,
-                reps: "8, 8, 8, 12",
+                reps: "8, 8, 8, 20",
                 rest: "120s",
-                notes: "Puedes hacerlo en Multipower",
-                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+                notes: "Última serie CLUSTERS: 8 reps con mismo peso (al fallo). Seguido de series de 3-4 reps hasta completar 20 reps.",
+                videoUrl: "https://youtu.be/sbl1qYdkzUc",
+                imageUrl: "https://i.ytimg.com/vi/sbl1qYdkzUc/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -57,6 +57,16 @@ const workoutData = {
             },
             {
                 order: 4,
+                name: "Prensa Inclinada 45º",
+                sets: 3,
+                reps: "8",
+                rest: "60s",
+                notes: "1 DROPSET en todas las series. (8+8)",
+                videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps",
+                imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg"
+            },
+            {
+                order: 5,
                 name: "Metabólico Final",
                 isSuperset: true,
                 isEMOM: true,
@@ -133,10 +143,10 @@ const workoutData = {
             {
                 order: 2,
                 name: "Remo con Barra",
-                sets: 3,
-                reps: "10",
+                sets: 4,
+                reps: "8, 8, 8, 20",
                 rest: "120s",
-                notes: "",
+                notes: "Última serie CLUSTERS: 8 reps con mismo peso (al fallo). Seguido de series de 3-4 reps hasta completar 20 reps.",
                 videoUrl: "https://youtu.be/MjnZ52mZgT0",
                 imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
             },
@@ -170,6 +180,16 @@ const workoutData = {
             },
             {
                 order: 4,
+                name: "Elevaciones Laterales con Mancuernas",
+                sets: 3,
+                reps: "10",
+                rest: "60s",
+                notes: "Excéntrica en 3 segundos. No pares abajo",
+                videoUrl: "https://youtu.be/rhmW_fhB4cs",
+                imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
+            },
+            {
+                order: 5,
                 name: "Metabólico Final",
                 isSuperset: true,
                 isEMOM: true,
@@ -179,13 +199,13 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Zancadas Caminando con Mancuernas/Kettlebells",
+                        name: "Thruster con Mancuernas",
                         subOrder: 1,
                         sets: 1,
-                        reps: "18",
+                        reps: "12",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                        imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                        imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
                     },
                     {
                         name: "Fondos en Banco",
@@ -207,8 +227,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
             }
         ]
     },
@@ -218,10 +238,10 @@ const workoutData = {
             {
                 order: 1,
                 name: "Sentadilla Búlgara con Mancuerna",
-                sets: 3,
-                reps: "6, 6, 10",
+                sets: 4,
+                reps: "6, 6, 6, 8",
                 rest: "120s",
-                notes: "Puedes hacerlo en Multipower",
+                notes: "Últimas serie DROPSETx2 DEJANDO MANCUERNAS. (8 reps, dejas 1 mancuerna 8 reps, dejas 1 mancuerna 8 reps)",
                 videoUrl: "https://youtu.be/kA6bHiDdTO4",
                 imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
             },
@@ -300,6 +320,48 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=JfJPwDmzyKM",
                 imageUrl: "https://i.ytimg.com/vi/JfJPwDmzyKM/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Circuito Final",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 10,
+                    restBetweenRoundsSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Snatch + Thruster Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                        imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Renegade Alterno con Mancuernas",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
+                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow - Nivel 4",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/RxFdlQ4oelM",
+                        imageUrl: "https://i.ytimg.com/vi/RxFdlQ4oelM/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
             }
         ]
     },
@@ -309,7 +371,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Step Up Unilateral al Cajón con Mancuerna/Kettlebell",
-                sets: 3,
+                sets: 4,
                 reps: "10-12",
                 rest: "90s",
                 notes: "",
