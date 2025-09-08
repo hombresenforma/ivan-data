@@ -9,13 +9,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Militar con Barra de Pie",
-                sets: 3,
-                reps: "8, 8, 12",
+                name: "Press Militar Sentado con Mancuernas",
+                sets: 4,
+                reps: "8, 8, 8, 12",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
-                imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -29,17 +29,17 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Press Inclinado con Mancuernas",
+                name: "Press en Máquina",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Inclinado con Mancuernas",
+                        name: "Press en Máquina",
                         subOrder: 1,
                         sets: 3,
                         reps: "10-12",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/ZE4M73kXB5A",
-                        imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=QrnVDLSBdMo",
+                        imageUrl: "https://i.ytimg.com/vi/QrnVDLSBdMo/mqdefault.jpg"
                     },
                     {
                         name: "Remo Seal con Mancuernas",
@@ -52,8 +52,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/ZE4M73kXB5A",
-                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=QrnVDLSBdMo",
+                imageUrl: "https://i.ytimg.com/vi/QrnVDLSBdMo/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -123,13 +123,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Sentadilla Búlgara con Mancuerna",
-                sets: 3,
-                reps: "8, 8, 12",
+                name: "Sentadilla Split en Multipower",
+                sets: 4,
+                reps: "8, 8, 8, 12",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/kA6bHiDdTO4",
-                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=Nyk_I5-_tIA",
+                imageUrl: "https://i.ytimg.com/vi/Nyk_I5-_tIA/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -218,23 +218,23 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Banca con Barra",
-                sets: 3,
-                reps: "8, 8, 12",
+                name: "Press Banca Inclinado en Multipower",
+                sets: 4,
+                reps: "8, 8, 8, 12",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/PKpsrFS2uac",
-                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+                videoUrl: "https://youtu.be/3GS7EjN7KSk",
+                imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Máquina de Remo (Gironda)",
+                name: "Remo Unilat con Mancuerna/KTB (Explicado)",
                 sets: 3,
                 reps: "8, 8, 12",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A",
-                imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg"
+                videoUrl: "https://youtu.be/uH9Hg4nWOG8",
+                imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -316,33 +316,33 @@ const workoutData = {
                 name: "Interválico Intensivo",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 5,
+                    totalRounds: 6,
                     restBetweenExercisesSeconds: 3,
                     restBetweenRoundsSeconds: 3
                 },
                 items: [
                     {
-                        name: "Cardio - Correr en Cinta Sprint",
+                        name: "CARDIO - Correr (Sprint)",
                         subOrder: 1,
                         sets: 1,
-                        reps: "45s",
+                        reps: "30s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/KKvRtN904gk",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtN904gk/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/KKvRtNn904g",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
                     },
                     {
-                        name: "Cardio - Correr en Cinta Suave",
+                        name: "CARDIO - Correr (Suave)",
                         subOrder: 2,
                         sets: 1,
-                        reps: "45s",
+                        reps: "30s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/KKvRtN904gk",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtN904gk/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/KKvRtNn904g",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
                     }
                 ],
-                notes: "SPRINT: Por encima de 11km/h\nSUAVE: Por encima de 7km/h",
-                videoUrl: "https://www.youtube.com/shorts/KKvRtN904gk",
-                imageUrl: "https://i.ytimg.com/vi/KKvRtN904gk/mqdefault.jpg"
+                notes: "Puedes hacerlo al aire libre si lo prefieres.",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -382,15 +382,6 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/-3PDE3ztwzU/mqdefault.jpg"
                     },
                     {
-                        name: "Plancha - Abrir y Cerrar Piernas",
-                        subOrder: 4,
-                        sets: 1,
-                        reps: "40s",
-                        isCircuitItem: true,
-                        videoUrl: "https://youtu.be/G8GPAq4110U",
-                        imageUrl: "https://i.ytimg.com/vi/G8GPAq4110U/mqdefault.jpg"
-                    },
-                    {
                         name: "Crunch - Extensión Lumbar",
                         subOrder: 5,
                         sets: 1,
@@ -398,6 +389,15 @@ const workoutData = {
                         isCircuitItem: true,
                         videoUrl: "https://youtu.be/BJTJdFViRsU",
                         imageUrl: "https://i.ytimg.com/vi/BJTJdFViRsU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Funcional - Bird Dog",
+                        subOrder: 6,
+                        sets: 1,
+                        reps: "40s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/KizkN2buzMw",
+                        imageUrl: "https://i.ytimg.com/vi/KizkN2buzMw/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -533,7 +533,7 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Press Militar con Barra de Pie": [
+    "Press Militar Sentado con Mancuernas": [
         { name: "Press Militar en Multipower", videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI", imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg" }
     ],
     "Dominadas / Pull Ups Supinación (Chin Up)": [
@@ -542,10 +542,10 @@ const exerciseAlternatives = {
     "Prensa Inclinada 45º": [
         { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
     ],
-    "Press Banca con Barra": [
-        { name: "Press Banca en Multipower", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
+    "Press Banca Inclinado en Multipower": [
+        { name: "Press Banca en Multipower", videoUrl: "https://youtu.be/w-5ovE5O5iU", imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg" }
     ],
-    "Máquina de Remo (Gironda)": [
+    "Remo Unilat con Mancuerna/KTB (Explicado)": [
         { name: "Remo con Barra", videoUrl: "https://youtu.be/MjnZ52mZgT0", imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg" }
     ]
 };
