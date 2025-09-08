@@ -375,10 +375,10 @@ const workoutData = {
 
 const exerciseAlternatives = {
     "Peso Muerto Rumano con Barra": [
-        { name: "Peso Muerto Rumano con Barra", videoUrl: "https://youtu.be/R7FKam5GyNw", imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg" }
+        { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "https://www.youtube.com/watch?v=mpg_qmBdmxc", imageUrl: "https://i.ytimg.com/vi/mpg_qmBdmxc/mqdefault.jpg" }
     ],
     "Jalón al Pecho en Polea": [
-        { name: "Dominadas / Pull Ups", videoUrl: "https://www.youtube.com/watch?v=7ht8tmdAyqw", imageUrl: "https://i.ytimg.com/vi/7ht8tmdAyqw/mqdefault.jpg" }
+        { name: "Dominadas / Pull Ups asistidas en Máquina", videoUrl: "https://www.youtube.com/watch?v=pll4AdUg17g", imageUrl: "https://i.ytimg.com/vi/pll4AdUg17g/mqdefault.jpg" }
     ],
     "Curl con Barra Recta": [
         { name: "Curl Scott con Barra Z", videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag", imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg" }
