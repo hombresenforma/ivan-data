@@ -19,13 +19,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Sentadilla Trasera con Landmine",
+                name: "Thruster con Mancuernas",
                 sets: 3,
-                reps: "8, 8, 12",
+                reps: "15, 12, 10",
                 rest: "120s",
-                notes: "Puedes hacerlo en Multipower",
-                videoUrl: "https://youtu.be/sMcrgyyvK-8",
-                imageUrl: "https://i.ytimg.com/vi/sMcrgyyvK-8/mqdefault.jpg"
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -85,25 +85,25 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
                     },
                     {
-                        name: "Kettlebell - Swing Ruso",
+                        name: "Peso Muerto Rumano con Mancuernas",
                         subOrder: 2,
                         sets: 1,
                         reps: "15",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/eKN0tj8q6Qc",
-                        imageUrl: "https://i.ytimg.com/vi/eKN0tj8q6Qc/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=mpg_qmBdmxc",
+                        imageUrl: "https://i.ytimg.com/vi/mpg_qmBdmxc/mqdefault.jpg"
                     },
                     {
-                        name: "Cuerpo Libre - Cardio - Sentadilla con Salto en Step",
+                        name: "Zancada Dinámica",
                         subOrder: 3,
                         sets: 1,
                         reps: "12",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/7ckSQy2BtWw",
-                        imageUrl: "https://i.ytimg.com/vi/7ckSQy2BtWw/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=eSAN1E5usJI",
+                        imageUrl: "https://i.ytimg.com/vi/eSAN1E5usJI/mqdefault.jpg"
                     }
                 ],
-                notes: "",
+                notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                 videoUrl: "https://youtu.be/7tRy9X0ibnk",
                 imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
             }
@@ -127,13 +127,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/dN5DqMhO18s/mqdefault.jpg"
                     },
                     {
-                        name: "Flexiones / Push Ups",
+                        name: "Fondos en Paralelas Lastrados",
                         subOrder: 2,
                         sets: 3,
-                        reps: "20",
+                        reps: "15",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=GFUw7S0wDxk",
-                        imageUrl: "https://i.ytimg.com/vi/GFUw7S0wDxk/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/xsnhvnyl70I",
+                        imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
                     }
                 ],
                 notes: "Puedes hacerlo en Multipower",
@@ -142,13 +142,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Remo con Barra",
+                name: "Remo Unilateral Lateral en Landmine",
                 sets: 3,
-                reps: "8, 8, 12",
+                reps: "15, 12, 10",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/MjnZ52mZgT0",
-                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
+                videoUrl: "https://youtu.be/6uECO7vAmCc",
+                imageUrl: "https://i.ytimg.com/vi/6uECO7vAmCc/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -222,38 +222,38 @@ const workoutData = {
                         sets: 1,
                         reps: "10",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/rjAV_JCo7g0",
-                        imageUrl: "https://i.ytimg.com/vi/rjAV_JCo7g0/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
-                        name: "Fondos en Paralelas para Pecho",
+                        name: "Worm + Flexión",
                         subOrder: 2,
                         sets: 1,
-                        reps: "15",
+                        reps: "8",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/W9TfhUAvteE",
-                        imageUrl: "https://i.ytimg.com/vi/W9TfhUAvteE/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
+                        imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
                     },
                     {
-                        name: "Remo en TRX / Anillas",
+                        name: "Remo Renegade Alterno con Mancuernas",
                         subOrder: 3,
                         sets: 1,
-                        reps: "15",
+                        reps: "16",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=ZVM4-F0ZF0w",
-                        imageUrl: "https://i.ytimg.com/vi/ZVM4-F0ZF0w/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
+                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/rjAV_JCo7g0",
-                imageUrl: "https://i.ytimg.com/vi/rjAV_JCo7g0/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             }
         ]
     }
 };
 
 const exerciseAlternatives = {
-    "Sentadilla Trasera con Landmine": [
+    "Thruster con Mancuernas": [
         { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
     ]
 };
