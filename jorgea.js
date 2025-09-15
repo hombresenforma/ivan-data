@@ -39,8 +39,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Banca en Multipower",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/w-5ovE5O5iU",
@@ -112,7 +112,7 @@ const workoutData = {
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
@@ -121,7 +121,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Goblet con Mancuerna/Kettlebell",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         videoUrl: "https://youtu.be/xPVfWX_9ytk",
                         imageUrl: "https://i.ytimg.com/vi/xPVfWX_9ytk/mqdefault.jpg"
@@ -129,7 +129,7 @@ const workoutData = {
                     {
                         name: "Plancha - Normal",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/DQ4wYExQRJo",
@@ -176,8 +176,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Dominadas Australianas con Pies en el Suelo",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "10",
                 rest: "90s",
                 notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
                 videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
@@ -248,7 +248,7 @@ const workoutData = {
                     {
                         name: "Gorilla Row con Kettlebells/Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/4hKPsdWsXl8",
@@ -257,7 +257,7 @@ const workoutData = {
                     {
                         name: "Remo Renegade Alterno con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
                         imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
@@ -265,7 +265,7 @@ const workoutData = {
                     {
                         name: "Hollow - Nivel 2",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/lFEg3UQYM3g",
@@ -313,8 +313,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Prensa Inclinada 45º",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps",
@@ -385,7 +385,7 @@ const workoutData = {
                     {
                         name: "Zancadas Caminando con Mancuernas/Kettlebells",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/7tRy9X0ibnk",
@@ -394,7 +394,7 @@ const workoutData = {
                     {
                         name: "Worm",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "5",
                         videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
                         imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
@@ -402,7 +402,7 @@ const workoutData = {
                     {
                         name: "Funcional - Mountain Climber",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30",
                         rest: "90s",
                         videoUrl: "https://youtu.be/GZWmYzClS3s",
