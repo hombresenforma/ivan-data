@@ -1,7 +1,7 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
+// DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -11,17 +11,17 @@ const workoutData = {
                 order: 1,
                 name: "Hip Thrust con Barra",
                 sets: 4,
-                reps: "8, 8, 8, 12",
+                reps: "8, 8, 8, 20",
                 rest: "120s",
-                notes: "Puedes hacerlo en Multipower",
-                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+                notes: "Última serie CLUSTERS: 8 reps con mismo peso (al fallo). Seguido de series de 3-4 reps hasta completar 20 reps.",
+                videoUrl: "https://youtu.be/sbl1qYdkzUc",
+                imageUrl: "https://i.ytimg.com/vi/sbl1qYdkzUc/mqdefault.jpg"
             },
             {
                 order: 2,
                 name: "Sentadilla Frontal con Barra",
                 sets: 3,
-                reps: "15, 12, 10",
+                reps: "10",
                 rest: "120s",
                 notes: "Puedes hacerlo en Multipower",
                 videoUrl: "https://youtu.be/ErXO1WKVlPI",
@@ -29,16 +29,6 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Prensa Inclinada 45º",
-                sets: 3,
-                reps: "8-10",
-                rest: "90s",
-                notes: "Puedes hacerlo en Multipower",
-                videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps",
-                imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg"
-            },
-            {
-                order: 4,
                 name: "Curl Femoral en Máquina",
                 isSuperset: true,
                 items: [
@@ -66,12 +56,22 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/Zhnhz1r_u-Y/mqdefault.jpg"
             },
             {
+                order: 4,
+                name: "Prensa Inclinada 45º",
+                sets: 3,
+                reps: "8",
+                rest: "60s",
+                notes: "1 DROPSET en todas las series. (8+8)",
+                videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps",
+                imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg"
+            },
+            {
                 order: 5,
                 name: "Metabólico Final",
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 15,
+                    totalIntervals: 12,
                     workIntervalSeconds: 60
                 },
                 items: [
@@ -143,25 +143,15 @@ const workoutData = {
             {
                 order: 2,
                 name: "Remo con Barra",
-                sets: 3,
-                reps: "15, 12, 10",
+                sets: 4,
+                reps: "8, 8, 8, 20",
                 rest: "120s",
-                notes: "",
+                notes: "Última serie CLUSTERS: 8 reps con mismo peso (al fallo). Seguido de series de 3-4 reps hasta completar 20 reps.",
                 videoUrl: "https://youtu.be/MjnZ52mZgT0",
                 imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Face Pull en Polea Alta",
-                sets: 3,
-                reps: "8-19",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=tZN8KYDSCRo",
-                imageUrl: "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
-            },
-            {
-                order: 4,
                 name: "Press Militar en Multipower",
                 isSuperset: true,
                 items: [
@@ -189,23 +179,33 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
             },
             {
+                order: 4,
+                name: "Elevaciones Laterales con Mancuernas",
+                sets: 3,
+                reps: "10",
+                rest: "60s",
+                notes: "Excéntrica en 3 segundos. No pares abajo",
+                videoUrl: "https://youtu.be/rhmW_fhB4cs",
+                imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
+            },
+            {
                 order: 5,
                 name: "Metabólico Final",
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 15,
+                    totalIntervals: 12,
                     workIntervalSeconds: 60
                 },
                 items: [
                     {
-                        name: "High Pull con Kettlebell",
+                        name: "Thruster con Mancuernas",
                         subOrder: 1,
                         sets: 1,
-                        reps: "18",
+                        reps: "12",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/rjAV_JCo7g0",
-                        imageUrl: "https://i.ytimg.com/vi/rjAV_JCo7g0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                        imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
                     },
                     {
                         name: "Fondos en Banco",
@@ -227,8 +227,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/rjAV_JCo7g0",
-                imageUrl: "https://i.ytimg.com/vi/rjAV_JCo7g0/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
             }
         ]
     },
@@ -239,17 +239,17 @@ const workoutData = {
                 order: 1,
                 name: "Sentadilla Búlgara con Mancuerna",
                 sets: 4,
-                reps: "6, 6, 6, 15",
+                reps: "6, 6, 6, 8",
                 rest: "120s",
-                notes: "Puedes hacerlo en Multipower",
+                notes: "Últimas serie DROPSETx2 DEJANDO MANCUERNAS. (8 reps, dejas 1 mancuerna 8 reps, dejas 1 mancuerna 8 reps)",
                 videoUrl: "https://youtu.be/kA6bHiDdTO4",
                 imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
             },
             {
                 order: 2,
                 name: "Press Militar con Barra de Pie",
-                sets: 4,
-                reps: "6, 6, 6, 15",
+                sets: 3,
+                reps: "6, 6, 10",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
@@ -320,6 +320,162 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=JfJPwDmzyKM",
                 imageUrl: "https://i.ytimg.com/vi/JfJPwDmzyKM/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Circuito Final",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 10,
+                    restBetweenRoundsSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Snatch + Thruster Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                        imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Renegade Alterno con Mancuernas",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
+                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow - Nivel 4",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/RxFdlQ4oelM",
+                        imageUrl: "https://i.ytimg.com/vi/RxFdlQ4oelM/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia4": {
+        name: "Accesorios + HIIT",
+        exercises: [
+            {
+                order: 1,
+                name: "Step Up Unilateral al Cajón con Mancuerna/Kettlebell",
+                sets: 4,
+                reps: "10-12",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/cabSAbO0YLY",
+                imageUrl: "https://i.ytimg.com/vi/cabSAbO0YLY/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Press Militar en Landmine",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Press Militar en Landmine",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "8-10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/czeWFmHVKzM",
+                        imageUrl: "https://i.ytimg.com/vi/czeWFmHVKzM/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla Sumo con Landmine",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "15-20",
+                        notes: "Puedes poner steps o discos para más profundidad",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/2F8_uwf5IlE",
+                        imageUrl: "https://i.ytimg.com/vi/2F8_uwf5IlE/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/czeWFmHVKzM",
+                imageUrl: "https://i.ytimg.com/vi/czeWFmHVKzM/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Sentadilla Split en Multipower",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Sentadilla Split en Multipower",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=Nyk_I5-_tIA",
+                        imageUrl: "https://i.ytimg.com/vi/Nyk_I5-_tIA/mqdefault.jpg"
+                    },
+                    {
+                        name: "Elevaciones Laterales con Mancuernas",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "12-15",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/rhmW_fhB4cs",
+                        imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=Nyk_I5-_tIA",
+                imageUrl: "https://i.ytimg.com/vi/Nyk_I5-_tIA/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "HIIT",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 15,
+                    restBetweenRoundsSeconds: 15
+                },
+                items: [
+                    {
+                        name: "Cuerpo Libre - Cardio - Step Up Lateral Alterno en Step",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/N26TyhPhSRI",
+                        imageUrl: "https://i.ytimg.com/vi/N26TyhPhSRI/mqdefault.jpg"
+                    },
+                    {
+                        name: "Cardio - Press Dinámico con Landmine",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/9_faYEjxCTU",
+                        imageUrl: "https://i.ytimg.com/vi/9_faYEjxCTU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Cardio - Press Dinámico con Landmine",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/9_faYEjxCTU",
+                        imageUrl: "https://i.ytimg.com/vi/9_faYEjxCTU/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/N26TyhPhSRI",
+                imageUrl: "https://i.ytimg.com/vi/N26TyhPhSRI/mqdefault.jpg"
             }
         ]
     }
@@ -329,13 +485,7 @@ const exerciseAlternatives = {
     "Sentadilla Frontal con Barra": [
         { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
     ],
-    "Prensa Inclinada 45º": [
-        { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
-    ],
     "Remo con Barra": [
-        { name: "Remo en Barra T", videoUrl: "https://www.youtube.com/watch?v=AgxCPp37waQ", imageUrl: "https://i.ytimg.com/vi/AgxCPp37waQ/mqdefault.jpg" }
-    ],
-    "Face Pull en Polea Alta": [
         { name: "Remo en Barra T", videoUrl: "https://www.youtube.com/watch?v=AgxCPp37waQ", imageUrl: "https://i.ytimg.com/vi/AgxCPp37waQ/mqdefault.jpg" }
     ]
 };
