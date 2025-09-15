@@ -1,7 +1,7 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
+// DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -85,8 +85,8 @@ const workoutData = {
                         subOrder: 2,
                         sets: 3,
                         reps: "15",
-                        videoUrl: "https://www.youtube.com/shorts/RIS2s-UkKOk",
-                        imageUrl: "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
                         name: "Sit Up Unilateral con KTB",
@@ -246,8 +246,8 @@ const workoutData = {
                         sets: 3,
                         reps: "8, 8, 12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
-                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
                         name: "Remo Unilateral con Mancuerna/KTB (Explicado)",
@@ -255,13 +255,13 @@ const workoutData = {
                         sets: 3,
                         reps: "8, 8, 12",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=uH9Hg4nWOG8",
-                        imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
-                imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             },
             {
                 order: 3,
@@ -321,6 +321,57 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "TESTs",
+        exercises: [
+            {
+                order: 1,
+                name: "CARDIO - Correr (Sprint)",
+                sets: 1,
+                reps: "10-20",
+                notes: "TEST VAM (Empieza en 9km/h)",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Muscle Snatch Unilat con Mancuerna/KTB",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Muscle Snatch Unilat con Mancuerna/KTB",
+                        subOrder: 1,
+                        sets: 6,
+                        reps: "12, 10, 8, 6, 4, 2",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/00FzH7YaDwc",
+                        imageUrl: "https://i.ytimg.com/vi/00FzH7YaDwc/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Renegade Alterno con Mancuernas",
+                        subOrder: 2,
+                        sets: 6,
+                        reps: "24, 20, 16, 12, 8, 4",
+                        notes: "Sin descanso. ",
+                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
+                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla con Salto",
+                        subOrder: 3,
+                        sets: 6,
+                        reps: "30, 26, 22, 18, 14, 10",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
+                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                    }
+                ],
+                notes: "Mancuerna de 15kg",
+                videoUrl: "https://www.youtube.com/shorts/00FzH7YaDwc",
+                imageUrl: "https://i.ytimg.com/vi/00FzH7YaDwc/mqdefault.jpg"
+            }
+        ]
     }
 };
 
@@ -344,7 +395,7 @@ const exerciseAlternatives = {
         { name: "Curl con Mancuernas de Pie", videoUrl: "https://youtu.be/8STuQuoDMR0", imageUrl: "https://i.ytimg.com/vi/8STuQuoDMR0/mqdefault.jpg" }
     ],
     "Press Banca con Barra": [
-        { name: "Press Banca en Multipower", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
+        { name: "Press Banca en Multipower", videoUrl: "https://youtu.be/w-5ovE5O5iU", imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg" }
     ],
     "Hack Squat / Prensa Hack": [
         { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
