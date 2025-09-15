@@ -11,8 +11,8 @@ const workoutData = {
                 order: 1,
                 name: "Peso Muerto Rumano con Barra",
                 sets: 4,
-                reps: "6, 6, 12, 12",
-                rest: "150s",
+                reps: "10",
+                rest: "120s",
                 notes: "Salimos desde una ligera altura (steps o discos de 20kg)",
                 videoUrl: "https://youtu.be/R7FKam5GyNw",
                 imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
@@ -21,9 +21,9 @@ const workoutData = {
                 order: 2,
                 name: "Jalón al Pecho en Polea",
                 sets: 3,
-                reps: "8, 8, 20",
-                rest: "120s",
-                notes: "Mismo peso en la última serie. Hacemos 8 reps + Clusters (3 a 5 reps con descansos de 10-15 segundos hasta llegar a las 20 reps)",
+                reps: "8, 8, 8",
+                rest: "90s",
+                notes: "Última serie DROPSET (8 reps, bajo un 15-20% carga y 8 reps más)",
                 videoUrl: "https://youtu.be/GYIhmy1P4vY",
                 imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg"
             },
@@ -135,21 +135,21 @@ const workoutData = {
                 order: 1,
                 name: "Press Banca con Mancuernas",
                 sets: 4,
-                reps: "6, 6, 12, 12",
-                rest: "150s",
+                reps: "10",
+                rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/hXCJC2Apcdg",
                 imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Hack Squat / Prensa Hack",
+                name: "Prensa Inclinada 45º",
                 sets: 3,
-                reps: "8, 8, 20",
-                rest: "120s",
-                notes: "Mismo peso en la última serie. Hacemos 8 reps + Clusters (3 a 5 reps con descansos de 10-15 segundos hasta llegar a las 20 reps)",
-                videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs",
-                imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg"
+                reps: "8, 8, 8",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps",
+                imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -258,31 +258,31 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Dominadas con Peso Corporal",
+                name: "Dominadas Australianas con Pies en el Suelo",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Dominadas con Peso Corporal",
+                        name: "Dominadas Australianas con Pies en el Suelo",
                         subOrder: 1,
                         sets: 3,
-                        reps: "6, 6, 15",
+                        reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
-                        imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
+                        imageUrl: "https://i.ytimg.com/vi/-GFyrw9BJVk/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos en Paralelas Lastrados",
+                        name: "Flexiones Tempo 1:1",
                         subOrder: 2,
                         sets: 3,
-                        reps: "6, 6, 15",
+                        reps: "10",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/xsnhvnyl70I",
-                        imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/-9Md7Htla-o",
+                        imageUrl: "https://i.ytimg.com/vi/-9Md7Htla-o/mqdefault.jpg"
                     }
                 ],
-                notes: "Últimas series de los 2 ejercicios: Hacemos 6 reps + Clusters (2 a 4 reps con descansos de 10-15 segundos hasta llegar a las 15 reps)",
-                videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
-                imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
+                notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
+                videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
+                imageUrl: "https://i.ytimg.com/vi/-GFyrw9BJVk/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -389,8 +389,8 @@ const exerciseAlternatives = {
     "Press Banca con Mancuernas": [
         { name: "Press Banca en Multipower", videoUrl: "https://youtu.be/w-5ovE5O5iU", imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg" }
     ],
-    "Hack Squat / Prensa Hack": [
-        { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
+    "Prensa Inclinada 45º": [
+        { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
     ],
     "Cruces en Polea Alta": [
         { name: "Aperturas en Máquina Contractora / Mariposa", videoUrl: "https://www.youtube.com/watch?v=gMzwVArofx0", imageUrl: "https://i.ytimg.com/vi/gMzwVArofx0/mqdefault.jpg" }
