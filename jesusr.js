@@ -1,7 +1,7 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (4 DÍAS)
+// DATOS DE LA RUTINA (5 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -327,7 +327,7 @@ const workoutData = {
                         sets: 1,
                         reps: "45s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/KKvRtN904g",
+                        videoUrl: "",
                         imageUrl: ""
                     },
                     {
@@ -336,12 +336,12 @@ const workoutData = {
                         sets: 1,
                         reps: "45s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/KKvRtN904g",
+                        videoUrl: "",
                         imageUrl: ""
                     }
                 ],
                 notes: "SPRINT: Por encima de 11km/h\nSUAVE: Por encima de 7km/h",
-                videoUrl: "https://www.youtube.com/shorts/KKvRtN904g",
+                videoUrl: "",
                 imageUrl: ""
             },
             {
@@ -360,8 +360,8 @@ const workoutData = {
                         sets: 1,
                         reps: "8",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/UMmLdPvdZCw",
-                        imageUrl: "https://i.ytimg.com/vi/UMmLdPvdZCw/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
                         name: "Crunch Abdominal con Piernas Elevadas",
@@ -369,13 +369,13 @@ const workoutData = {
                         sets: 1,
                         reps: "15",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/TYNp3OsGKL0",
-                        imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/UMmLdPvdZCw",
-                imageUrl: "https://i.ytimg.com/vi/UMmLdPvdZCw/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             },
             {
                 order: 3,
@@ -438,6 +438,56 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/XJFii9NYHNs/mqdefault.jpg"
             }
         ]
+    },
+    "dia5": {
+        name: "DÍA 5: TESTS",
+        exercises: [
+            {
+                order: 1,
+                name: "CARDIO - Correr (Sprint)",
+                sets: 1,
+                reps: "10-20",
+                notes: "test VAM. ",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Muscle Snatch Unilat con Mancuerna/KTB",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Muscle Snatch Unilat con Mancuerna/KTB",
+                        subOrder: 1,
+                        sets: 6,
+                        reps: "12,10,8,6,4,2",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/00FzH7YaDwc",
+                        imageUrl: "https://i.ytimg.com/vi/00FzH7YaDwc/mqdefault.jpg"
+                    },
+                    {
+                        name: "burpee",
+                        subOrder: 2,
+                        sets: 6,
+                        reps: "20,18,16,14,12,10",
+                        videoUrl: "",
+                        imageUrl: ""
+                    },
+                    {
+                        name: "Sentadilla con Salto",
+                        subOrder: 3,
+                        sets: 6,
+                        reps: "30, 25, 20, 15, 10, 5",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
+                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/00FzH7YaDwc",
+                imageUrl: "https://i.ytimg.com/vi/00FzH7YaDwc/mqdefault.jpg"
+            }
+        ]
     }
 };
 
@@ -452,13 +502,13 @@ const exerciseAlternatives = {
         { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
     ],
     "Press Banca con Barra": [
-        { name: "Press Banca en Multipower", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
+        { name: "Press Banca en Multipower", videoUrl: "https://youtu.be/w-5ovE5O5iU", imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg" }
     ],
     "Máquina de Remo (Gironda)": [
         { name: "Remo con Barra", videoUrl: "https://youtu.be/MjnZ52mZgT0", imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg" }
     ],
     "Toes to Bar (Estricto)": [
-        { name: "Encogimiento Abdominal Colgado", videoUrl: "https://www.youtube.com/shorts/SG0h_d-bBRk", imageUrl: "https://i.ytimg.com/vi/SG0h_d-bBRk/mqdefault.jpg" }
+        { name: "Encogimiento Abdominal Colgado", videoUrl: "", imageUrl: "" }
     ]
 };
 
