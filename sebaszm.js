@@ -63,7 +63,7 @@ const workoutData = {
                         name: "Elevaciones Laterales con Mancuernas Sentado",
                         subOrder: 2,
                         sets: 4,
-                        reps: "",
+                        reps: "15",
                         rest: "90s",
                         videoUrl: "https://youtu.be/rhmW_fhB4cs",
                         imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
