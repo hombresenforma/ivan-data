@@ -407,7 +407,7 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Remo ",
+                name: "Remo",
                 isSuperset: true,
                 circuitDetails: {
                     totalRounds: 6,
@@ -416,18 +416,18 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Remo ",
+                        name: "Cardio - Remo en Máquina",
                         subOrder: 1,
                         sets: 1,
                         reps: "90s",
                         isCircuitItem: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -501,12 +501,12 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/00FzH7YaDwc/mqdefault.jpg"
                     },
                     {
-                        name: "Remo Renegade Alterno con Mancuernas",
+                        name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
                         subOrder: 2,
                         sets: 6,
                         reps: "20, 18, 16, 14, 12, 10",
-                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
-                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
+                        imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
                     },
                     {
                         name: "Sentadilla con Salto",
