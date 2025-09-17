@@ -47,17 +47,17 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Press Militar Unilat con Mancuerna",
+                name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar Unilat con Mancuerna",
+                        name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                         subOrder: 1,
                         sets: 4,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
                     },
                     {
                         name: "Elevaciones Laterales con Mancuernas Sentado",
@@ -70,8 +70,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -113,13 +113,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/IwixiNKjpCA/mqdefault.jpg"
                     },
                     {
-                        name: "Thuster con Mancuerna",
+                        name: "Thruster con Mancuernas",
                         subOrder: 2,
                         sets: 1,
                         reps: "20s",
                         isCircuitItem: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                        imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -146,13 +146,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
                     },
                     {
-                        name: "Face Pull con KTB",
+                        name: "Gorilla Row con Kettlebells/Mancuernas",
                         subOrder: 2,
                         sets: 4,
-                        reps: "10",
+                        reps: "16",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/RIS2s-UkKOk",
-                        imageUrl: "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/4hKPsdWsXl8",
+                        imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -246,13 +246,13 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Face Pull con Kettlebell",
+                        name: "Face Pull con KTB",
                         subOrder: 1,
                         sets: 1,
                         reps: "20s",
                         isCircuitItem: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/shorts/RIS2s-UkKOk",
+                        imageUrl: "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
                     },
                     {
                         name: "Kettlebell - Swing Ruso",
@@ -264,9 +264,9 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/eKN0tj8q6Qc/mqdefault.jpg"
                     }
                 ],
-                notes: "Puedes usar mancuernas o barra normal para el remo al cuello",
-                videoUrl: "",
-                imageUrl: ""
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/RIS2s-UkKOk",
+                imageUrl: "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
             }
         ]
     },
@@ -378,13 +378,13 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Remo Renegade + Flexión con Mancuernas",
+                        name: "Remo Renegade Alterno con Mancuernas",
                         subOrder: 1,
                         sets: 1,
                         reps: "20s",
                         isCircuitItem: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
+                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
                     },
                     {
                         name: "Zancadas Caminando con Mancuernas/Kettlebells",
@@ -396,9 +396,9 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                notes: "Mantén la cadera sin que se mueva ni rote",
+                videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
+                imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
             }
         ]
     },
@@ -416,7 +416,7 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Cardio - Remo en Máquina",
+                        name: "Remo ",
                         subOrder: 1,
                         sets: 1,
                         reps: "90s",
