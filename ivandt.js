@@ -1,246 +1,269 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
+// DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
-        name: "Cadena Posterior Completa",
+        name: "Empuje Foco Torso",
+        exercises: [
+            {
+                order: 1,
+                name: "Press Banca con Barra",
+                sets: 4,
+                reps: "30, 10, 10, 10",
+                rest: "90s",
+                notes: "Primera serie BILBO (Máximo 30 reps, máximo 2 sesiones con misma carga). ",
+                videoUrl: "https://youtu.be/PKpsrFS2uac",
+                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Press Militar con Barra de Pie",
+                sets: 4,
+                reps: "4-6",
+                rest: "120s",
+                notes: "Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
+                videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
+                imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Press Banca con Mancuernas",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Press Banca con Mancuernas",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10-12",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/hXCJC2Apcdg",
+                        imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+                    },
+                    {
+                        name: "Flexiones Tempo 1:1",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/-9Md7Htla-o",
+                        imageUrl: "https://i.ytimg.com/vi/-9Md7Htla-o/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/hXCJC2Apcdg",
+                imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Cruces en Polea Alta",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Cruces en Polea Alta",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10-12",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/Ht9awbF2fBA",
+                        imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
+                    },
+                    {
+                        name: "Extensión de Codo en Polea Alta",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "12-15",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=z7gqbcjkzU0",
+                        imageUrl: "https://i.ytimg.com/vi/z7gqbcjkzU0/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/Ht9awbF2fBA",
+                imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia2": {
+        name: "Tracción Completa (Peso Muerto)",
         exercises: [
             {
                 order: 1,
                 name: "Peso Muerto Rumano con Barra",
-                sets: 3,
-                reps: "6, 6, 10",
-                rest: "150s",
-                notes: "Salimos desde una ligera altura (steps o discos de 20kg)",
+                sets: 4,
+                reps: "4-6",
+                rest: "120s",
+                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta). Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
                 videoUrl: "https://youtu.be/R7FKam5GyNw",
                 imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Jalón al Pecho en Polea",
+                name: "Dominadas con Peso Corporal",
                 sets: 3,
-                reps: "8, 8, 12",
-                rest: "120s",
+                reps: "8",
+                rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/GYIhmy1P4vY",
-                imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
+                imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Curl con Barra Recta",
-                sets: 3,
-                reps: "12, 10, 8",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/0TjnWWqQfUw",
-                imageUrl: "https://i.ytimg.com/vi/0TjnWWqQfUw/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Remo en Barra T",
+                name: "Remo Seal con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo en Barra T",
+                        name: "Remo Seal con Mancuernas",
                         subOrder: 1,
                         sets: 3,
-                        reps: "12, 10, 8",
+                        reps: "10-12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=AgxCPp37waQ",
-                        imageUrl: "https://i.ytimg.com/vi/AgxCPp37waQ/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                        imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
                     },
-                    {
-                        name: "Curl Martillo con Mancuernas",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "12",
-                        notes: "Sin descanso. ",
-                        rest: "90s",
-                        videoUrl: "https://youtu.be/fcFsPoJY9lg",
-                        imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=AgxCPp37waQ",
-                imageUrl: "https://i.ytimg.com/vi/AgxCPp37waQ/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Curl con Mancuernas Sentado en Banco Inclinado",
-                isSuperset: true,
-                items: [
                     {
                         name: "Curl con Mancuernas Sentado en Banco Inclinado",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "8-10",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/S32a3nYiWko",
-                        imageUrl: "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
-                    },
-                    {
-                        name: "Pájaros con Mancuernas",
                         subOrder: 2,
                         sets: 3,
                         reps: "12-15",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/EMrOS6P90lM",
-                        imageUrl: "https://i.ytimg.com/vi/EMrOS6P90lM/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/S32a3nYiWko",
+                        imageUrl: "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/S32a3nYiWko",
-                imageUrl: "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Curl con Barra Z",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Curl con Barra Z",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10-12",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/4gYLTjNaTmw",
+                        imageUrl: "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
+                    },
+                    {
+                        name: "Face Pull en Polea Alta",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "12-15",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=tZN8KYDSCRo",
+                        imageUrl: "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/4gYLTjNaTmw",
+                imageUrl: "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
             }
         ]
     },
-    "dia2": {
-        name: "Cadena Anterior Completa",
+    "dia3": {
+        name: "Empuje Foco Pierna",
         exercises: [
             {
                 order: 1,
                 name: "Press Banca con Barra",
-                sets: 3,
-                reps: "6, 6, 10",
-                rest: "150s",
-                notes: "Salimos desde una ligera altura (steps o discos de 20kg)",
+                sets: 4,
+                reps: "30, 10, 10, 10",
+                rest: "90s",
+                notes: "Primera serie BILBO (Máximo 30 reps, máximo 2 sesiones con misma carga). ",
                 videoUrl: "https://youtu.be/PKpsrFS2uac",
                 imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
             },
             {
                 order: 2,
                 name: "Hack Squat / Prensa Hack",
-                sets: 3,
-                reps: "8, 8, 12",
+                sets: 4,
+                reps: "4-6",
                 rest: "120s",
-                notes: "",
+                notes: "Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
                 videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs",
                 imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Cruces en Polea Alta",
-                sets: 3,
-                reps: "12, 10, 8",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/Ht9awbF2fBA",
-                imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Extensión de Cuádriceps en Máquina",
+                name: "Sentadilla Trasera en Multipower",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Extensión de Cuádriceps en Máquina",
+                        name: "Sentadilla Trasera en Multipower",
                         subOrder: 1,
                         sets: 3,
-                        reps: "12, 10, 8",
+                        reps: "10-12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                        imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/la-dqygoIuk",
+                        imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
                     },
                     {
-                        name: "Flexiones / Deficit Push Ups con Discos al lado",
+                        name: "Sentadilla Goblet con Pies Elevados",
                         subOrder: 2,
                         sets: 3,
-                        reps: "12",
-                        notes: "Sin descanso. ",
+                        reps: "12-15",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=nLnrNuQFlao",
-                        imageUrl: "https://i.ytimg.com/vi/nLnrNuQFlao/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/E2n7V0o8B5A",
+                        imageUrl: "https://i.ytimg.com/vi/E2n7V0o8B5A/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+                videoUrl: "https://youtu.be/la-dqygoIuk",
+                imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
             },
             {
-                order: 5,
-                name: "Extensión de Codo en Polea Alta",
+                order: 4,
+                name: "Sentadilla Búlgara con Mancuerna",
                 sets: 3,
                 reps: "10-12",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=z7gqbcjkzU0",
-                imageUrl: "https://i.ytimg.com/vi/z7gqbcjkzU0/mqdefault.jpg"
+                videoUrl: "https://youtu.be/kA6bHiDdTO4",
+                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Extensión de Cuádriceps en Máquina",
+                sets: 3,
+                reps: "12-15",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
             }
         ]
     },
-    "dia3": {
-        name: "Torso Completo",
+    "dia4": {
+        name: "Tracción Completa (Remo)",
         exercises: [
             {
                 order: 1,
-                name: "Dominadas / Pull Ups",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Dominadas / Pull Ups",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "6, 6, 10",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=7ht8tmdAyqw",
-                        imageUrl: "https://i.ytimg.com/vi/7ht8tmdAyqw/mqdefault.jpg"
-                    },
-                    {
-                        name: "Fondos en Paralelas para Pecho",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "6, 6, 10",
-                        rest: "90s",
-                        videoUrl: "https://youtu.be/W9TfhUAvteE",
-                        imageUrl: "https://i.ytimg.com/vi/W9TfhUAvteE/mqdefault.jpg"
-                    }
-                ],
-                notes: "Salimos desde una ligera altura (steps o discos de 20kg)",
-                videoUrl: "https://www.youtube.com/watch?v=7ht8tmdAyqw",
-                imageUrl: "https://i.ytimg.com/vi/7ht8tmdAyqw/mqdefault.jpg"
+                name: "Remo con Barra",
+                sets: 4,
+                reps: "4-6",
+                rest: "120s",
+                notes: "Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
+                videoUrl: "https://youtu.be/MjnZ52mZgT0",
+                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Press Inclinado con Mancuernas",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Press Inclinado con Mancuernas",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "8, 8, 12",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/ZE4M73kXB5A",
-                        imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
-                    },
-                    {
-                        name: "Curl con Mancuernas Sentado en Banco Inclinado",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "10",
-                        rest: "90s",
-                        videoUrl: "https://youtu.be/S32a3nYiWko",
-                        imageUrl: "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
-                    }
-                ],
+                name: "Jalón al Pecho Neutro en Polea",
+                sets: 3,
+                reps: "8",
+                rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/ZE4M73kXB5A",
-                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
+                videoUrl: "https://youtu.be/5YzMH2KkMHc",
+                imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Press Militar Sentado con Mancuernas",
-                sets: 3,
-                reps: "12, 10, 8",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
-            },
-            {
-                order: 4,
                 name: "Curl Scott con Barra Z",
                 isSuperset: true,
                 items: [
@@ -248,58 +271,79 @@ const workoutData = {
                         name: "Curl Scott con Barra Z",
                         subOrder: 1,
                         sets: 3,
-                        reps: "12, 10, 8",
+                        reps: "10-12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
                         imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
                     },
                     {
-                        name: "Press Francés con Barra Z en Banco Inclinado",
+                        name: "Elevaciones Laterales con Mancuernas Sentado",
                         subOrder: 2,
                         sets: 3,
-                        reps: "12",
-                        notes: "Sin descanso. ",
+                        reps: "12-15",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/hFk6xzt1DWM",
-                        imageUrl: "https://i.ytimg.com/vi/hFk6xzt1DWM/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/rhmW_fhB4cs",
+                        imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
                     }
                 ],
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
                 imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Curl Femoral en Máquina",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=Zhnhz1r_u-Y",
+                imageUrl: "https://i.ytimg.com/vi/Zhnhz1r_u-Y/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Curl Martillo con Mancuernas",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/fcFsPoJY9lg",
+                imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
             }
         ]
     }
 };
 
 const exerciseAlternatives = {
-    "Peso Muerto Rumano con Barra": [
-        { name: "Peso Muerto Rumano con Barra", videoUrl: "https://youtu.be/R7FKam5GyNw", imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg" }
-    ],
-    "Jalón al Pecho en Polea": [
-        { name: "Dominadas / Pull Ups", videoUrl: "https://www.youtube.com/watch?v=7ht8tmdAyqw", imageUrl: "https://i.ytimg.com/vi/7ht8tmdAyqw/mqdefault.jpg" }
-    ],
-    "Curl con Barra Recta": [
-        { name: "Curl Scott con Barra Z", videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag", imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg" }
-    ],
-    "Remo en Barra T": [
-        { name: "Máquina de Remo (Gironda)", videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A", imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg" }
-    ],
-    "Curl Martillo con Mancuernas": [
-        { name: "Curl en Polea Baja con Cuerda", videoUrl: "https://www.youtube.com/watch?v=2BFzjygU1Ic", imageUrl: "https://i.ytimg.com/vi/2BFzjygU1Ic/mqdefault.jpg" }
-    ],
-    "Press Banca con Barra": [
-        { name: "Peso Muerto Rumano con Barra", videoUrl: "https://youtu.be/R7FKam5GyNw", imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg" }
-    ],
-    "Hack Squat / Prensa Hack": [
-        { name: "Dominadas / Pull Ups", videoUrl: "https://www.youtube.com/watch?v=7ht8tmdAyqw", imageUrl: "https://i.ytimg.com/vi/7ht8tmdAyqw/mqdefault.jpg" },
-        { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
+    "Press Banca con Mancuernas": [
+        { name: "Press Banca Inclinado en Multipower", videoUrl: "https://youtu.be/3GS7EjN7KSk", imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg" }
     ],
     "Cruces en Polea Alta": [
-        { name: "Curl Scott con Barra Z", videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag", imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg" }
+        { name: "Aperturas en Banco Inclinado con Mancuernas", videoUrl: "https://youtu.be/Lx8d28YlcbQ", imageUrl: "https://i.ytimg.com/vi/Lx8d28YlcbQ/mqdefault.jpg" }
     ],
-    "Press Militar Sentado con Mancuernas": [
-        { name: "Curl Scott con Barra Z", videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag", imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg" }
+    "Peso Muerto Rumano con Barra": [
+        { name: "", videoUrl: "", imageUrl: "" }
+    ],
+    "Remo Seal con Mancuernas": [
+        { name: "Máquina de Remo (Gironda)", videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A", imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg" }
+    ],
+    "Curl con Mancuernas Sentado en Banco Inclinado": [
+        { name: "Curl con Mancuernas de Pie", videoUrl: "https://youtu.be/8STuQuoDMR0", imageUrl: "https://i.ytimg.com/vi/8STuQuoDMR0/mqdefault.jpg" }
+    ],
+    "Curl con Barra Z": [
+        { name: "Curl en Polea Baja con Barra Recta", videoUrl: "https://www.youtube.com/watch?v=obFKEQEAink", imageUrl: "https://i.ytimg.com/vi/obFKEQEAink/mqdefault.jpg" }
+    ],
+    "Hack Squat / Prensa Hack": [
+        { name: "Prensa Inclinada 45º", videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps", imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg" }
+    ],
+    "Sentadilla Trasera en Multipower": [
+        { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
+    ],
+    "Jalón al Pecho Neutro en Polea": [
+        { name: "Dominadas con Peso Corporal", videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M", imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg" }
+    ],
+    "Curl Scott con Barra Z": [
+        { name: "Curl con Barra Recta", videoUrl: "https://youtu.be/0TjnWWqQfUw", imageUrl: "https://i.ytimg.com/vi/0TjnWWqQfUw/mqdefault.jpg" }
     ]
 };
 
