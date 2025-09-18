@@ -1,7 +1,7 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
+// DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -85,8 +85,8 @@ const workoutData = {
                         subOrder: 2,
                         sets: 3,
                         reps: "15",
-                        videoUrl: "https://www.youtube.com/shorts/RIS2s-UkKOk",
-                        imageUrl: "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
                         name: "Sit Up Unilateral con KTB",
@@ -246,8 +246,8 @@ const workoutData = {
                         sets: 3,
                         reps: "8, 8, 12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
-                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
                         name: "Remo Unilateral con Mancuerna/KTB (Explicado)",
@@ -255,13 +255,13 @@ const workoutData = {
                         sets: 3,
                         reps: "8, 8, 12",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=uH9Hg4nWOG8",
-                        imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
-                imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             },
             {
                 order: 3,
@@ -321,6 +321,133 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "Torso Completo (HOTEL)",
+        exercises: [
+            {
+                order: 1,
+                name: "Remo Unilat en TRX",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Remo Unilat en TRX",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "12, 10, 8",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=sIM4_aMGdlk",
+                        imageUrl: "https://i.ytimg.com/vi/sIM4_aMGdlk/mqdefault.jpg"
+                    },
+                    {
+                        name: "Flexiones con Lastre",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "12, 10, 8",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/gLBrKowP2eo",
+                        imageUrl: "https://i.ytimg.com/vi/gLBrKowP2eo/mqdefault.jpg"
+                    }
+                ],
+                notes: "Controla el Torso que no se gire.",
+                videoUrl: "https://www.youtube.com/watch?v=sIM4_aMGdlk",
+                imageUrl: "https://i.ytimg.com/vi/sIM4_aMGdlk/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Press Militar Unilat con Mancuerna",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Press Militar Unilat con Mancuerna",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "8, 8, 12",
+                        isSupersetStart: true,
+                        videoUrl: "",
+                        imageUrl: ""
+                    },
+                    {
+                        name: "Remo Unilateral con Mancuerna/KTB (Explicado)",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "8, 8, 12",
+                        rest: "90s",
+                        videoUrl: "",
+                        imageUrl: ""
+                    }
+                ],
+                notes: "",
+                videoUrl: "",
+                imageUrl: ""
+            },
+            {
+                order: 3,
+                name: "Curl Concentrado con TRX / Anillas",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Curl Concentrado con TRX / Anillas",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "12, 10, 8",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=d-DyoyBtrTU",
+                        imageUrl: "https://i.ytimg.com/vi/d-DyoyBtrTU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Fondos en Banco",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "15",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/NSB_HrDwd6I",
+                        imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=d-DyoyBtrTU",
+                imageUrl: "https://i.ytimg.com/vi/d-DyoyBtrTU/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Face Pull en TRX / Rings / Anillas",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Face Pull en TRX / Rings / Anillas",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "15",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=rIpWyPV45PU",
+                        imageUrl: "https://i.ytimg.com/vi/rIpWyPV45PU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Renegade + Flexión con Mancuernas",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "15",
+                        notes: "Sin descanso. ",
+                        videoUrl: "https://www.youtube.com/shorts/hLPJik1MaaY",
+                        imageUrl: "https://i.ytimg.com/vi/hLPJik1MaaY/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch Abdominal Piernas Extendidas",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "15",
+                        notes: "Sin descanso. ",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/TYNp3OsGKL0",
+                        imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=rIpWyPV45PU",
+                imageUrl: "https://i.ytimg.com/vi/rIpWyPV45PU/mqdefault.jpg"
+            }
+        ]
     }
 };
 
@@ -344,7 +471,7 @@ const exerciseAlternatives = {
         { name: "Curl con Mancuernas de Pie", videoUrl: "https://youtu.be/8STuQuoDMR0", imageUrl: "https://i.ytimg.com/vi/8STuQuoDMR0/mqdefault.jpg" }
     ],
     "Press Banca con Barra": [
-        { name: "Press Banca en Multipower", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
+        { name: "Press Banca en Multipower", videoUrl: "https://youtu.be/w-5ovE5O5iU", imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg" }
     ],
     "Hack Squat / Prensa Hack": [
         { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
