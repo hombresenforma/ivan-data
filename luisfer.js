@@ -9,17 +9,17 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Worm + Rotación de Tronco",
+                name: "Worm + Rotaciones de Tronco",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Worm + Rotación de Tronco",
+                        name: "Worm + Rotaciones de Tronco",
                         subOrder: 1,
                         sets: 2,
                         reps: "4",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=A8MFPgYNoGs",
+                        imageUrl: "https://i.ytimg.com/vi/A8MFPgYNoGs/mqdefault.jpg"
                     },
                     {
                         name: "Sentadilla con Salto",
@@ -33,8 +33,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://www.youtube.com/watch?v=A8MFPgYNoGs",
+                imageUrl: "https://i.ytimg.com/vi/A8MFPgYNoGs/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -77,17 +77,17 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Zancada Trasera Alterna con Mancuernas o KTB",
+                name: "Zancada Trasera Alterna con Mancuernas/KTB",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Zancada Trasera Alterna con Mancuernas o KTB",
+                        name: "Zancada Trasera Alterna con Mancuernas/KTB",
                         subOrder: 1,
                         sets: 3,
                         reps: "20",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                        imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
                     },
                     {
                         name: "Flexiones / Push Ups",
@@ -100,23 +100,23 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/GFUw7S0wDxk/mqdefault.jpg"
                     }
                 ],
-                notes: "10 por lado en las zancadas.",
-                videoUrl: "",
-                imageUrl: ""
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
             },
             {
                 order: 5,
-                name: "Thuster con Mancuerna",
+                name: "Thruster con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Thuster con Mancuerna",
+                        name: "Thruster con Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                        imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
                     },
                     {
                         name: "Sentadilla Goblet con Mancuerna/Kettlebell",
@@ -137,8 +137,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
             }
         ]
     },
@@ -242,17 +242,17 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "REMO Horizontal en TRX",
+                name: "Remo Horizontal en TRX",
                 isSuperset: true,
                 items: [
                     {
-                        name: "REMO Horizontal en TRX",
+                        name: "Remo Horizontal en TRX",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
+                        imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
                     },
                     {
                         name: "Remo Renegade Alterno con Mancuernas",
@@ -272,9 +272,9 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/lFEg3UQYM3g/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                notes: "Mantén una inclinación paralela al suelo.",
+                videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
+                imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
             }
         ]
     },
@@ -283,31 +283,31 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Abducción de Glúteo Unilateral en el Suelo",
+                name: "Abducción de Glúteo Unilat en el Suelo",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Abducción de Glúteo Unilateral en el Suelo",
+                        name: "Abducción de Glúteo Unilat en el Suelo",
                         subOrder: 1,
                         sets: 2,
                         reps: "8",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+                        imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
                     },
                     {
-                        name: "Zancada Trasera Alterna con Mancuernas o KTB",
+                        name: "Zancada Trasera Alterna con Mancuernas/KTB",
                         subOrder: 2,
                         sets: 2,
                         reps: "16",
                         rest: "30s",
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                        imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+                imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -378,17 +378,17 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Split Unilateral con Mancuernas",
+                name: "Kettlebell - Split",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Split Unilateral con Mancuernas",
+                        name: "Kettlebell - Split",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://youtube.com/shorts/ZmPOvj3lKvo",
+                        imageUrl: "https://i.ytimg.com/vi/ZmPOvj3lKvo/mqdefault.jpg"
                     },
                     {
                         name: "Worm",
@@ -409,8 +409,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://youtube.com/shorts/ZmPOvj3lKvo",
+                imageUrl: "https://i.ytimg.com/vi/ZmPOvj3lKvo/mqdefault.jpg"
             }
         ]
     }
