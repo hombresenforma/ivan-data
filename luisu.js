@@ -309,104 +309,6 @@ const workoutData = {
         ]
     },
     "dia4": {
-        name: "Cardio y Core",
-        exercises: [
-            {
-                order: 1,
-                name: "Interválico Intensivo",
-                isSuperset: true,
-                circuitDetails: {
-                    totalRounds: 6,
-                    restBetweenExercisesSeconds: 3,
-                    restBetweenRoundsSeconds: 3
-                },
-                items: [
-                    {
-                        name: "CARDIO - Correr (Sprint)",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "30s",
-                        isCircuitItem: true,
-                        videoUrl: "https://youtu.be/KKvRtNn904g",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
-                    },
-                    {
-                        name: "CARDIO - Correr (Suave)",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "30s",
-                        isCircuitItem: true,
-                        videoUrl: "https://youtu.be/KKvRtNn904g",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
-                    }
-                ],
-                notes: "Puedes hacerlo al aire libre si lo prefieres.",
-                videoUrl: "https://youtu.be/KKvRtNn904g",
-                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Core y Lumbar",
-                isSuperset: true,
-                circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 10,
-                    restBetweenRoundsSeconds: 60
-                },
-                items: [
-                    {
-                        name: "Crunch - Flexión de Cadera",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "40s",
-                        isCircuitItem: true,
-                        videoUrl: "https://youtu.be/XJFii9NYHNs",
-                        imageUrl: "https://i.ytimg.com/vi/XJFii9NYHNs/mqdefault.jpg"
-                    },
-                    {
-                        name: "Plancha - Lateral elevando Pierna",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "40s",
-                        isCircuitItem: true,
-                        videoUrl: "https://youtu.be/-3PDE3ztwzU",
-                        imageUrl: "https://i.ytimg.com/vi/-3PDE3ztwzU/mqdefault.jpg"
-                    },
-                    {
-                        name: "Plancha - Lateral elevando Pierna",
-                        subOrder: 3,
-                        sets: 1,
-                        reps: "40s",
-                        isCircuitItem: true,
-                        videoUrl: "https://youtu.be/-3PDE3ztwzU",
-                        imageUrl: "https://i.ytimg.com/vi/-3PDE3ztwzU/mqdefault.jpg"
-                    },
-                    {
-                        name: "Crunch - Extensión Lumbar",
-                        subOrder: 5,
-                        sets: 1,
-                        reps: "40s",
-                        isCircuitItem: true,
-                        videoUrl: "https://youtu.be/BJTJdFViRsU",
-                        imageUrl: "https://i.ytimg.com/vi/BJTJdFViRsU/mqdefault.jpg"
-                    },
-                    {
-                        name: "Funcional - Bird Dog",
-                        subOrder: 6,
-                        sets: 1,
-                        reps: "40s",
-                        isCircuitItem: true,
-                        videoUrl: "https://youtu.be/KizkN2buzMw",
-                        imageUrl: "https://i.ytimg.com/vi/KizkN2buzMw/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://youtu.be/XJFii9NYHNs",
-                imageUrl: "https://i.ytimg.com/vi/XJFii9NYHNs/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia5": {
         name: "Descarga (Foam Roller)",
         exercises: [
             {
@@ -527,6 +429,57 @@ const workoutData = {
                 notes: "Liberación Miofascial. Busca un punto de dolor (punto gatillo) e insiste en pasadas por esa zona. Entre 10 y 20 pasadas por zona. ",
                 videoUrl: "https://youtu.be/juUqLPfhF2I",
                 imageUrl: "https://i.ytimg.com/vi/juUqLPfhF2I/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia5": {
+        name: "Tests (VAM Y Metabólico)",
+        exercises: [
+            {
+                order: 1,
+                name: "CARDIO - Correr (Sprint)",
+                sets: 1,
+                reps: "10-20",
+                notes: "TEST VAM (Empieza en 9-10km/h)",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Snatch + Thruster Unilat Alterno con Mancuerna",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Snatch + Thruster Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        sets: 6,
+                        reps: "12, 10, 8, 6, 4, 2",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                        imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
+                        subOrder: 2,
+                        sets: 6,
+                        reps: "12, 10, 8, 6, 4, 2",
+                        notes: "Sin descanso. ",
+                        videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
+                        imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla con Salto",
+                        subOrder: 3,
+                        sets: 6,
+                        reps: "30, 25, 20, 15, 10, 5",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
+                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
             }
         ]
     }
