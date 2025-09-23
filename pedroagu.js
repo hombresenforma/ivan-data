@@ -38,27 +38,27 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Banca en Multipower",
+                name: "Press Banca con Mancuernas",
                 sets: 3,
                 reps: "8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/w-5ovE5O5iU",
-                imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg"
+                videoUrl: "https://youtu.be/hXCJC2Apcdg",
+                imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Remo Inclinado en Landmine",
+                name: "Remo Seal con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo Inclinado en Landmine",
+                        name: "Remo Seal con Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/5gakUsid-Lg",
-                        imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                        imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
                     },
                     {
                         name: "Plancha - Lateral elevando Pierna",
@@ -71,9 +71,9 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/-3PDE3ztwzU/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://youtu.be/5gakUsid-Lg",
-                imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
+                notes: "Trata de despegar el pecho al final del movimiento",
+                videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -185,17 +185,17 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Sentadilla Trasera en Multipower",
+                name: "Sentadilla Frontal con Mancuernas/Kettlebells",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Sentadilla Trasera en Multipower",
+                        name: "Sentadilla Frontal con Mancuernas/Kettlebells",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/la-dqygoIuk",
-                        imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/lfb6neUpfP8",
+                        imageUrl: "https://i.ytimg.com/vi/lfb6neUpfP8/mqdefault.jpg"
                     },
                     {
                         name: "Plancha - Lateral elevando Rodilla",
@@ -209,22 +209,22 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/la-dqygoIuk",
-                imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
+                videoUrl: "https://youtu.be/lfb6neUpfP8",
+                imageUrl: "https://i.ytimg.com/vi/lfb6neUpfP8/mqdefault.jpg"
             },
             {
                 order: 4,
-                name: "Press Militar en Multipower",
+                name: "Press Militar Sentado con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar en Multipower",
+                        name: "Press Militar Sentado con Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
-                        imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                        imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
                     },
                     {
                         name: "Fondos en Banco",
@@ -237,22 +237,22 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
-                imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
             },
             {
                 order: 5,
-                name: "Remo Horizontal en TRX",
+                name: "Kettlebell - Soft Swing",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo Horizontal en TRX",
+                        name: "Kettlebell - Soft Swing",
                         subOrder: 1,
                         sets: 3,
-                        reps: "10",
+                        reps: "15",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
-                        imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/-i4ReGBb26g",
+                        imageUrl: "https://i.ytimg.com/vi/-i4ReGBb26g/mqdefault.jpg"
                     },
                     {
                         name: "Remo Renegade Alterno con Mancuernas",
@@ -272,9 +272,9 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/lFEg3UQYM3g/mqdefault.jpg"
                     }
                 ],
-                notes: "Mantén una inclinación paralela al suelo.",
-                videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
-                imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/-i4ReGBb26g",
+                imageUrl: "https://i.ytimg.com/vi/-i4ReGBb26g/mqdefault.jpg"
             }
         ]
     },
@@ -312,13 +312,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Prensa Inclinada 45º",
+                name: "Zancada Trasera Alterna con Mancuernas/KTB",
                 sets: 3,
-                reps: "8",
+                reps: "16",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps",
-                imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -351,17 +351,17 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Jalón al Pecho Supino en Polea",
+                name: "Kettlebell - Remo Inclinado Unilateral",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Jalón al Pecho Supino en Polea",
+                        name: "Kettlebell - Remo Inclinado Unilateral",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/rimdRzyIJkA",
-                        imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/JQYZ3sz3rko",
+                        imageUrl: "https://i.ytimg.com/vi/JQYZ3sz3rko/mqdefault.jpg"
                     },
                     {
                         name: "Curl con Mancuernas de Pie",
@@ -374,8 +374,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/rimdRzyIJkA",
-                imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/JQYZ3sz3rko",
+                imageUrl: "https://i.ytimg.com/vi/JQYZ3sz3rko/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -418,23 +418,17 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Press Banca en Multipower": [
+    "Press Banca con Mancuernas": [
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ],
-    "Remo Inclinado en Landmine": [
+    "Remo Seal con Mancuernas": [
         { name: "Máquina de Remo (Gironda)", videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A", imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg" }
     ],
     "Dominadas Australianas con Pies en el Suelo": [
         { name: "Jalón al Pecho Neutro en Polea", videoUrl: "https://youtu.be/5YzMH2KkMHc", imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg" }
     ],
-    "Sentadilla Trasera en Multipower": [
+    "Sentadilla Frontal con Mancuernas/Kettlebells": [
         { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
-    ],
-    "Press Militar en Multipower": [
-        { name: "Press Militar Sentado con Mancuernas", videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg", imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg" }
-    ],
-    "Prensa Inclinada 45º": [
-        { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
     ]
 };
 
