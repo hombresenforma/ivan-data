@@ -1,7 +1,7 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (4 DÍAS)
+// DATOS DE LA RUTINA (5 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -476,6 +476,57 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/N26TyhPhSRI",
                 imageUrl: "https://i.ytimg.com/vi/N26TyhPhSRI/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia5": {
+        name: "Tests (VAM Y Metabólico)",
+        exercises: [
+            {
+                order: 1,
+                name: "CARDIO - Correr (Sprint)",
+                sets: 1,
+                reps: "10-20",
+                notes: "TEST VAM (Empieza en 9-10km/h)",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Snatch + Thruster Unilat Alterno con Mancuerna",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Snatch + Thruster Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        sets: 6,
+                        reps: "12, 10, 8, 6, 4, 2",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                        imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
+                        subOrder: 2,
+                        sets: 6,
+                        reps: "12, 10, 8, 6, 4, 2",
+                        notes: "Sin descanso. ",
+                        videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
+                        imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla con Salto",
+                        subOrder: 3,
+                        sets: 6,
+                        reps: "30, 25, 20, 15, 10, 5",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
+                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
             }
         ]
     }
