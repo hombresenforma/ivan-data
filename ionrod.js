@@ -1,7 +1,7 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
+// DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -39,8 +39,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Banca con Barra",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/PKpsrFS2uac",
@@ -112,7 +112,7 @@ const workoutData = {
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
@@ -121,7 +121,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Goblet con Mancuerna/Kettlebell",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         videoUrl: "https://youtu.be/xPVfWX_9ytk",
                         imageUrl: "https://i.ytimg.com/vi/xPVfWX_9ytk/mqdefault.jpg"
@@ -129,7 +129,7 @@ const workoutData = {
                     {
                         name: "Plancha - Normal",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/DQ4wYExQRJo",
@@ -176,8 +176,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Dominadas Supinas / Chin Ups",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=dN5DqMhO18s",
@@ -248,7 +248,7 @@ const workoutData = {
                     {
                         name: "Remo Horizontal en TRX",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
@@ -257,7 +257,7 @@ const workoutData = {
                     {
                         name: "Remo Renegade Alterno con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
                         imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
@@ -265,7 +265,7 @@ const workoutData = {
                     {
                         name: "Hollow - Nivel 2",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/lFEg3UQYM3g",
@@ -313,8 +313,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Trasera con Landmine",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/sMcrgyyvK-8",
@@ -385,7 +385,7 @@ const workoutData = {
                     {
                         name: "Zancadas Caminando con Mancuernas/Kettlebells",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/7tRy9X0ibnk",
@@ -394,7 +394,7 @@ const workoutData = {
                     {
                         name: "Worm",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "5",
                         videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
                         imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
@@ -402,7 +402,7 @@ const workoutData = {
                     {
                         name: "Funcional - Mountain Climber",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30",
                         rest: "90s",
                         videoUrl: "https://youtu.be/GZWmYzClS3s",
@@ -412,6 +412,57 @@ const workoutData = {
                 notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                 videoUrl: "https://youtu.be/7tRy9X0ibnk",
                 imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia4": {
+        name: "Tests (VAM Y Metabólico)",
+        exercises: [
+            {
+                order: 1,
+                name: "CARDIO - Correr (Sprint)",
+                sets: 1,
+                reps: "10-20",
+                notes: "TEST VAM (Empieza en 9-10km/h)",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Snatch + Thruster Unilat Alterno con Mancuerna",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Snatch + Thruster Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        sets: 6,
+                        reps: "12, 10, 8, 6, 4, 2",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                        imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
+                        subOrder: 2,
+                        sets: 6,
+                        reps: "12, 10, 8, 6, 4, 2",
+                        notes: "Sin descanso. ",
+                        videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
+                        imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla con Salto",
+                        subOrder: 3,
+                        sets: 6,
+                        reps: "30, 25, 20, 15, 10, 5",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
+                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
             }
         ]
     }
