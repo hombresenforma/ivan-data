@@ -19,13 +19,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Militar con Barra de Pie",
+                name: "Press Militar Unilateral en Landmine",
                 sets: 4,
                 reps: "4-6",
                 rest: "120s",
-                notes: "Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
-                videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
-                imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=p2OLvWOo9l0",
+                imageUrl: "https://i.ytimg.com/vi/p2OLvWOo9l0/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -90,13 +90,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Peso Muerto Rumano con Barra",
+                name: "Peso Muerto Rumano con Mancuernas",
                 sets: 4,
                 reps: "4-6",
                 rest: "120s",
-                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta). Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
-                videoUrl: "https://youtu.be/R7FKam5GyNw",
-                imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
+                imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -315,13 +315,16 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
+    "Press Militar Unilateral en Landmine": [
+        { name: "Press Militar Unilat de Pie con Mancuerna/KTB", videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0", imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg" }
+    ],
     "Press Banca con Mancuernas": [
         { name: "Press Banca Inclinado en Multipower", videoUrl: "https://youtu.be/3GS7EjN7KSk", imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg" }
     ],
     "Cruces en Polea Alta": [
         { name: "Aperturas en Banco Inclinado con Mancuernas", videoUrl: "https://youtu.be/Lx8d28YlcbQ", imageUrl: "https://i.ytimg.com/vi/Lx8d28YlcbQ/mqdefault.jpg" }
     ],
-    "Peso Muerto Rumano con Barra": [
+    "Peso Muerto Rumano con Mancuernas": [
         { name: "", videoUrl: "", imageUrl: "" }
     ],
     "Remo Seal con Mancuernas": [
