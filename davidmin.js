@@ -9,17 +9,17 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Flexiones sobre Mancuernas",
+                name: "Flexiones / Push Ups",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Flexiones sobre Mancuernas",
+                        name: "Flexiones / Push Ups",
                         subOrder: 1,
                         sets: 2,
                         reps: "8",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=GFUw7S0wDxk",
+                        imageUrl: "https://i.ytimg.com/vi/GFUw7S0wDxk/mqdefault.jpg"
                     },
                     {
                         name: "Sentadilla Sumo con Mancuerna/Kettlebell",
@@ -32,8 +32,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://www.youtube.com/watch?v=GFUw7S0wDxk",
+                imageUrl: "https://i.ytimg.com/vi/GFUw7S0wDxk/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -47,17 +47,17 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Sentadilla Trasera con Barra (Explicado)",
+                name: "Sentadilla Trasera con Barra",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Sentadilla Trasera con Barra (Explicado)",
+                        name: "Sentadilla Trasera con Barra",
                         subOrder: 1,
                         sets: 3,
                         reps: "15, 12, 10",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://youtu.be/FK5XU_gaxAE",
+                        imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
                     },
                     {
                         name: "Cardio - Remo en Máquina",
@@ -71,8 +71,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://youtu.be/FK5XU_gaxAE",
+                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -99,12 +99,12 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/cabSAbO0YLY/mqdefault.jpg"
                     },
                     {
-                        name: "Worm + Flexiones",
+                        name: "Worm + Flexión",
                         subOrder: 2,
                         sets: 3,
                         reps: "5",
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
+                        imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
                     },
                     {
                         name: "Remo Renegade + Flexión con Mancuernas",
@@ -135,17 +135,17 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Remo Inclinado con Mancuernas",
+                name: "Kettlebell - Remo Inclinado Unilateral",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo Inclinado con Mancuernas",
+                        name: "Kettlebell - Remo Inclinado Unilateral",
                         subOrder: 1,
                         sets: 2,
                         reps: "8",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://youtube.com/shorts/JQYZ3sz3rko",
+                        imageUrl: "https://i.ytimg.com/vi/JQYZ3sz3rko/mqdefault.jpg"
                     },
                     {
                         name: "Worm",
@@ -158,18 +158,18 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://youtube.com/shorts/JQYZ3sz3rko",
+                imageUrl: "https://i.ytimg.com/vi/JQYZ3sz3rko/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Dominadas Asistidas en Máquina",
+                name: "Dominadas / Pull Ups asistidas en Máquina",
                 sets: 3,
                 reps: "8",
                 rest: "120s",
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://www.youtube.com/watch?v=pll4AdUg17g",
+                imageUrl: "https://i.ytimg.com/vi/pll4AdUg17g/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -212,17 +212,17 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Thuster con Mancuerna",
+                name: "Thruster con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Thuster con Mancuerna",
+                        name: "Thruster con Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                        imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
                     },
                     {
                         name: "Curl con Mancuernas de Pie",
@@ -241,18 +241,18 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/7ckSQy2BtWw/mqdefault.jpg"
                     },
                     {
-                        name: "Plancha sobre Manos con Toque a Rodilla Contraria",
+                        name: "Plancha - Abrir y Cerrar Piernas",
                         subOrder: 4,
                         sets: 3,
                         reps: "12",
                         rest: "90s",
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://youtu.be/G8GPAq4110U",
+                        imageUrl: "https://i.ytimg.com/vi/G8GPAq4110U/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
             }
         ]
     },
@@ -388,10 +388,10 @@ const exerciseAlternatives = {
     "Press Banca Inclinado en Multipower": [
         { name: "Press Banca Inclinado con Barra", videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ", imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg" }
     ],
-    "Sentadilla Trasera con Barra (Explicado)": [
+    "Sentadilla Trasera con Barra": [
         { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
     ],
-    "Dominadas Asistidas en Máquina": [
+    "Dominadas / Pull Ups asistidas en Máquina": [
         { name: "Press Banca Inclinado con Barra", videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ", imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg" }
     ],
     "Peso Muerto Rumano con Barra": [
