@@ -86,7 +86,7 @@ const workoutData = {
         ]
     },
     "dia2": {
-        name: "Tracción Completa (Peso Muerto)",
+        name: "Tracción Completa (Hip Thrust)",
         exercises: [
             {
                 order: 1,
