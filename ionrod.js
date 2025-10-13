@@ -220,9 +220,27 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Banca con Barra",
-                sets: 3,
-                reps: "10",
-                rest: "90s",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Press Banca con Barra",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/PKpsrFS2uac",
+                        imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+                    },
+                    {
+                        name: "Gorilla Row con Kettlebells/Mancuernas",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "16",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/4hKPsdWsXl8",
+                        imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
+                    }
+                ],
                 notes: "",
                 videoUrl: "https://youtu.be/PKpsrFS2uac",
                 imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
@@ -294,7 +312,7 @@ const workoutData = {
         ]
     },
     "dia4": {
-        name: "DÍA 4: Cardio",
+        name: "Cardio ",
         exercises: [
             {
                 order: 1,
@@ -303,7 +321,7 @@ const workoutData = {
                 circuitDetails: {
                     totalRounds: 8,
                     restBetweenExercisesSeconds: 45,
-                    restBetweenRoundsSeconds: 3
+                    restBetweenRoundsSeconds: 45
                 },
                 items: [
                     {
