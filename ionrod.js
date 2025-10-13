@@ -205,7 +205,7 @@ const workoutData = {
         ]
     },
     "dia3": {
-        name: "Torso Completo",
+        name: "Fullbody Completo (Foco Torso)",
         exercises: [
             {
                 order: 1,
