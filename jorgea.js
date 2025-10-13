@@ -1,3 +1,5 @@
+// Titulo: Plan de Entrenamiento
+
 // Contenido de app_datos.js
 
 // =================================================================================
@@ -10,9 +12,9 @@ const workoutData = {
             {
                 order: 1,
                 name: "Peso Muerto Rumano con Barra",
-                sets: 3,
-                reps: "6, 6, 10",
-                rest: "150s",
+                sets: 4,
+                reps: "6, 6, 6, 10",
+                rest: "120s",
                 notes: "Salimos desde una ligera altura (steps o discos de 20kg)",
                 videoUrl: "https://youtu.be/R7FKam5GyNw",
                 imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
@@ -74,28 +76,36 @@ const workoutData = {
                     {
                         name: "Curl con Mancuernas Sentado en Banco Inclinado",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/S32a3nYiWko",
                         imageUrl: "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
                     },
                     {
-                        name: "Face Pull con Kettlebell",
+                        name: "Face Pull con KTB",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "15",
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/shorts/RIS2s-UkKOk",
+                        imageUrl: "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
                     },
                     {
                         name: "Sit Up Unilateral con KTB",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "6",
-                        rest: "90s",
                         videoUrl: "https://youtu.be/INcd--4kK5k",
                         imageUrl: "https://i.ytimg.com/vi/INcd--4kK5k/mqdefault.jpg"
+                    },
+                    {
+                        name: "Funcional - Mountain Climber",
+                        subOrder: 4,
+                        sets: 4,
+                        reps: "20",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/GZWmYzClS3s",
+                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -110,9 +120,9 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Banca con Barra",
-                sets: 3,
-                reps: "6, 6, 10",
-                rest: "150s",
+                sets: 4,
+                reps: "6, 6, 6, 10",
+                rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/PKpsrFS2uac",
                 imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
@@ -174,7 +184,7 @@ const workoutData = {
                     {
                         name: "Snatch + Thruster Unilat Alterno con Mancuerna",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "8",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
@@ -183,7 +193,7 @@ const workoutData = {
                     {
                         name: "Fondos en Banco",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         videoUrl: "https://youtu.be/NSB_HrDwd6I",
                         imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
@@ -191,11 +201,19 @@ const workoutData = {
                     {
                         name: "Hollow - Nivel 4",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
-                        rest: "90s",
                         videoUrl: "https://youtu.be/RxFdlQ4oelM",
                         imageUrl: "https://i.ytimg.com/vi/RxFdlQ4oelM/mqdefault.jpg"
+                    },
+                    {
+                        name: "Flexiones Tempo 1:1",
+                        subOrder: 4,
+                        sets: 4,
+                        reps: "12",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/-9Md7Htla-o",
+                        imageUrl: "https://i.ytimg.com/vi/-9Md7Htla-o/mqdefault.jpg"
                     }
                 ],
                 notes: "Movimiento compuesto, controla la técnica.",
@@ -215,8 +233,8 @@ const workoutData = {
                     {
                         name: "Dominadas con Peso Corporal",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "6, 6, 15",
+                        sets: 4,
+                        reps: "6, 6, 6, 15",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
                         imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
@@ -224,8 +242,8 @@ const workoutData = {
                     {
                         name: "Fondos en Paralelas Lastrados",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "6, 6, 15",
+                        sets: 4,
+                        reps: "6, 6, 6, 15",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/xsnhvnyl70I",
                         imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
@@ -299,8 +317,8 @@ const workoutData = {
                     {
                         name: "Curl Scott con Barra Z",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "12, 10, 8",
+                        sets: 4,
+                        reps: "12, 10, 8, 8",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
                         imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
@@ -308,12 +326,20 @@ const workoutData = {
                     {
                         name: "Curl en Polea Baja con Cuerda",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "15",
                         notes: "Sin descanso. ",
-                        rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=2BFzjygU1Ic",
                         imageUrl: "https://i.ytimg.com/vi/2BFzjygU1Ic/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Horizontal en TRX",
+                        subOrder: 3,
+                        sets: 4,
+                        reps: "15",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
+                        imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
                     }
                 ],
                 notes: "",
