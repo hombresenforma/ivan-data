@@ -53,17 +53,17 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Remo Inclinado en Landmine",
+                name: "Máquina de Remo (Gironda)",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo Inclinado en Landmine",
+                        name: "Máquina de Remo (Gironda)",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/5gakUsid-Lg",
-                        imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A",
+                        imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg"
                     },
                     {
                         name: "Plancha Lateral Dinámica sobre Antebrazo",
@@ -77,8 +77,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/5gakUsid-Lg",
-                imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A",
+                imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -424,6 +424,9 @@ const workoutData = {
 const exerciseAlternatives = {
     "Sentadilla Trasera con Barra": [
         { name: "Prensa Inclinada 45º", videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps", imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg" }
+    ],
+    "Máquina de Remo (Gironda)": [
+        { name: "Remo con Mancuerna Unilateral", videoUrl: "https://youtu.be/EPXL9QIasLM", imageUrl: "https://i.ytimg.com/vi/EPXL9QIasLM/mqdefault.jpg" }
     ],
     "Dominadas Australianas con Pies en el Suelo": [
         { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
