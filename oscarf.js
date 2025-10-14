@@ -1,3 +1,5 @@
+// Titulo: Plan de Entrenamiento
+
 // Contenido de app_datos.js
 
 // =================================================================================
@@ -244,13 +246,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Remo con Barra",
+                name: "Máquina de Remo (Gironda)",
                 sets: 4,
                 reps: "4-6",
                 rest: "120s",
-                notes: "Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
-                videoUrl: "https://youtu.be/MjnZ52mZgT0",
-                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A",
+                imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -338,6 +340,9 @@ const exerciseAlternatives = {
     ],
     "Sentadilla Trasera en Multipower": [
         { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
+    ],
+    "Máquina de Remo (Gironda)": [
+        { name: "Máquina de Remo (Gironda)", videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A", imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg" }
     ],
     "Jalón al Pecho Neutro en Polea": [
         { name: "Dominadas con Peso Corporal", videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M", imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg" }
