@@ -1,3 +1,8 @@
+// Titulo: p1_3d_fb_home_2
+// Notas: - Subimos carga en el ejercicio básico (4 series de 12).
+// - Aumentamos el trabajo del ejercicio de CORE de la segunda superserie.
+// - Subimos una 4ta vuelta y añadimos repeticiones/tiempo en el circuito final.
+
 // Contenido de app_datos.js
 
 // =================================================================================
@@ -9,17 +14,17 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Worm + Rotación de Tronco",
+                name: "Worm + Rotaciones de Tronco",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Worm + Rotación de Tronco",
+                        name: "Worm + Rotaciones de Tronco",
                         subOrder: 1,
                         sets: 2,
                         reps: "4",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=A8MFPgYNoGs",
+                        imageUrl: "https://i.ytimg.com/vi/A8MFPgYNoGs/mqdefault.jpg"
                     },
                     {
                         name: "Sentadilla con Salto",
@@ -33,14 +38,14 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://www.youtube.com/watch?v=A8MFPgYNoGs",
+                imageUrl: "https://i.ytimg.com/vi/A8MFPgYNoGs/mqdefault.jpg"
             },
             {
                 order: 2,
                 name: "Floor Press con Mancuernas",
-                sets: 3,
-                reps: "10",
+                sets: 4,
+                reps: "12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ",
@@ -64,8 +69,16 @@ const workoutData = {
                         name: "Plancha Lateral Dinámica sobre Antebrazo",
                         subOrder: 2,
                         sets: 3,
-                        reps: "20s",
+                        reps: "30s",
                         notes: "Haz ambos lados.",
+                        videoUrl: "https://www.youtube.com/watch?v=fhCo3uoboAU",
+                        imageUrl: "https://i.ytimg.com/vi/fhCo3uoboAU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha Lateral Dinámica sobre Antebrazo",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "30s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=fhCo3uoboAU",
                         imageUrl: "https://i.ytimg.com/vi/fhCo3uoboAU/mqdefault.jpg"
@@ -112,8 +125,8 @@ const workoutData = {
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "10",
+                        sets: 4,
+                        reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
                         imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
@@ -121,16 +134,16 @@ const workoutData = {
                     {
                         name: "Sentadilla Goblet con Mancuerna/Kettlebell",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "12",
+                        sets: 4,
+                        reps: "15",
                         videoUrl: "https://youtu.be/xPVfWX_9ytk",
                         imageUrl: "https://i.ytimg.com/vi/xPVfWX_9ytk/mqdefault.jpg"
                     },
                     {
                         name: "Plancha - Normal",
                         subOrder: 3,
-                        sets: 3,
-                        reps: "30s",
+                        sets: 4,
+                        reps: "40s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/DQ4wYExQRJo",
                         imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
@@ -176,8 +189,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Face Pull en TRX / Rings / Anillas",
-                sets: 3,
-                reps: "10",
+                sets: 4,
+                reps: "12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=rIpWyPV45PU",
@@ -201,8 +214,16 @@ const workoutData = {
                         name: "Plancha - Lateral elevando Rodilla",
                         subOrder: 2,
                         sets: 3,
-                        reps: "20s",
+                        reps: "30s",
                         notes: "Haz ambos lados.",
+                        videoUrl: "https://youtu.be/ROVRkBnD4zg",
+                        imageUrl: "https://i.ytimg.com/vi/ROVRkBnD4zg/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha - Lateral elevando Rodilla",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/ROVRkBnD4zg",
                         imageUrl: "https://i.ytimg.com/vi/ROVRkBnD4zg/mqdefault.jpg"
@@ -248,8 +269,8 @@ const workoutData = {
                     {
                         name: "Remo Horizontal en TRX",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "10",
+                        sets: 4,
+                        reps: "15",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
                         imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
@@ -257,16 +278,16 @@ const workoutData = {
                     {
                         name: "Remo Renegade Alterno con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "16",
+                        sets: 4,
+                        reps: "20",
                         videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
                         imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
                     },
                     {
                         name: "Hollow - Nivel 2",
                         subOrder: 3,
-                        sets: 3,
-                        reps: "30s",
+                        sets: 4,
+                        reps: "40s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/lFEg3UQYM3g",
                         imageUrl: "https://i.ytimg.com/vi/lFEg3UQYM3g/mqdefault.jpg"
@@ -312,8 +333,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Zancadas Caminando con Mancuernas/Kettlebells",
-                sets: 3,
-                reps: "20",
+                sets: 4,
+                reps: "24",
                 rest: "90s",
                 notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                 videoUrl: "https://youtu.be/7tRy9X0ibnk",
@@ -337,8 +358,16 @@ const workoutData = {
                         name: "Sit Up Unilateral con KTB",
                         subOrder: 2,
                         sets: 3,
-                        reps: "5",
+                        reps: "8",
                         notes: "Puedes usar una mancuerna de poco peso si lo prefieres o el peso de la Kettlebell es demasiado elevado.",
+                        videoUrl: "https://youtu.be/INcd--4kK5k",
+                        imageUrl: "https://i.ytimg.com/vi/INcd--4kK5k/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sit Up Unilateral con KTB",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "8",
                         rest: "90s",
                         videoUrl: "https://youtu.be/INcd--4kK5k",
                         imageUrl: "https://i.ytimg.com/vi/INcd--4kK5k/mqdefault.jpg"
@@ -384,25 +413,33 @@ const workoutData = {
                     {
                         name: "Kettlebell - Split",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "10",
+                        sets: 4,
+                        reps: "15",
                         isSupersetStart: true,
                         videoUrl: "https://youtube.com/shorts/ZmPOvj3lKvo",
                         imageUrl: "https://i.ytimg.com/vi/ZmPOvj3lKvo/mqdefault.jpg"
                     },
                     {
-                        name: "Worm",
+                        name: "Kettlebell - Split",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "5",
+                        sets: 4,
+                        reps: "15",
+                        videoUrl: "https://youtube.com/shorts/ZmPOvj3lKvo",
+                        imageUrl: "https://i.ytimg.com/vi/ZmPOvj3lKvo/mqdefault.jpg"
+                    },
+                    {
+                        name: "Worm",
+                        subOrder: 3,
+                        sets: 4,
+                        reps: "8",
                         videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
                         imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
                     },
                     {
                         name: "Funcional - Mountain Climber",
-                        subOrder: 3,
-                        sets: 3,
-                        reps: "30",
+                        subOrder: 4,
+                        sets: 4,
+                        reps: "40",
                         rest: "90s",
                         videoUrl: "https://youtu.be/GZWmYzClS3s",
                         imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
