@@ -317,7 +317,7 @@ const workoutData = {
                         name: "Abducción de Glúteo Unilat en el Suelo",
                         subOrder: 2,
                         sets: 2,
-                        reps: "16",
+                        reps: "8",
                         videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
                         imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
                     },
