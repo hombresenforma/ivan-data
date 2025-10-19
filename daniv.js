@@ -1,7 +1,9 @@
+// Titulo: Plan de Entrenamiento
+
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
+// DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -10,7 +12,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Peso Muerto Rumano con Barra",
-                sets: 4,
+                sets: 5,
                 reps: "4-6",
                 rest: "120s",
                 notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta). Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
@@ -73,7 +75,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Sentadilla Trasera con Barra",
-                sets: 4,
+                sets: 5,
                 reps: "4-6",
                 rest: "120s",
                 notes: "",
@@ -136,8 +138,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Jalón al Pecho Unilateral con Polea",
-                sets: 3,
-                reps: "10",
+                sets: 4,
+                reps: "8, 8, 8, 12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/fxMPLrCpzeA",
@@ -145,13 +147,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Máquina de Remo (Gironda)",
+                name: "Remo con Mancuerna Unilateral",
                 sets: 3,
                 reps: "15, 12, 10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A",
-                imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg"
+                videoUrl: "https://youtu.be/EPXL9QIasLM",
+                imageUrl: "https://i.ytimg.com/vi/EPXL9QIasLM/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -192,6 +194,86 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/85KCpAw9CE4/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "Empuje",
+        exercises: [
+            {
+                order: 1,
+                name: "Press Militar en Multipower",
+                sets: 4,
+                reps: "8, 8, 8, 12",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
+                imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Press Militar Unilat de Pie con Mancuerna/KTB",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Press Militar Unilat de Pie con Mancuerna/KTB",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "15, 12, 10",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Press Francés + Press Cerrado con Barra Z",
+                sets: 3,
+                reps: "8-10",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/MpF94C3Z8_g",
+                imageUrl: "https://i.ytimg.com/vi/MpF94C3Z8_g/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Extensión de Codo en Polea Alta",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Extensión de Codo en Polea Alta",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10-12",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=z7gqbcjkzU0",
+                        imageUrl: "https://i.ytimg.com/vi/z7gqbcjkzU0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Shoulder Tap (Hold)",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "20s",
+                        videoUrl: "https://www.youtube.com/shorts/XbpPZNgcvxE",
+                        imageUrl: "https://i.ytimg.com/vi/XbpPZNgcvxE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Shoulder Tap (Hold)",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "20s",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/XbpPZNgcvxE",
+                        imageUrl: "https://i.ytimg.com/vi/XbpPZNgcvxE/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=z7gqbcjkzU0",
+                imageUrl: "https://i.ytimg.com/vi/z7gqbcjkzU0/mqdefault.jpg"
+            }
+        ]
     }
 };
 
@@ -204,6 +286,9 @@ const exerciseAlternatives = {
     ],
     "Hack Squat / Prensa Hack": [
         { name: "Prensa Inclinada 45º (Pies Juntos)", videoUrl: "https://www.youtube.com/watch?v=P3BKVY63XtI", imageUrl: "https://i.ytimg.com/vi/P3BKVY63XtI/mqdefault.jpg" }
+    ],
+    "Press Militar en Multipower": [
+        { name: "Press Militar Sentado con Mancuernas", videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg", imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg" }
     ]
 };
 
