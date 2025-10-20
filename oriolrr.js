@@ -1,7 +1,9 @@
+// Titulo: Plan de Entrenamiento
+
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (4 DÍAS)
+// DATOS DE LA RUTINA (3 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -10,32 +12,32 @@ const workoutData = {
             {
                 order: 1,
                 name: "Peso Muerto Rumano con Barra",
-                sets: 3,
-                reps: "6, 6, 10",
-                rest: "150s",
-                notes: "Salimos desde una ligera altura (steps o discos de 20kg)",
+                sets: 4,
+                reps: "6, 6, 6, 20",
+                rest: "120s",
+                notes: "Mismo peso en la última serie. Hacemos 6 reps + Clusters (3 a 5 reps con descansos de 10-15 segundos hasta llegar a las 20 reps)",
                 videoUrl: "https://youtu.be/R7FKam5GyNw",
                 imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
             },
             {
                 order: 2,
                 name: "Jalón al Pecho en Polea",
-                sets: 4,
-                reps: "6, 6, 6, 20",
+                sets: 3,
+                reps: "8",
                 rest: "120s",
-                notes: "Mismo peso en la última serie. Hacemos 6 reps + Clusters (3 a 5 reps con descansos de 10-15 segundos hasta llegar a las 20 reps)",
+                notes: "Todas las series DROPSET (8+8 bajando un 20% el peso)",
                 videoUrl: "https://youtu.be/GYIhmy1P4vY",
                 imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Curl con Barra Recta",
+                name: "Curl de Bíceps Apoyado en Banco con Mancuernas",
                 sets: 3,
                 reps: "12, 10, 8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/0TjnWWqQfUw",
-                imageUrl: "https://i.ytimg.com/vi/0TjnWWqQfUw/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/hQ3ojFx5soY",
+                imageUrl: "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -109,33 +111,33 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Banca con Barra (Explicado)",
-                sets: 3,
-                reps: "6, 6, 10",
-                rest: "150s",
-                notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                name: "Press Banca con Barra",
+                sets: 4,
+                reps: "6, 6, 6, 20",
+                rest: "120s",
+                notes: "Mismo peso en la última serie. Hacemos 6 reps + Clusters (3 a 5 reps con descansos de 10-15 segundos hasta llegar a las 20 reps)",
+                videoUrl: "https://youtu.be/PKpsrFS2uac",
+                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
             },
             {
                 order: 2,
                 name: "Hack Squat / Prensa Hack",
-                sets: 4,
-                reps: "6, 6, 6, 20",
+                sets: 3,
+                reps: "8",
                 rest: "120s",
-                notes: "Mismo peso en la última serie. Hacemos 8 reps + Clusters (3 a 5 reps con descansos de 10-15 segundos hasta llegar a las 20 reps)",
+                notes: "Todas las series DROPSET (8+8 bajando un 20% el peso) ",
                 videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs",
                 imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Cruces en Polea Alta",
+                name: "Press Inclinado con Mancuernas",
                 sets: 3,
                 reps: "12, 10, 8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/Ht9awbF2fBA",
-                imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
+                videoUrl: "https://youtu.be/ZE4M73kXB5A",
+                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -215,8 +217,8 @@ const workoutData = {
                     {
                         name: "Dominadas con Peso Corporal",
                         subOrder: 1,
-                        sets: 4,
-                        reps: "6, 6, 6, 15",
+                        sets: 5,
+                        reps: "6",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
                         imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
@@ -224,14 +226,14 @@ const workoutData = {
                     {
                         name: "Fondos en Paralelas Lastrados",
                         subOrder: 2,
-                        sets: 4,
-                        reps: "6, 6, 6, 15",
+                        sets: 5,
+                        reps: "6",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/xsnhvnyl70I",
                         imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
                     }
                 ],
-                notes: "Últimas series de los 2 ejercicios: Hacemos 6 reps + Clusters (2 a 4 reps con descansos de 10-15 segundos hasta llegar a las 15 reps)",
+                notes: "",
                 videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
                 imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
             },
@@ -321,57 +323,6 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
             }
         ]
-    },
-    "dia4": {
-        name: "TESTs",
-        exercises: [
-            {
-                order: 1,
-                name: "CARDIO - Correr (Sprint)",
-                sets: 1,
-                reps: "10-20",
-                notes: "TEST VAM (Empieza en 9km/h)",
-                videoUrl: "https://youtu.be/KKvRtNn904g",
-                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Snatch + Thruster Unilat Alterno con Mancuerna",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Snatch + Thruster Unilat Alterno con Mancuerna",
-                        subOrder: 1,
-                        sets: 6,
-                        reps: "12, 10, 8, 6, 4, 2",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
-                        imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
-                    },
-                    {
-                        name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
-                        subOrder: 2,
-                        sets: 6,
-                        reps: "24, 20, 16, 12, 8, 4",
-                        notes: "Sin descanso. ",
-                        videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
-                        imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
-                    },
-                    {
-                        name: "Sentadilla con Salto",
-                        subOrder: 3,
-                        sets: 6,
-                        reps: "30, 26, 22, 18, 14, 10",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
-                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
-                imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
-            }
-        ]
     }
 };
 
@@ -382,8 +333,8 @@ const exerciseAlternatives = {
     "Jalón al Pecho en Polea": [
         { name: "Dominadas / Pull Ups", videoUrl: "https://www.youtube.com/watch?v=7ht8tmdAyqw", imageUrl: "https://i.ytimg.com/vi/7ht8tmdAyqw/mqdefault.jpg" }
     ],
-    "Curl con Barra Recta": [
-        { name: "Curl Scott con Barra Z", videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag", imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg" }
+    "Curl de Bíceps Apoyado en Banco con Mancuernas": [
+        { name: "Curl con Mancuernas Sentado en Banco Inclinado", videoUrl: "https://youtu.be/S32a3nYiWko", imageUrl: "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg" }
     ],
     "Remo en Barra T": [
         { name: "Máquina de Remo (Gironda)", videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A", imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg" }
@@ -394,14 +345,11 @@ const exerciseAlternatives = {
     "Curl con Mancuernas Sentado en Banco Inclinado": [
         { name: "Curl con Mancuernas de Pie", videoUrl: "https://youtu.be/8STuQuoDMR0", imageUrl: "https://i.ytimg.com/vi/8STuQuoDMR0/mqdefault.jpg" }
     ],
-    "Press Banca con Barra (Explicado)": [
+    "Press Banca con Barra": [
         { name: "Press Banca en Multipower", videoUrl: "https://youtu.be/w-5ovE5O5iU", imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg" }
     ],
     "Hack Squat / Prensa Hack": [
         { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
-    ],
-    "Cruces en Polea Alta": [
-        { name: "Curl Scott con Barra Z", videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag", imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg" }
     ],
     "Curl Scott con Barra Z": [
         { name: "Curl con Barra Z", videoUrl: "https://youtu.be/4gYLTjNaTmw", imageUrl: "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg" }
