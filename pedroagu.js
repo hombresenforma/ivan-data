@@ -69,17 +69,17 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Kettlebell - Thruster Unilateral",
+                name: "Muscle Clean-Jerk Unilat con Mancuerna",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Kettlebell - Thruster Unilateral",
+                        name: "Muscle Clean-Jerk Unilat con Mancuerna",
                         subOrder: 1,
                         sets: 3,
                         reps: "12",
                         isSupersetStart: true,
-                        videoUrl: "https://youtube.com/shorts/EYW4ANACZJQ",
-                        imageUrl: "https://i.ytimg.com/vi/EYW4ANACZJQ/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/_KLu6BsWY64",
+                        imageUrl: "https://i.ytimg.com/vi/_KLu6BsWY64/mqdefault.jpg"
                     },
                     {
                         name: "Kettlebell - Thruster Unilateral",
@@ -100,8 +100,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/EYW4ANACZJQ",
-                imageUrl: "https://i.ytimg.com/vi/EYW4ANACZJQ/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/_KLu6BsWY64",
+                imageUrl: "https://i.ytimg.com/vi/_KLu6BsWY64/mqdefault.jpg"
             }
         ]
     },
@@ -168,17 +168,17 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Remo en TRX",
+                name: "Gorilla Row con Kettlebells/Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo en TRX",
+                        name: "Gorilla Row con Kettlebells/Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=L6F1ZKsrRGI",
-                        imageUrl: "https://i.ytimg.com/vi/L6F1ZKsrRGI/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/4hKPsdWsXl8",
+                        imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
                     },
                     {
                         name: "Kettlebell - Soft Swing",
@@ -199,8 +199,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=L6F1ZKsrRGI",
-                imageUrl: "https://i.ytimg.com/vi/L6F1ZKsrRGI/mqdefault.jpg"
+                videoUrl: "https://youtu.be/4hKPsdWsXl8",
+                imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
             }
         ]
     },
