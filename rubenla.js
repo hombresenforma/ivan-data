@@ -3,7 +3,7 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
+// DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -358,6 +358,89 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
                 imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia4": {
+        name: "Metabólico + Abdominales",
+        exercises: [
+            {
+                order: 1,
+                name: "EMOM 15'",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 15,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Devil Press + Thruster con Mancuernas",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "4",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
+                        imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
+                    },
+                    {
+                        name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "12",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                        imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Renegade Alterno con Mancuernas",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "12",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
+                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
+                imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Crunch en Polea Alta",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Crunch en Polea Alta",
+                        subOrder: 1,
+                        sets: 4,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                        imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+                    },
+                    {
+                        name: "Press Pallof Alterno con Rotación en Polea",
+                        subOrder: 2,
+                        sets: 4,
+                        reps: "20",
+                        videoUrl: "https://youtube.com/shorts/vqBP-GHoW5k",
+                        imageUrl: "https://i.ytimg.com/vi/vqBP-GHoW5k/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow - Nivel 3",
+                        subOrder: 3,
+                        sets: 4,
+                        reps: "30s",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/I6YISGE4Uvo",
+                        imageUrl: "https://i.ytimg.com/vi/I6YISGE4Uvo/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
             }
         ]
     }
