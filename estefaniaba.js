@@ -31,17 +31,17 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Press Militar Unilat de Pie con Mancuerna/KTB",
+                name: "Press Militar Sentado con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar Unilat de Pie con Mancuerna/KTB",
+                        name: "Press Militar Sentado con Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "10-12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
-                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                        imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
                     },
                     {
                         name: "Flexiones Tempo 1:1",
@@ -54,8 +54,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
-                imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
             },
             {
                 order: 4,
