@@ -12,10 +12,10 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Inclinado con Mancuernas",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "120s",
-                notes: "",
+                notes: "Última serie DROPSET (10, bajas 20% peso, y otras 10)",
                 videoUrl: "https://youtu.be/ZE4M73kXB5A",
                 imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
             },
@@ -27,7 +27,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Trasera con Barra",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/FK5XU_gaxAE",
@@ -36,8 +36,8 @@ const workoutData = {
                     {
                         name: "CARDIO - Bicicleta (Ritmo Fuerte)",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "90s",
+                        sets: 4,
+                        reps: "60s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
                         imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
@@ -111,10 +111,10 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas con Peso Corporal",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "120s",
-                notes: "",
+                notes: "Última serie DROPSET (10, añades ayuda con goma, y otras 10)",
                 videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
                 imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
             },
@@ -126,7 +126,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Búlgara con Mancuerna",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/kA6bHiDdTO4",
@@ -135,8 +135,8 @@ const workoutData = {
                     {
                         name: "CARDIO - Bicicleta (Ritmo Fuerte)",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "90s",
+                        sets: 4,
+                        reps: "60s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
                         imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
@@ -225,7 +225,7 @@ const workoutData = {
                     {
                         name: "Press Banca con Barra",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/PKpsrFS2uac",
@@ -234,14 +234,14 @@ const workoutData = {
                     {
                         name: "Gorilla Row con Kettlebells/Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         rest: "90s",
                         videoUrl: "https://youtu.be/4hKPsdWsXl8",
                         imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
                     }
                 ],
-                notes: "",
+                notes: "Última serie DROPSET (10, bajas 20% peso, y otras 10)",
                 videoUrl: "https://youtu.be/PKpsrFS2uac",
                 imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
             },
@@ -253,7 +253,7 @@ const workoutData = {
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
@@ -262,8 +262,8 @@ const workoutData = {
                     {
                         name: "CARDIO - Bicicleta (Ritmo Fuerte)",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "90s",
+                        sets: 4,
+                        reps: "60s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
                         imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
@@ -319,16 +319,25 @@ const workoutData = {
                 name: "Circuito",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 8,
-                    restBetweenExercisesSeconds: 45,
-                    restBetweenRoundsSeconds: 45
+                    totalRounds: 10,
+                    restBetweenExercisesSeconds: 3,
+                    restBetweenRoundsSeconds: 3
                 },
                 items: [
                     {
                         name: "CARDIO - Correr (Sprint)",
                         subOrder: 1,
                         sets: 1,
-                        reps: "30s",
+                        reps: "40s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/KKvRtNn904g",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                    },
+                    {
+                        name: "CARDIO - Correr (Suave)",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "40s",
                         isCircuitItem: true,
                         videoUrl: "https://youtu.be/KKvRtNn904g",
                         imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
@@ -353,7 +362,7 @@ const exerciseAlternatives = {
         { name: "Dominadas Australianas con Pies en Banco", videoUrl: "https://youtu.be/WqoNa74DieE", imageUrl: "https://i.ytimg.com/vi/WqoNa74DieE/mqdefault.jpg" }
     ],
     "Peso Muerto Rumano con Barra": [
-        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
+        { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs", imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg" }
     ],
     "Press Banca con Barra": [
         { name: "Floor Press con Mancuernas", videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ", imageUrl: "https://i.ytimg.com/vi/Iu02N3s7zgQ/mqdefault.jpg" }
