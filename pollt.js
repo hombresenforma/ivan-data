@@ -110,13 +110,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Peso Muerto Rumano con Mancuernas",
+                name: "Peso Muerto Rumano Unilateral en Landmine",
                 sets: 4,
                 reps: "10, 10, 12, 15",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
-                imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
+                videoUrl: "https://youtu.be/qrUts4P62R4",
+                imageUrl: "https://i.ytimg.com/vi/qrUts4P62R4/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -209,6 +209,9 @@ const workoutData = {
 const exerciseAlternatives = {
     "Press Banca Inclinado con Barra": [
         { name: "Press Banca Inclinado en Multipower", videoUrl: "https://youtu.be/3GS7EjN7KSk", imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg" }
+    ],
+    "Peso Muerto Rumano Unilateral en Landmine": [
+        { name: "Peso Muerto Rumano con Barra", videoUrl: "https://youtu.be/R7FKam5GyNw", imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg" }
     ]
 };
 
