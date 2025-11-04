@@ -1,4 +1,4 @@
-// Titulo: Plan de Entrenamiento
+// Titulo: p2_3d_fbcardio_1_home
 
 // Contenido de app_datos.js
 
@@ -11,61 +11,79 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Banca en Multipower",
+                name: "Floor Press con Mancuernas",
                 sets: 3,
                 reps: "10",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/w-5ovE5O5iU",
-                imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ",
+                imageUrl: "https://i.ytimg.com/vi/Iu02N3s7zgQ/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Sentadilla Trasera con Barra",
+                name: "Sentadilla Frontal con Mancuernas/Kettlebells",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Sentadilla Trasera con Barra",
+                        name: "Sentadilla Frontal con Mancuernas/Kettlebells",
                         subOrder: 1,
                         sets: 3,
                         reps: "12",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/FK5XU_gaxAE",
-                        imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/lfb6neUpfP8",
+                        imageUrl: "https://i.ytimg.com/vi/lfb6neUpfP8/mqdefault.jpg"
                     },
                     {
-                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
+                        name: "Cuerpo Libre - Cardio - Burpee sin Flexión",
                         subOrder: 2,
                         sets: 3,
                         reps: "90s",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
-                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/_liq4fAscDU",
+                        imageUrl: "https://i.ytimg.com/vi/_liq4fAscDU/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/FK5XU_gaxAE",
-                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
+                videoUrl: "https://youtu.be/lfb6neUpfP8",
+                imageUrl: "https://i.ytimg.com/vi/lfb6neUpfP8/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Prensa Inclinada 45º",
+                name: "Zancada Trasera Alterna con Mancuernas/KTB",
                 sets: 3,
                 reps: "12",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps",
-                imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
             },
             {
                 order: 4,
-                name: "Press Militar con Barra de Pie",
-                sets: 3,
-                reps: "12, 10, 8",
-                rest: "90s",
+                name: "Press Militar Unilat de Pie con Mancuerna/KTB",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Press Militar Unilat de Pie con Mancuerna/KTB",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "12, 10, 8",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Press Militar Unilat de Pie con Mancuerna/KTB",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "12, 10, 8",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                    }
+                ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
-                imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -102,13 +120,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Dominadas Australianas con Pies en el Suelo",
+                name: "Dominadas Australianas en TRX",
                 sets: 3,
                 reps: "10",
                 rest: "120s",
-                notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
-                videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
-                imageUrl: "https://i.ytimg.com/vi/-GFyrw9BJVk/mqdefault.jpg"
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
+                imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -125,13 +143,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
                     },
                     {
-                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
+                        name: "Cuerpo Libre - Cardio - Over-Head Jumping Jack",
                         subOrder: 2,
                         sets: 3,
                         reps: "90s",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
-                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/ZU5OglDiAQY",
+                        imageUrl: "https://i.ytimg.com/vi/ZU5OglDiAQY/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -173,13 +191,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/L6F1ZKsrRGI/mqdefault.jpg"
                     },
                     {
-                        name: "Kettlebell - Soft Swing",
+                        name: "Remo Renegade + Flexión con Mancuernas",
                         subOrder: 2,
                         sets: 3,
-                        reps: "15",
+                        reps: "10",
                         rest: "90s",
-                        videoUrl: "https://youtube.com/shorts/-i4ReGBb26g",
-                        imageUrl: "https://i.ytimg.com/vi/-i4ReGBb26g/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/hLPJik1MaaY",
+                        imageUrl: "https://i.ytimg.com/vi/hLPJik1MaaY/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -193,23 +211,23 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Banca con Mancuernas",
+                name: "Gorilla Row con Kettlebells/Mancuernas",
                 sets: 3,
-                reps: "10",
+                reps: "20",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/hXCJC2Apcdg",
-                imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+                videoUrl: "https://youtu.be/4hKPsdWsXl8",
+                imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Jalón al Pecho en Polea",
+                name: "Flexiones con Lastre",
                 sets: 3,
                 reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/GYIhmy1P4vY",
-                imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/gLBrKowP2eo",
+                imageUrl: "https://i.ytimg.com/vi/gLBrKowP2eo/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -226,13 +244,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
                     },
                     {
-                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
+                        name: "Cuerpo Libre - Cardio - Sentadilla con Salto en Step",
                         subOrder: 2,
                         sets: 3,
                         reps: "90s",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
-                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/7ckSQy2BtWw",
+                        imageUrl: "https://i.ytimg.com/vi/7ckSQy2BtWw/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -241,17 +259,17 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Press Militar Unilat de Pie con Mancuerna/KTB",
+                name: "Press Militar Sentado con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar Unilat de Pie con Mancuerna/KTB",
+                        name: "Press Militar Sentado con Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "12, 10, 8",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
-                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                        imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
                     },
                     {
                         name: "Fondos en Banco",
@@ -262,38 +280,26 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
                     },
                     {
-                        name: "Curl con Mancuernas Sentado en Banco Inclinado",
+                        name: "Curl con Mancuernas de Pie Alterno",
                         subOrder: 3,
                         sets: 3,
-                        reps: "12, 10, 8",
+                        reps: "20, 16, 12",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/S32a3nYiWko",
-                        imageUrl: "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/85KCpAw9CE4",
+                        imageUrl: "https://i.ytimg.com/vi/85KCpAw9CE4/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
-                imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
             }
         ]
     }
 };
 
 const exerciseAlternatives = {
-    "Press Banca en Multipower": [
-        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
-    ],
-    "Sentadilla Trasera con Barra": [
+    "Sentadilla Frontal con Mancuernas/Kettlebells": [
         { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
-    ],
-    "Dominadas Australianas con Pies en el Suelo": [
-        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
-    ],
-    "Press Banca con Mancuernas": [
-        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
-    ],
-    "Jalón al Pecho en Polea": [
-        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
 
