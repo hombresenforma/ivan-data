@@ -12,7 +12,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Militar en Multipower",
-                sets: 3,
+                sets: 4,
                 reps: "6-8",
                 rest: "90s",
                 notes: "",
@@ -135,7 +135,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Máquina de Remo (Gironda)",
-                sets: 3,
+                sets: 4,
                 reps: "6-8",
                 rest: "90s",
                 notes: "",
@@ -258,7 +258,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas Australianas con Pies en Banco",
-                sets: 3,
+                sets: 4,
                 reps: "6-8",
                 rest: "90s",
                 notes: "",
@@ -268,7 +268,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Banca Inclinado en Multipower",
-                sets: 3,
+                sets: 4,
                 reps: "6-8",
                 rest: "90s",
                 notes: "",
@@ -378,7 +378,7 @@ const workoutData = {
                         name: "Devil Press + Thruster con Mancuernas",
                         subOrder: 1,
                         sets: 1,
-                        reps: "4",
+                        reps: "6",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
                         imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
@@ -387,7 +387,7 @@ const workoutData = {
                         name: "Zancada Trasera Alterna con Mancuernas/KTB",
                         subOrder: 2,
                         sets: 1,
-                        reps: "12",
+                        reps: "16",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
                         imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
@@ -396,7 +396,7 @@ const workoutData = {
                         name: "Remo Renegade Alterno con Mancuernas",
                         subOrder: 3,
                         sets: 1,
-                        reps: "12",
+                        reps: "16",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
                         imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
