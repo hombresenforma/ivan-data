@@ -1,3 +1,5 @@
+// Titulo: Plan de Entrenamiento
+
 // Contenido de app_datos.js
 
 // =================================================================================
@@ -9,37 +11,37 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Militar con Barra de Pie",
+                name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                 sets: 4,
-                reps: "4-6",
-                rest: "120s",
-                notes: "Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
-                videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
-                imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+                reps: "6-8",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
             },
             {
                 order: 2,
                 name: "Prensa Inclinada 45º",
-                sets: 3,
-                reps: "15, 12, 10",
+                sets: 4,
+                reps: "15, 12, 10, 10",
                 rest: "90s",
-                notes: "",
+                notes: "Últimas 2 series, DROPSETS (10+Fallo)",
                 videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps",
                 imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Press Militar Unilat de Pie con Mancuerna/KTB",
+                name: "Press Militar Sentado con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar Unilat de Pie con Mancuerna/KTB",
+                        name: "Press Militar Sentado con Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "10-12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
-                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                        imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
                     },
                     {
                         name: "Flexiones Tempo 1:1",
@@ -52,8 +54,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
-                imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -118,21 +120,21 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Peso Muerto Rumano con Barra",
+                name: "Peso Muerto Rumano a una Pierna con Mancuerna",
                 sets: 4,
-                reps: "4-6",
-                rest: "120s",
-                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta). Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
-                videoUrl: "https://youtu.be/R7FKam5GyNw",
-                imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+                reps: "6-8",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=1bAi304kd7s",
+                imageUrl: "https://i.ytimg.com/vi/1bAi304kd7s/mqdefault.jpg"
             },
             {
                 order: 2,
                 name: "Jalón al Pecho Neutro en Polea",
-                sets: 3,
-                reps: "15, 12, 10",
+                sets: 4,
+                reps: "15, 12, 10, 10",
                 rest: "90s",
-                notes: "",
+                notes: "Últimas 2 series, DROPSETS (10+Fallo)",
                 videoUrl: "https://youtu.be/5YzMH2KkMHc",
                 imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
             },
@@ -209,19 +211,19 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Sentadilla Trasera con Barra",
+                name: "Zancada Lateral Unilateral con Barra",
                 sets: 4,
-                reps: "4-6",
-                rest: "120s",
+                reps: "6-8",
+                rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/FK5XU_gaxAE",
-                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
+                videoUrl: "https://youtu.be/xGsr_RInxoQ",
+                imageUrl: "https://i.ytimg.com/vi/xGsr_RInxoQ/mqdefault.jpg"
             },
             {
                 order: 2,
                 name: "Press Militar en Multipower",
-                sets: 3,
-                reps: "15, 12, 10",
+                sets: 4,
+                reps: "15, 12, 10, 10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
@@ -300,21 +302,21 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Dominadas / Pull Ups Supinación (Chin Up)",
+                name: "Remo Diagonal Unilat en Polea Alta",
                 sets: 4,
-                reps: "4-6",
-                rest: "120s",
+                reps: "6-8",
+                rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=dN5DqMhO18s",
-                imageUrl: "https://i.ytimg.com/vi/dN5DqMhO18s/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/ikKQhcynKmg",
+                imageUrl: "https://i.ytimg.com/vi/ikKQhcynKmg/mqdefault.jpg"
             },
             {
                 order: 2,
                 name: "Hack Squat / Prensa Hack",
-                sets: 3,
-                reps: "15, 12, 10",
+                sets: 4,
+                reps: "15, 12, 10, 10",
                 rest: "90s",
-                notes: "Hazla REVERSA (Foco Glúteo)",
+                notes: "Últimas 2 series, DROPSETS (10+Fallo)",
                 videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs",
                 imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg"
             },
@@ -407,10 +409,10 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Peso Muerto Rumano con Barra": [
+    "Peso Muerto Rumano a una Pierna con Mancuerna": [
         { name: "", videoUrl: "", imageUrl: "" }
     ],
-    "Sentadilla Trasera con Barra": [
+    "Zancada Lateral Unilateral con Barra": [
         { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
     ],
     "Press Militar en Multipower": [
