@@ -1,7 +1,9 @@
+// Titulo: Plan de Entrenamiento
+
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
+// DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -11,7 +13,7 @@ const workoutData = {
                 order: 1,
                 name: "Hack Squat / Prensa Hack",
                 sets: 4,
-                reps: "8, 8, 8, 12",
+                reps: "15, 12, 8, 8",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs",
@@ -20,7 +22,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Búlgara con Mancuerna",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
@@ -111,7 +113,7 @@ const workoutData = {
                         name: "Dominadas / Pull Ups asistidas en Máquina",
                         subOrder: 1,
                         sets: 3,
-                        reps: "10",
+                        reps: "15, 12, 8, 8",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=pll4AdUg17g",
                         imageUrl: "https://i.ytimg.com/vi/pll4AdUg17g/mqdefault.jpg"
@@ -138,7 +140,7 @@ const workoutData = {
                     {
                         name: "Máquina de Remo (Gironda)",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A",
@@ -147,7 +149,7 @@ const workoutData = {
                     {
                         name: "Elevaciones Laterales con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "15",
                         rest: "90s",
                         videoUrl: "https://youtu.be/rhmW_fhB4cs",
@@ -236,8 +238,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Zancada Trasera Alterna con Mancuernas/KTB",
-                sets: 3,
-                reps: "10",
+                sets: 4,
+                reps: "16",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
@@ -246,7 +248,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Muscle Clean-Jerk Unilat con Mancuerna",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
@@ -336,6 +338,97 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
                 imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia4": {
+        name: "Metabólico + Abdominales",
+        exercises: [
+            {
+                order: 1,
+                name: "EMOM 15'",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 15,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Devil Press + Thruster con Mancuernas",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "6",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
+                        imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
+                    },
+                    {
+                        name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "16",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                        imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Renegade Alterno con Mancuernas",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "16",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
+                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
+                imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Crunch Abdominal Piernas Extendidas",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Crunch Abdominal Piernas Extendidas",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "15",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/TYNp3OsGKL0",
+                        imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch - Lateral Piernas",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "15",
+                        videoUrl: "https://youtu.be/jjoqs9YMyrM",
+                        imageUrl: "https://i.ytimg.com/vi/jjoqs9YMyrM/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch - Lateral Piernas",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "15",
+                        videoUrl: "https://youtu.be/jjoqs9YMyrM",
+                        imageUrl: "https://i.ytimg.com/vi/jjoqs9YMyrM/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow - Nivel 3",
+                        subOrder: 4,
+                        sets: 3,
+                        reps: "30s",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/I6YISGE4Uvo",
+                        imageUrl: "https://i.ytimg.com/vi/I6YISGE4Uvo/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/TYNp3OsGKL0",
+                imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
             }
         ]
     }
