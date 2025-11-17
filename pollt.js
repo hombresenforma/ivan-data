@@ -110,23 +110,23 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Peso Muerto Rumano Unilateral en Landmine",
+                name: "Peso Muerto Rumano con Barra",
                 sets: 4,
                 reps: "10, 10, 12, 15",
                 rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/qrUts4P62R4",
-                imageUrl: "https://i.ytimg.com/vi/qrUts4P62R4/mqdefault.jpg"
+                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                videoUrl: "https://youtu.be/R7FKam5GyNw",
+                imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Sentadilla Frontal con Barra",
+                name: "Sentadilla Trasera en Multipower",
                 sets: 4,
                 reps: "10, 10, 12, 15",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/ErXO1WKVlPI",
-                imageUrl: "https://i.ytimg.com/vi/ErXO1WKVlPI/mqdefault.jpg"
+                videoUrl: "https://youtu.be/la-dqygoIuk",
+                imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -210,7 +210,7 @@ const exerciseAlternatives = {
     "Press Banca Inclinado con Barra": [
         { name: "Press Banca Inclinado en Multipower", videoUrl: "https://youtu.be/3GS7EjN7KSk", imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg" }
     ],
-    "Peso Muerto Rumano Unilateral en Landmine": [
+    "Peso Muerto Rumano con Barra": [
         { name: "Peso Muerto Rumano con Barra", videoUrl: "https://youtu.be/R7FKam5GyNw", imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg" }
     ]
 };
