@@ -1,4 +1,6 @@
-// Titulo: p2_3d_fbcardio_1_home
+// Titulo: p2_3d_fbcardio_2_home
+// Notas: - Básicos: +1 serie + 15, 12, 10, 10
+// - CARDIO: +1 serie, bajamos de 90 a 45 segundos SUBIENDO INTENSIDAD
 
 // Contenido de app_datos.js
 
@@ -12,9 +14,9 @@ const workoutData = {
             {
                 order: 1,
                 name: "Floor Press con Mancuernas",
-                sets: 3,
-                reps: "10",
-                rest: "120s",
+                sets: 4,
+                reps: "15, 12, 10, 10",
+                rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ",
                 imageUrl: "https://i.ytimg.com/vi/Iu02N3s7zgQ/mqdefault.jpg"
@@ -27,20 +29,20 @@ const workoutData = {
                     {
                         name: "Sentadilla Frontal con Mancuernas/Kettlebells",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/lfb6neUpfP8",
                         imageUrl: "https://i.ytimg.com/vi/lfb6neUpfP8/mqdefault.jpg"
                     },
                     {
-                        name: "Cuerpo Libre - Cardio - Burpee sin Flexión",
+                        name: "CARDIO - Burpees con Jumping Jacks",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "90s",
+                        sets: 4,
+                        reps: "45s",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/_liq4fAscDU",
-                        imageUrl: "https://i.ytimg.com/vi/_liq4fAscDU/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/A21AiXaXi40",
+                        imageUrl: "https://i.ytimg.com/vi/A21AiXaXi40/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -121,9 +123,9 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas Australianas en TRX",
-                sets: 3,
-                reps: "10",
-                rest: "120s",
+                sets: 4,
+                reps: "15, 12, 10, 10",
+                rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
                 imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
@@ -136,7 +138,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Búlgara con Mancuerna",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/kA6bHiDdTO4",
@@ -145,8 +147,8 @@ const workoutData = {
                     {
                         name: "Cuerpo Libre - Cardio - Over-Head Jumping Jack",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "90s",
+                        sets: 4,
+                        reps: "45s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/ZU5OglDiAQY",
                         imageUrl: "https://i.ytimg.com/vi/ZU5OglDiAQY/mqdefault.jpg"
@@ -212,8 +214,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Gorilla Row con Kettlebells/Mancuernas",
-                sets: 3,
-                reps: "20",
+                sets: 4,
+                reps: "30, 24, 20, 20",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/4hKPsdWsXl8",
@@ -222,8 +224,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Flexiones con Lastre",
-                sets: 3,
-                reps: "10",
+                sets: 4,
+                reps: "15, 12, 10, 10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/gLBrKowP2eo",
@@ -237,7 +239,7 @@ const workoutData = {
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
@@ -246,8 +248,8 @@ const workoutData = {
                     {
                         name: "Cuerpo Libre - Cardio - Sentadilla con Salto en Step",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "90s",
+                        sets: 4,
+                        reps: "45s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/7ckSQy2BtWw",
                         imageUrl: "https://i.ytimg.com/vi/7ckSQy2BtWw/mqdefault.jpg"
