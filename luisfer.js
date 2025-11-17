@@ -1,4 +1,4 @@
-// Titulo: Plan de Entrenamiento
+// Titulo: p2 2
 
 // Contenido de app_datos.js
 
@@ -12,8 +12,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Banca en Multipower",
-                sets: 3,
-                reps: "10",
+                sets: 4,
+                reps: "15, 12, 10, 10",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/w-5ovE5O5iU",
@@ -27,7 +27,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Trasera con Barra",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/FK5XU_gaxAE",
@@ -36,8 +36,8 @@ const workoutData = {
                     {
                         name: "CARDIO - Bicicleta (Ritmo Fuerte)",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "90s",
+                        sets: 4,
+                        reps: "45s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
                         imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
@@ -103,8 +103,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas Australianas con Pies en el Suelo",
-                sets: 3,
-                reps: "10",
+                sets: 4,
+                reps: "15, 12, 10, 10",
                 rest: "120s",
                 notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
                 videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
@@ -118,7 +118,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Búlgara con Mancuerna",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/kA6bHiDdTO4",
@@ -127,8 +127,8 @@ const workoutData = {
                     {
                         name: "CARDIO - Bicicleta (Ritmo Fuerte)",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "90s",
+                        sets: 4,
+                        reps: "45s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
                         imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
@@ -194,8 +194,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Banca con Mancuernas",
-                sets: 3,
-                reps: "10",
+                sets: 4,
+                reps: "15, 12, 10, 10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/hXCJC2Apcdg",
@@ -204,8 +204,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Jalón al Pecho en Polea",
-                sets: 3,
-                reps: "10",
+                sets: 4,
+                reps: "15, 12, 10, 10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/GYIhmy1P4vY",
@@ -219,7 +219,7 @@ const workoutData = {
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
@@ -228,8 +228,8 @@ const workoutData = {
                     {
                         name: "CARDIO - Bicicleta (Ritmo Fuerte)",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "90s",
+                        sets: 4,
+                        reps: "45s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
                         imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
@@ -287,13 +287,13 @@ const exerciseAlternatives = {
         { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
     ],
     "Dominadas Australianas con Pies en el Suelo": [
-        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
+        { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
     ],
     "Press Banca con Mancuernas": [
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ],
     "Jalón al Pecho en Polea": [
-        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
+        { name: "Dominadas Asistidas en Máquina", videoUrl: "https://www.youtube.com/shorts/5OGBlINLP6w", imageUrl: "https://i.ytimg.com/vi/5OGBlINLP6w/mqdefault.jpg" }
     ]
 };
 
