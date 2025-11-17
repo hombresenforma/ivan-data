@@ -1,4 +1,6 @@
-// Titulo: manueldel
+// Titulo: p1_3d_fb_01
+// Notas: - Añadimos 1 serie al principal y subimos repeticiones.
+// - Añadimos 1 vuelta al circuito final
 
 // Contenido de app_datos.js
 
@@ -40,27 +42,27 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Banca en Multipower",
-                sets: 3,
-                reps: "8",
+                name: "Press Banca en Multipower (Explicado)",
+                sets: 4,
+                reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/w-5ovE5O5iU",
-                imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc",
+                imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Remo Inclinado en Landmine",
+                name: "Remo Unilat con Mancuerna/KTB (Explicado)",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo Inclinado en Landmine",
+                        name: "Remo Unilat con Mancuerna/KTB (Explicado)",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/5gakUsid-Lg",
-                        imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/uH9Hg4nWOG8",
+                        imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
                     },
                     {
                         name: "Plancha Lateral Dinámica sobre Antebrazo",
@@ -68,22 +70,14 @@ const workoutData = {
                         sets: 3,
                         reps: "20s",
                         notes: "Haz ambos lados.",
-                        videoUrl: "https://www.youtube.com/watch?v=fhCo3uoboAU",
-                        imageUrl: "https://i.ytimg.com/vi/fhCo3uoboAU/mqdefault.jpg"
-                    },
-                    {
-                        name: "Plancha Lateral Dinámica sobre Antebrazo",
-                        subOrder: 3,
-                        sets: 3,
-                        reps: "20s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=fhCo3uoboAU",
                         imageUrl: "https://i.ytimg.com/vi/fhCo3uoboAU/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/5gakUsid-Lg",
-                imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
+                videoUrl: "https://youtu.be/uH9Hg4nWOG8",
+                imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -122,7 +116,7 @@ const workoutData = {
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
@@ -131,7 +125,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Goblet con Mancuerna/Kettlebell",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         videoUrl: "https://youtu.be/xPVfWX_9ytk",
                         imageUrl: "https://i.ytimg.com/vi/xPVfWX_9ytk/mqdefault.jpg"
@@ -139,7 +133,7 @@ const workoutData = {
                     {
                         name: "Plancha - Normal",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/DQ4wYExQRJo",
@@ -186,8 +180,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Dominadas Australianas con Pies en el Suelo",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "10",
                 rest: "90s",
                 notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
                 videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
@@ -213,14 +207,6 @@ const workoutData = {
                         sets: 3,
                         reps: "20s",
                         notes: "Haz ambos lados.",
-                        videoUrl: "https://youtu.be/ROVRkBnD4zg",
-                        imageUrl: "https://i.ytimg.com/vi/ROVRkBnD4zg/mqdefault.jpg"
-                    },
-                    {
-                        name: "Plancha - Lateral elevando Rodilla",
-                        subOrder: 3,
-                        sets: 3,
-                        reps: "20s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/ROVRkBnD4zg",
                         imageUrl: "https://i.ytimg.com/vi/ROVRkBnD4zg/mqdefault.jpg"
@@ -266,7 +252,7 @@ const workoutData = {
                     {
                         name: "Remo Horizontal en TRX",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
@@ -275,19 +261,19 @@ const workoutData = {
                     {
                         name: "Remo Renegade Alterno con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
                         imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
                     },
                     {
-                        name: "Hollow - Nivel 2",
+                        name: "Hollow Abdominal Encogido",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/lFEg3UQYM3g",
-                        imageUrl: "https://i.ytimg.com/vi/lFEg3UQYM3g/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/DUYZEFKjYxs",
+                        imageUrl: "https://i.ytimg.com/vi/DUYZEFKjYxs/mqdefault.jpg"
                     }
                 ],
                 notes: "Mantén una inclinación paralela al suelo.",
@@ -308,27 +294,19 @@ const workoutData = {
                         name: "Abducción de Glúteo Unilat en el Suelo",
                         subOrder: 1,
                         sets: 2,
-                        reps: "8",
+                        reps: "16",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
                         imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
                     },
                     {
-                        name: "Abducción de Glúteo Unilat en el Suelo",
+                        name: "Zancada Dinámica",
                         subOrder: 2,
                         sets: 2,
-                        reps: "16",
-                        videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
-                        imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
-                    },
-                    {
-                        name: "Zancada Trasera Alterna con Mancuernas/KTB",
-                        subOrder: 3,
-                        sets: 2,
-                        reps: "16",
+                        reps: "12",
                         rest: "30s",
-                        videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
-                        imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=eSAN1E5usJI",
+                        imageUrl: "https://i.ytimg.com/vi/eSAN1E5usJI/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -337,13 +315,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Prensa Inclinada 45º",
-                sets: 3,
-                reps: "8",
+                name: "Prensa Inclinada en Máquina de Discos",
+                sets: 4,
+                reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps",
-                imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
+                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -360,23 +338,14 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
                     },
                     {
-                        name: "Sit Up Unilateral con KTB",
+                        name: "Sit Up Abdominal con Disco",
                         subOrder: 2,
                         sets: 3,
-                        reps: "5",
-                        notes: "Puedes usar una mancuerna de poco peso si lo prefieres o el peso de la Kettlebell es demasiado elevado.",
-                        videoUrl: "https://youtu.be/INcd--4kK5k",
-                        imageUrl: "https://i.ytimg.com/vi/INcd--4kK5k/mqdefault.jpg"
-                    },
-                    {
-                        name: "Sit Up Unilateral con KTB",
-                        subOrder: 3,
-                        sets: 3,
-                        reps: "5",
+                        reps: "10",
                         notes: "Puedes usar una mancuerna de poco peso si lo prefieres o el peso de la Kettlebell es demasiado elevado.",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/INcd--4kK5k",
-                        imageUrl: "https://i.ytimg.com/vi/INcd--4kK5k/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
+                        imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -413,38 +382,30 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Kettlebell - Split",
+                name: "Split Unilateral con Mancuernas/KTB",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Kettlebell - Split",
+                        name: "Split Unilateral con Mancuernas/KTB",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtube.com/shorts/ZmPOvj3lKvo",
-                        imageUrl: "https://i.ytimg.com/vi/ZmPOvj3lKvo/mqdefault.jpg"
-                    },
-                    {
-                        name: "Kettlebell - Split",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "10",
-                        videoUrl: "https://youtube.com/shorts/ZmPOvj3lKvo",
-                        imageUrl: "https://i.ytimg.com/vi/ZmPOvj3lKvo/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
+                        imageUrl: "https://i.ytimg.com/vi/o8-Oc19pGn8/mqdefault.jpg"
                     },
                     {
                         name: "Worm",
-                        subOrder: 3,
-                        sets: 3,
+                        subOrder: 2,
+                        sets: 4,
                         reps: "5",
                         videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
                         imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
                     },
                     {
                         name: "Funcional - Mountain Climber",
-                        subOrder: 4,
-                        sets: 3,
+                        subOrder: 3,
+                        sets: 4,
                         reps: "30",
                         rest: "90s",
                         videoUrl: "https://youtu.be/GZWmYzClS3s",
@@ -452,21 +413,21 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/ZmPOvj3lKvo",
-                imageUrl: "https://i.ytimg.com/vi/ZmPOvj3lKvo/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
+                imageUrl: "https://i.ytimg.com/vi/o8-Oc19pGn8/mqdefault.jpg"
             }
         ]
     }
 };
 
 const exerciseAlternatives = {
-    "Press Banca en Multipower": [
+    "Press Banca en Multipower (Explicado)": [
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ],
     "Dominadas Australianas con Pies en el Suelo": [
         { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
     ],
-    "Prensa Inclinada 45º": [
+    "Prensa Inclinada en Máquina de Discos": [
         { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
     ]
 };
