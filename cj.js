@@ -110,13 +110,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "",
+                name: "Peso Muerto Rumano con Barra",
                 sets: 4,
                 reps: "15, 12, 10, 10",
                 rest: "90s",
-                notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                videoUrl: "https://youtu.be/R7FKam5GyNw",
+                imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
             },
             {
                 order: 2,
