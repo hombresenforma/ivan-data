@@ -12,7 +12,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Militar en Multipower",
-                sets: 4,
+                sets: 5,
                 reps: "6-8",
                 rest: "90s",
                 notes: "",
@@ -135,7 +135,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Máquina de Remo (Gironda)",
-                sets: 4,
+                sets: 5,
                 reps: "6-8",
                 rest: "90s",
                 notes: "",
@@ -258,7 +258,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas Australianas con Pies en Banco",
-                sets: 4,
+                sets: 5,
                 reps: "6-8",
                 rest: "90s",
                 notes: "",
@@ -268,7 +268,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Banca Inclinado en Multipower",
-                sets: 4,
+                sets: 5,
                 reps: "6-8",
                 rest: "90s",
                 notes: "",
@@ -408,6 +408,42 @@ const workoutData = {
             },
             {
                 order: 2,
+                name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        sets: 5,
+                        reps: "24, 20, 16, 12, 8",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
+                        imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+                    },
+                    {
+                        name: "Worm + Burpee",
+                        subOrder: 2,
+                        sets: 5,
+                        reps: "12, 10, 8, 6, 4",
+                        videoUrl: "https://www.youtube.com/watch?v=qTLp4wcAAtQ",
+                        imageUrl: "https://i.ytimg.com/vi/qTLp4wcAAtQ/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla con Salto",
+                        subOrder: 3,
+                        sets: 5,
+                        reps: "24, 20, 16, 12, 8",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
+                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                    }
+                ],
+                notes: "Alterna entre brazos",
+                videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
+                imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+            },
+            {
+                order: 3,
                 name: "Crunch en Polea Alta",
                 isSuperset: true,
                 items: [
