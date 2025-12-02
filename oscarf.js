@@ -286,12 +286,12 @@ const workoutData = {
         ]
     },
     "dia4": {
-        name: "TORSO",
+        name: "Fullbody",
         exercises: [
             {
                 order: 1,
                 name: "Press Banca con Mancuernas",
-                sets: 3,
+                sets: 2,
                 reps: "8-10",
                 rest: "90s",
                 notes: "",
@@ -301,7 +301,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Remo Gironda Sentado en Polea",
-                sets: 3,
+                sets: 2,
                 reps: "8-10",
                 rest: "90s",
                 notes: "",
@@ -310,31 +310,13 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Dominadas Australianas en TRX",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Dominadas Australianas en TRX",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "10",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
-                        imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
-                    },
-                    {
-                        name: "Flexiones / Deficit Push Ups con Discos al lado",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "10",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=nLnrNuQFlao",
-                        imageUrl: "https://i.ytimg.com/vi/nLnrNuQFlao/mqdefault.jpg"
-                    }
-                ],
+                name: "Sentadilla Búlgara con Mancuerna",
+                sets: 3,
+                reps: "10-12",
+                rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
-                imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
+                videoUrl: "https://youtu.be/kA6bHiDdTO4",
+                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -366,6 +348,34 @@ const workoutData = {
             },
             {
                 order: 5,
+                name: "Box Step Up Unilat con Mancuerna/KTB",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Box Step Up Unilat con Mancuerna/KTB",
+                        subOrder: 1,
+                        sets: 4,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtube.com/shorts/8gFbFqy2Y7s",
+                        imageUrl: "https://i.ytimg.com/vi/8gFbFqy2Y7s/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla Goblet con Mancuerna/KTB (Explicado)",
+                        subOrder: 2,
+                        sets: 4,
+                        reps: "15",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
+                        imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/8gFbFqy2Y7s",
+                imageUrl: "https://i.ytimg.com/vi/8gFbFqy2Y7s/mqdefault.jpg"
+            },
+            {
+                order: 6,
                 name: "Crunch en Polea Alta",
                 isSuperset: true,
                 items: [
