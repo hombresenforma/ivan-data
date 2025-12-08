@@ -201,6 +201,15 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
+                name: "CARDIO - Correr (Suave)",
+                sets: 1,
+                reps: "240s",
+                notes: "Calentamiento suave de 4-6 min (800-1000m) progresivo.",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+            },
+            {
+                order: 2,
                 name: "EMOM 10' PASADAS",
                 isSuperset: true,
                 isEMOM: true,
@@ -233,7 +242,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             },
             {
-                order: 2,
+                order: 3,
                 name: "Crunch - Bicycle Crunch",
                 isSuperset: true,
                 items: [
