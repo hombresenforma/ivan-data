@@ -12,7 +12,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Militar con Barra de Pie",
-                sets: 4,
+                sets: 5,
                 reps: "4-6",
                 rest: "90s",
                 notes: "Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
@@ -21,13 +21,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Prensa Inclinada 45º",
+                name: "Sentadilla Jaca en Máquina",
                 sets: 3,
                 reps: "15, 12, 10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps",
-                imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/P4iHoym5SxM",
+                imageUrl: "https://i.ytimg.com/vi/P4iHoym5SxM/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -120,7 +120,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Hip Thrust con Barra",
-                sets: 4,
+                sets: 5,
                 reps: "4-6",
                 rest: "120s",
                 notes: "",
@@ -129,13 +129,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Jalón al Pecho Neutro en Polea",
+                name: "Dominadas Asistidas en Máquina",
                 sets: 3,
                 reps: "15, 12, 10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/5YzMH2KkMHc",
-                imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/5OGBlINLP6w",
+                imageUrl: "https://i.ytimg.com/vi/5OGBlINLP6w/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -219,7 +219,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Sentadilla Trasera con Barra",
-                sets: 4,
+                sets: 5,
                 reps: "4-6",
                 rest: "120s",
                 notes: "",
@@ -228,13 +228,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Banca en Multipower",
+                name: "Press Banca Inclinado en Multipower",
                 sets: 3,
                 reps: "15, 12, 10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/w-5ovE5O5iU",
-                imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg"
+                videoUrl: "https://youtu.be/3GS7EjN7KSk",
+                imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -300,7 +300,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas / Pull Ups Supinación (Chin Up)",
-                sets: 4,
+                sets: 5,
                 reps: "4-6",
                 rest: "120s",
                 notes: "",
@@ -309,17 +309,17 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Remo Seal con Mancuernas",
+                name: "Remo Gironda Sentado en Polea",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo Seal con Mancuernas",
+                        name: "Remo Gironda Sentado en Polea",
                         subOrder: 1,
                         sets: 3,
                         reps: "15, 12, 10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
-                        imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/jFR7oYwgy5s",
+                        imageUrl: "https://i.ytimg.com/vi/jFR7oYwgy5s/mqdefault.jpg"
                     },
                     {
                         name: "Curl con Mancuernas Sentado en Banco Inclinado",
@@ -331,9 +331,9 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
                     }
                 ],
-                notes: "Trata de despegar el pecho al final del movimiento",
-                videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
-                imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/jFR7oYwgy5s",
+                imageUrl: "https://i.ytimg.com/vi/jFR7oYwgy5s/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -414,16 +414,22 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
+    "Sentadilla Jaca en Máquina": [
+        { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
+    ],
     "Hip Thrust con Barra": [
         { name: "Prensa Horizontal", videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps", imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg" }
+    ],
+    "Dominadas Asistidas en Máquina": [
+        { name: "Dominadas Australianas con Pies en Banco", videoUrl: "https://youtu.be/WqoNa74DieE", imageUrl: "https://i.ytimg.com/vi/WqoNa74DieE/mqdefault.jpg" }
     ],
     "Sentadilla Trasera con Barra": [
         { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
     ],
-    "Press Banca en Multipower": [
-        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
+    "Press Banca Inclinado en Multipower": [
+        { name: "Press Inclinado con Mancuernas", videoUrl: "https://youtu.be/ZE4M73kXB5A", imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg" }
     ],
-    "Remo Seal con Mancuernas": [
+    "Remo Gironda Sentado en Polea": [
         { name: "Máquina de Remo (Gironda)", videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A", imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg" }
     ]
 };
