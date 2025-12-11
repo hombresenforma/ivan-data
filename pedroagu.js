@@ -1,4 +1,6 @@
-// Titulo: Plan de Entrenamiento
+// Titulo: P2. 2 (HOME).
+// Notas: - Subimos 1 serie y repeticiones en el ejercicio básico.
+// - Subimos 1 serie y/o repeticiones en el circuito final.
 
 // Contenido de app_datos.js
 
@@ -12,9 +14,9 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Inclinado con Mancuernas",
-                sets: 3,
-                reps: "10",
-                rest: "120s",
+                sets: 4,
+                reps: "12",
+                rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/ZE4M73kXB5A",
                 imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
@@ -76,7 +78,7 @@ const workoutData = {
                         name: "Muscle Clean-Jerk Unilat con Mancuerna",
                         subOrder: 1,
                         sets: 3,
-                        reps: "12",
+                        reps: "15",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/_KLu6BsWY64",
                         imageUrl: "https://i.ytimg.com/vi/_KLu6BsWY64/mqdefault.jpg"
@@ -85,7 +87,7 @@ const workoutData = {
                         name: "Kettlebell - Thruster Unilateral",
                         subOrder: 2,
                         sets: 3,
-                        reps: "12",
+                        reps: "15",
                         videoUrl: "https://youtube.com/shorts/EYW4ANACZJQ",
                         imageUrl: "https://i.ytimg.com/vi/EYW4ANACZJQ/mqdefault.jpg"
                     },
@@ -93,7 +95,7 @@ const workoutData = {
                         name: "Flexiones + Mountain Climbers",
                         subOrder: 3,
                         sets: 3,
-                        reps: "12",
+                        reps: "15",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
                         imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
@@ -110,13 +112,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Dominadas Australianas con Pies en el Suelo",
-                sets: 3,
-                reps: "10",
-                rest: "120s",
-                notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
-                videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
-                imageUrl: "https://i.ytimg.com/vi/-GFyrw9BJVk/mqdefault.jpg"
+                name: "Dominadas Australianas con Pies en Banco",
+                sets: 4,
+                reps: "12",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/WqoNa74DieE",
+                imageUrl: "https://i.ytimg.com/vi/WqoNa74DieE/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -175,7 +177,7 @@ const workoutData = {
                         name: "Gorilla Row con Kettlebells/Mancuernas",
                         subOrder: 1,
                         sets: 3,
-                        reps: "12",
+                        reps: "15",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/4hKPsdWsXl8",
                         imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
@@ -192,7 +194,7 @@ const workoutData = {
                         name: "Hollow - Nivel 3",
                         subOrder: 3,
                         sets: 3,
-                        reps: "30s",
+                        reps: "45s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/I6YISGE4Uvo",
                         imageUrl: "https://i.ytimg.com/vi/I6YISGE4Uvo/mqdefault.jpg"
@@ -210,8 +212,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Peso Muerto Rumano con Barra",
-                sets: 3,
-                reps: "10",
+                sets: 4,
+                reps: "12",
                 rest: "90s",
                 notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
                 videoUrl: "https://youtu.be/R7FKam5GyNw",
@@ -281,25 +283,17 @@ const workoutData = {
                     {
                         name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "12, 10, 8",
+                        sets: 4,
+                        reps: "15",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
                         imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
                     },
                     {
-                        name: "Press Militar Unilat de Pie con Mancuerna/KTB",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "12, 10, 8",
-                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
-                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
-                    },
-                    {
                         name: "Fondos en Banco",
-                        subOrder: 3,
-                        sets: 3,
-                        reps: "12, 10, 8",
+                        subOrder: 2,
+                        sets: 4,
+                        reps: "15",
                         rest: "90s",
                         videoUrl: "https://youtu.be/NSB_HrDwd6I",
                         imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
@@ -320,11 +314,11 @@ const exerciseAlternatives = {
     "Sentadilla Trasera con Barra": [
         { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
     ],
-    "Dominadas Australianas con Pies en el Suelo": [
+    "Dominadas Australianas con Pies en Banco": [
         { name: "Remo en TRX", videoUrl: "https://www.youtube.com/watch?v=L6F1ZKsrRGI", imageUrl: "https://i.ytimg.com/vi/L6F1ZKsrRGI/mqdefault.jpg" }
     ],
     "Peso Muerto Rumano con Barra": [
-        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
+        { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs", imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg" }
     ],
     "Press Banca con Barra": [
         { name: "Floor Press con Mancuernas", videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ", imageUrl: "https://i.ytimg.com/vi/Iu02N3s7zgQ/mqdefault.jpg" }
