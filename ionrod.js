@@ -1,3 +1,5 @@
+// Titulo: Plan de Entrenamiento
+
 // Contenido de app_datos.js
 
 // =================================================================================
@@ -19,13 +21,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Militar con Barra de Pie",
-                sets: 4,
+                name: "Press Banca Inclinado en Multipower",
+                sets: 5,
                 reps: "4-6",
                 rest: "120s",
-                notes: "Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
-                videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
-                imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+                notes: "",
+                videoUrl: "https://youtu.be/3GS7EjN7KSk",
+                imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -90,13 +92,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Peso Muerto Rumano con Barra",
-                sets: 4,
+                name: "Hip Thrust con Barra",
+                sets: 5,
                 reps: "4-6",
                 rest: "120s",
-                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta). Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
-                videoUrl: "https://youtu.be/R7FKam5GyNw",
-                imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+                notes: "",
+                videoUrl: "https://youtu.be/sbl1qYdkzUc",
+                imageUrl: "https://i.ytimg.com/vi/sbl1qYdkzUc/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -181,13 +183,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Hack Squat / Prensa Hack",
-                sets: 4,
+                name: "Prensa Inclinada en Máquina de Discos",
+                sets: 5,
                 reps: "4-6",
                 rest: "120s",
-                notes: "Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
-                videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs",
-                imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg"
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
+                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -244,13 +246,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Remo con Barra",
-                sets: 4,
+                name: "Dominadas con Peso Corporal",
+                sets: 5,
                 reps: "4-6",
                 rest: "120s",
-                notes: "Trabajo de Fuerza. Lo más explosivo posible. Sin llegar al fallo.",
-                videoUrl: "https://youtu.be/MjnZ52mZgT0",
-                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
+                notes: "Puedes lastrarte peso para ajustar el rango de repeticiones marcado.",
+                videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
+                imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -315,13 +317,16 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
+    "Press Banca Inclinado en Multipower": [
+        { name: "Press Banca Inclinado con Barra", videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ", imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg" }
+    ],
     "Press Banca con Mancuernas": [
         { name: "Press Banca Inclinado en Multipower", videoUrl: "https://youtu.be/3GS7EjN7KSk", imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg" }
     ],
     "Cruces en Polea Alta": [
         { name: "Aperturas en Banco Inclinado con Mancuernas", videoUrl: "https://youtu.be/Lx8d28YlcbQ", imageUrl: "https://i.ytimg.com/vi/Lx8d28YlcbQ/mqdefault.jpg" }
     ],
-    "Peso Muerto Rumano con Barra": [
+    "Hip Thrust con Barra": [
         { name: "", videoUrl: "", imageUrl: "" }
     ],
     "Remo Seal con Mancuernas": [
@@ -333,7 +338,7 @@ const exerciseAlternatives = {
     "Curl con Barra Z": [
         { name: "Curl en Polea Baja con Barra Recta", videoUrl: "https://www.youtube.com/watch?v=obFKEQEAink", imageUrl: "https://i.ytimg.com/vi/obFKEQEAink/mqdefault.jpg" }
     ],
-    "Hack Squat / Prensa Hack": [
+    "Prensa Inclinada en Máquina de Discos": [
         { name: "Prensa Inclinada 45º", videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps", imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg" }
     ],
     "Sentadilla Trasera en Multipower": [
