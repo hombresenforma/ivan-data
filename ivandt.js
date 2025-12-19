@@ -26,7 +26,7 @@ const workoutData = {
                 isSuperset: true,
                 isForTime: true,
                 forTimeDetails: {
-                    totalRounds: 3
+                    totalRounds: 4
                 },
                 items: [
                     {
@@ -56,7 +56,7 @@ const workoutData = {
                 isSuperset: true,
                 isAMRAP: true,
                 amrapDetails: {
-                    timeLimitSeconds: 720
+                    timeLimitSeconds: 750
                 },
                 items: [
                     {
@@ -78,7 +78,7 @@ const workoutData = {
                     {
                         name: "Kettlebell - Soft Swing",
                         subOrder: 3,
-                        reps: "",
+                        reps: "15",
                         isAMRAPItem: true,
                         videoUrl: "https://youtube.com/shorts/-i4ReGBb26g",
                         imageUrl: "https://i.ytimg.com/vi/-i4ReGBb26g/mqdefault.jpg"
