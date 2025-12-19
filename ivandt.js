@@ -7,86 +7,58 @@
 // =================================================================================
 const workoutData = {
     "dia1": {
-        name: "DÍA 1: Prueba 1",
+        name: "Tracción",
         exercises: [
             {
                 order: 1,
-                name: "Press Banca con Barra",
-                setTechniques: {"2":"CLUSTER","3":"DROPSET","4":"DROPSET X2"},
-                sets: 4,
-                reps: "12",
-                rest: "60s",
+                name: "Sentadilla Jaca en Máquina",
+                sets: 3,
+                reps: "10-12",
+                rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/PKpsrFS2uac",
-                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/P4iHoym5SxM",
+                imageUrl: "https://i.ytimg.com/vi/P4iHoym5SxM/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "FOR TIME",
-                isSuperset: true,
-                isForTime: true,
-                forTimeDetails: {
-                    totalRounds: 4
-                },
-                items: [
-                    {
-                        name: "Fondos en Paralelas con Peso Corporal",
-                        subOrder: 1,
-                        reps: "12",
-                        isForTimeItem: true,
-                        videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
-                        imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
-                    },
-                    {
-                        name: "Dominadas con Peso Corporal",
-                        subOrder: 2,
-                        reps: "10",
-                        isForTimeItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
-                        imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
-                    }
-                ],
+                name: "Máquina de Remo (Gironda)",
+                setTechniques: {"3":"DROPSET"},
+                sets: 3,
+                reps: "10",
+                rest: "90s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
-                imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A",
+                imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "AMRAP",
-                isSuperset: true,
-                isAMRAP: true,
-                amrapDetails: {
-                    timeLimitSeconds: 750
-                },
-                items: [
-                    {
-                        name: "CARDIO - Burpees con Jumping Jacks",
-                        subOrder: 1,
-                        reps: "10",
-                        isAMRAPItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/A21AiXaXi40",
-                        imageUrl: "https://i.ytimg.com/vi/A21AiXaXi40/mqdefault.jpg"
-                    },
-                    {
-                        name: "Worm",
-                        subOrder: 2,
-                        reps: "10",
-                        isAMRAPItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
-                        imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
-                    },
-                    {
-                        name: "Kettlebell - Soft Swing",
-                        subOrder: 3,
-                        reps: "15",
-                        isAMRAPItem: true,
-                        videoUrl: "https://youtube.com/shorts/-i4ReGBb26g",
-                        imageUrl: "https://i.ytimg.com/vi/-i4ReGBb26g/mqdefault.jpg"
-                    }
-                ],
+                name: "Curl de Bíceps Apoyado en Banco con Mancuernas",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/A21AiXaXi40",
-                imageUrl: "https://i.ytimg.com/vi/A21AiXaXi40/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/hQ3ojFx5soY",
+                imageUrl: "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Dominadas con Peso Corporal",
+                sets: 3,
+                reps: "8",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
+                imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Curl Bayesian Unilateral en Polea Baja",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/dCI2pPQmq_k",
+                imageUrl: "https://i.ytimg.com/vi/dCI2pPQmq_k/mqdefault.jpg"
             }
         ]
     }
