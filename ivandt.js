@@ -133,17 +133,25 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Hollow Abdominal Encogido",
+                        name: "Crunch - Flexión de Cadera",
                         subOrder: 1,
                         reps: "10",
                         isAMRAPItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/DUYZEFKjYxs",
-                        imageUrl: "https://i.ytimg.com/vi/DUYZEFKjYxs/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/XJFii9NYHNs",
+                        imageUrl: "https://i.ytimg.com/vi/XJFii9NYHNs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch - Extensión Lumbar",
+                        subOrder: 2,
+                        reps: "10",
+                        isAMRAPItem: true,
+                        videoUrl: "https://youtu.be/BJTJdFViRsU",
+                        imageUrl: "https://i.ytimg.com/vi/BJTJdFViRsU/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/DUYZEFKjYxs",
-                imageUrl: "https://i.ytimg.com/vi/DUYZEFKjYxs/mqdefault.jpg"
+                videoUrl: "https://youtu.be/XJFii9NYHNs",
+                imageUrl: "https://i.ytimg.com/vi/XJFii9NYHNs/mqdefault.jpg"
             }
         ]
     }
@@ -152,9 +160,6 @@ const workoutData = {
 const exerciseAlternatives = {
     "Saltos - Box jump (Touch and go)": [
         { name: "Cuerpo Libre - Cardio - Sentadilla con Salto en Step", videoUrl: "https://youtu.be/7ckSQy2BtWw", imageUrl: "https://i.ytimg.com/vi/7ckSQy2BtWw/mqdefault.jpg" }
-    ],
-    "Hollow Abdominal Encogido": [
-        { name: "Plancha - Normal", videoUrl: "https://youtu.be/DQ4wYExQRJo", imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg" }
     ]
 };
 
