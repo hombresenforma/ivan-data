@@ -1,4 +1,6 @@
-// Titulo: P3_3D_APFB_INOUT_1 (HOME)
+// Titulo: P3_3D_APFB_INOUT_2 (HOME)
+// Notas: - Subimos reps y series del básico (4x15,12,10,8 + DROPSET)
+// - 
 
 // Contenido de app_datos.js
 
@@ -12,8 +14,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Inclinado con Mancuernas",
-                sets: 3,
-                reps: "8",
+                setTechniques: {"4":"DROPSET"},
+                sets: 4,
+                reps: "15, 12, 10, 8",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/ZE4M73kXB5A",
@@ -65,8 +68,8 @@ const workoutData = {
                     {
                         name: "Flexiones + Mountain Climbers",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "15, 12, 10",
+                        sets: 4,
+                        reps: "15, 12, 10, 10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
                         imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
@@ -74,8 +77,8 @@ const workoutData = {
                     {
                         name: "Fondos en Banco",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "15, 12, 10",
+                        sets: 4,
+                        reps: "15, 12, 10, 10",
                         rest: "90s",
                         videoUrl: "https://youtu.be/NSB_HrDwd6I",
                         imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
@@ -90,7 +93,7 @@ const workoutData = {
                 name: "Circuito IN-OUT",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 4,
+                    totalRounds: 5,
                     restBetweenExercisesSeconds: 30,
                     restBetweenRoundsSeconds: 30
                 },
@@ -126,8 +129,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Dominadas Australianas en TRX",
-                sets: 3,
-                reps: "8",
+                setTechniques: {"4":"DROPSET"},
+                sets: 4,
+                reps: "15, 12, 10, 8",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
@@ -179,8 +183,8 @@ const workoutData = {
                     {
                         name: "Face Pull con TRX",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "15, 12, 10",
+                        sets: 4,
+                        reps: "15, 12, 10, 10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
                         imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
@@ -188,8 +192,8 @@ const workoutData = {
                     {
                         name: "Curl de Biceps con TRX",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "15, 12, 10",
+                        sets: 4,
+                        reps: "15, 12, 10, 10",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/W1C5ABPg_Ak",
                         imageUrl: "https://i.ytimg.com/vi/W1C5ABPg_Ak/mqdefault.jpg"
@@ -204,7 +208,7 @@ const workoutData = {
                 name: "Circuito IN-OUT. ",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 4,
+                    totalRounds: 5,
                     restBetweenExercisesSeconds: 30,
                     restBetweenRoundsSeconds: 30
                 },
@@ -240,8 +244,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Curl de Bíceps Apoyado en Banco con Mancuernas",
-                sets: 3,
-                reps: "8",
+                setTechniques: {"4":"DROPSET"},
+                sets: 4,
+                reps: "15, 12, 10, 8",
                 rest: "90s",
                 notes: "Puedes apoyarte a una pared.",
                 videoUrl: "https://youtube.com/shorts/hQ3ojFx5soY",
@@ -250,8 +255,9 @@ const workoutData = {
             {
                 order: 3,
                 name: "Press Francés con Mancuernas en Banco Inclinado",
-                sets: 3,
-                reps: "8",
+                setTechniques: {"4":"DROPSET"},
+                sets: 4,
+                reps: "15, 12, 10, 8",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/L__Q6Jl9Ics",
@@ -275,8 +281,8 @@ const workoutData = {
                     {
                         name: "Curl Martillo con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "15, 12, 10",
+                        sets: 4,
+                        reps: "15, 12, 10, 10",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/fcFsPoJY9lg",
                         imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
@@ -284,8 +290,8 @@ const workoutData = {
                     {
                         name: "Extensión Tríceps Trasnuca Unilateral con Mancuerna",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "15, 12, 10",
+                        sets: 4,
+                        reps: "15, 12, 10, 10",
                         rest: "90s",
                         videoUrl: "https://youtu.be/jGTquNttoRU",
                         imageUrl: "https://i.ytimg.com/vi/jGTquNttoRU/mqdefault.jpg"
@@ -300,7 +306,7 @@ const workoutData = {
                 name: "Circuito IN-OUT. ",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 4,
+                    totalRounds: 5,
                     restBetweenExercisesSeconds: 30,
                     restBetweenRoundsSeconds: 30
                 },
@@ -345,5 +351,3 @@ const exerciseAlternatives = {
 };
 
 console.log("Datos de rutina cargados desde el creador.");
-// Export if using modules in the target app, or remove if it's a simple script include
-// export { workoutData, exerciseAlternatives };
