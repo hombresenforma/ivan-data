@@ -1,4 +1,6 @@
-// Titulo: P3_3D_ANTPOSTFB_INOUT_1
+// Titulo: P3_3D_APFB_INOUT_2
+// Notas: - Añadimos una 4ta serie + cambiamos reps a 8, 8, 10, 12
+// - Añadimos una 5a serie al circuito IN-OUT
 
 // Contenido de app_datos.js
 
@@ -10,52 +12,24 @@ const workoutData = {
         name: "Anterior IN-OUT",
         exercises: [
             {
-                order: 1,
-                name: "Aductor en Máquina",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Aductor en Máquina",
-                        subOrder: 1,
-                        sets: 2,
-                        reps: "15",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=CfTZfTILu3U",
-                        imageUrl: "https://i.ytimg.com/vi/CfTZfTILu3U/mqdefault.jpg"
-                    },
-                    {
-                        name: "Sentadilla con Salto",
-                        subOrder: 2,
-                        sets: 2,
-                        reps: "15",
-                        rest: "30s",
-                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
-                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=CfTZfTILu3U",
-                imageUrl: "https://i.ytimg.com/vi/CfTZfTILu3U/mqdefault.jpg"
-            },
-            {
                 order: 2,
-                name: "Press Inclinado con Mancuernas",
-                sets: 3,
-                reps: "8",
+                name: "Press Banca Inclinado en Multipower",
+                sets: 4,
+                reps: "8, 8, 10, 12",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/ZE4M73kXB5A",
-                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
+                videoUrl: "https://youtu.be/3GS7EjN7KSk",
+                imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Sentadilla Búlgara con Mancuerna",
+                name: "Zancada Trasera Alterna con Mancuernas/KTB",
                 sets: 3,
-                reps: "8",
+                reps: "16",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/kA6bHiDdTO4",
-                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -118,7 +92,7 @@ const workoutData = {
                 name: "Circuito IN-OUT",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 4,
+                    totalRounds: 5,
                     restBetweenExercisesSeconds: 30,
                     restBetweenRoundsSeconds: 30
                 },
@@ -152,38 +126,10 @@ const workoutData = {
         name: "Posterior IN-OUT",
         exercises: [
             {
-                order: 1,
-                name: "Zancada Dinámica",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Zancada Dinámica",
-                        subOrder: 1,
-                        sets: 2,
-                        reps: "12",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=eSAN1E5usJI",
-                        imageUrl: "https://i.ytimg.com/vi/eSAN1E5usJI/mqdefault.jpg"
-                    },
-                    {
-                        name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
-                        subOrder: 2,
-                        sets: 2,
-                        reps: "12",
-                        rest: "30s",
-                        videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
-                        imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=eSAN1E5usJI",
-                imageUrl: "https://i.ytimg.com/vi/eSAN1E5usJI/mqdefault.jpg"
-            },
-            {
                 order: 2,
                 name: "Jalón al Pecho Supino en Polea",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "8, 8, 10, 12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/rimdRzyIJkA",
@@ -192,8 +138,8 @@ const workoutData = {
             {
                 order: 3,
                 name: "Peso Muerto Rumano con Barra",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "8, 8, 10, 12",
                 rest: "90s",
                 notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
                 videoUrl: "https://youtu.be/R7FKam5GyNw",
@@ -260,7 +206,7 @@ const workoutData = {
                 name: "Circuito IN-OUT. ",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 4,
+                    totalRounds: 5,
                     restBetweenExercisesSeconds: 30,
                     restBetweenRoundsSeconds: 30
                 },
@@ -275,16 +221,16 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/eKN0tj8q6Qc/mqdefault.jpg"
                     },
                     {
-                        name: "Muscle Snatch Unilat con Mancuerna/KTB",
+                        name: "Snatch + Thruster Unilat Alterno con Mancuerna",
                         subOrder: 2,
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/00FzH7YaDwc",
-                        imageUrl: "https://i.ytimg.com/vi/00FzH7YaDwc/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                        imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
                     }
                 ],
-                notes: "Haz el SNATCH ALTERNO cambiando manos. Mancuerna de 10-12kg.",
+                notes: "Mancuerna de 10-12kg.",
                 videoUrl: "https://youtu.be/eKN0tj8q6Qc",
                 imageUrl: "https://i.ytimg.com/vi/eKN0tj8q6Qc/mqdefault.jpg"
             }
@@ -294,38 +240,10 @@ const workoutData = {
         name: "Fullbody IN-OUT",
         exercises: [
             {
-                order: 1,
-                name: "Worm + Flexión",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Worm + Flexión",
-                        subOrder: 1,
-                        sets: 2,
-                        reps: "5",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
-                        imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
-                    },
-                    {
-                        name: "Funcional - Mountain Climber",
-                        subOrder: 2,
-                        sets: 2,
-                        reps: "20",
-                        rest: "30s",
-                        videoUrl: "https://youtu.be/GZWmYzClS3s",
-                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
-                imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
-            },
-            {
                 order: 2,
                 name: "Curl con Barra Z",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "8, 8, 10, 12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/4gYLTjNaTmw",
@@ -334,8 +252,8 @@ const workoutData = {
             {
                 order: 3,
                 name: "Press Cerrado con Barra",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "8, 8, 10, 12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/_062fQmtry8",
@@ -384,7 +302,7 @@ const workoutData = {
                 name: "Circuito IN-OUT. ",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 4,
+                    totalRounds: 5,
                     restBetweenExercisesSeconds: 30,
                     restBetweenRoundsSeconds: 30
                 },
@@ -417,17 +335,23 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Press Inclinado con Mancuernas": [
-        { name: "Press Banca Inclinado en Multipower", videoUrl: "https://youtu.be/3GS7EjN7KSk", imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg" }
+    "Press Banca Inclinado en Multipower": [
+        { name: "Press Inclinado con Mancuernas", videoUrl: "https://youtu.be/ZE4M73kXB5A", imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg" }
     ],
     "Press Militar con Barra de Pie": [
-        { name: "Press Militar Sentado con Mancuernas", videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg", imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg" }
+        { name: "Press Militar Sentado con Mancuernas (Explicado)", videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o", imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg" }
     ],
     "Press Banca con Barra": [
         { name: "Press Banca en Multipower", videoUrl: "https://youtu.be/w-5ovE5O5iU", imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg" }
     ],
+    "Jalón al Pecho Supino en Polea": [
+        { name: "Dominadas Australianas con Pies en Banco", videoUrl: "https://youtu.be/WqoNa74DieE", imageUrl: "https://i.ytimg.com/vi/WqoNa74DieE/mqdefault.jpg" }
+    ],
     "Peso Muerto Rumano con Barra": [
         { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs", imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg" }
+    ],
+    "Remo Unilat con Mancuerna/KTB (Explicado)": [
+        { name: "Máquina de Remo (Gironda)", videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A", imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg" }
     ],
     "Sentadilla Trasera en Multipower": [
         { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
@@ -435,5 +359,3 @@ const exerciseAlternatives = {
 };
 
 console.log("Datos de rutina cargados desde el creador.");
-// Export if using modules in the target app, or remove if it's a simple script include
-// export { workoutData, exerciseAlternatives };
