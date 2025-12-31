@@ -1,4 +1,7 @@
-// Titulo: p2_3d_fbcardio_1_home
+// Titulo: p2_3d_fbcardio_2_home
+// Notas: - Añadimos 1 serie al PRINCIPAL (No subimos repeticiones, SUBE PESO).
+// - Añadimos 1 vuelta al circuito CARDIO y bajamos tiempo a la mitad).
+// - Añadimos 1 vuelta al circuito final.
 
 // Contenido de app_datos.js
 
@@ -12,7 +15,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Militar Sentado con Mancuernas (Explicado)",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
@@ -27,7 +30,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Frontal con Mancuernas/Kettlebells",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/lfb6neUpfP8",
@@ -36,8 +39,8 @@ const workoutData = {
                     {
                         name: "Zancada Dinámica",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "90s",
+                        sets: 4,
+                        reps: "45s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=eSAN1E5usJI",
                         imageUrl: "https://i.ytimg.com/vi/eSAN1E5usJI/mqdefault.jpg"
@@ -75,7 +78,7 @@ const workoutData = {
                     {
                         name: "Zancadas Caminando con Mancuernas/Kettlebells",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/7tRy9X0ibnk",
@@ -84,7 +87,7 @@ const workoutData = {
                     {
                         name: "Fondos en Banco",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://youtu.be/NSB_HrDwd6I",
@@ -103,7 +106,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Remo Unilat con Mancuerna/KTB (Explicado)",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
@@ -118,7 +121,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Búlgara con Mancuerna",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/kA6bHiDdTO4",
@@ -127,8 +130,8 @@ const workoutData = {
                     {
                         name: "Cuerpo Libre - Cardio - Burpee sin Flexión",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "90s",
+                        sets: 4,
+                        reps: "45s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/_liq4fAscDU",
                         imageUrl: "https://i.ytimg.com/vi/_liq4fAscDU/mqdefault.jpg"
@@ -166,7 +169,7 @@ const workoutData = {
                     {
                         name: "Dominadas Australianas en TRX",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
@@ -175,7 +178,7 @@ const workoutData = {
                     {
                         name: "CARDIO - Shoulder Taps con Salto Adelante",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/xWUxD4rzmfQ",
@@ -194,7 +197,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Floor Press con Mancuernas",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
@@ -204,7 +207,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Remo Unilateral con Banda Elástica",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
@@ -219,7 +222,7 @@ const workoutData = {
                     {
                         name: "Gorilla Row con Kettlebells/Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/4hKPsdWsXl8",
@@ -228,8 +231,8 @@ const workoutData = {
                     {
                         name: "Saltos - Vertical Jump",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "90s",
+                        sets: 4,
+                        reps: "45s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=UH-3LUWzBpU",
                         imageUrl: "https://i.ytimg.com/vi/UH-3LUWzBpU/mqdefault.jpg"
@@ -247,7 +250,7 @@ const workoutData = {
                     {
                         name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12, 10, 8",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
@@ -256,7 +259,7 @@ const workoutData = {
                     {
                         name: "Fondos en Banco",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12, 10, 8",
                         videoUrl: "https://youtu.be/NSB_HrDwd6I",
                         imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
@@ -264,7 +267,7 @@ const workoutData = {
                     {
                         name: "Curl de Biceps con TRX",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "12, 10, 8",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/W1C5ABPg_Ak",
@@ -289,5 +292,3 @@ const exerciseAlternatives = {
 };
 
 console.log("Datos de rutina cargados desde el creador.");
-// Export if using modules in the target app, or remove if it's a simple script include
-// export { workoutData, exerciseAlternatives };
