@@ -370,7 +370,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 15,
+                    totalIntervals: 5,
                     workIntervalSeconds: 60
                 },
                 items: [
