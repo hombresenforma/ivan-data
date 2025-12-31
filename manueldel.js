@@ -6,7 +6,7 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
+// DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -277,6 +277,82 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
                 imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia4": {
+        name: "DÍA 4: ABDOMINALES",
+        exercises: [
+            {
+                order: 1,
+                name: "Crunch en Polea Alta",
+                sets: 3,
+                reps: "10-12",
+                rest: "90s",
+                notes: "puedes hacerlo con BANDA ELÁSTICA atada arriba.",
+                videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Press Pallof Unilat con Rotación en Polea",
+                sets: 3,
+                reps: "10-12",
+                rest: "90s",
+                notes: "puedes hacerlo con BANDA ELÁSTICA. ",
+                videoUrl: "https://youtube.com/shorts/5lo528rQAx8",
+                imageUrl: "https://i.ytimg.com/vi/5lo528rQAx8/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 15,
+                    restBetweenRoundsSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Crunch Abdominal Piernas Extendidas",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/TYNp3OsGKL0",
+                        imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha - Lateral elevando Pierna",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/-3PDE3ztwzU",
+                        imageUrl: "https://i.ytimg.com/vi/-3PDE3ztwzU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha - Lateral elevando Rodilla",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/ROVRkBnD4zg",
+                        imageUrl: "https://i.ytimg.com/vi/ROVRkBnD4zg/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow Abdominal con Brazos a los Lados",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/Ewp7N3-NYAY",
+                        imageUrl: "https://i.ytimg.com/vi/Ewp7N3-NYAY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/TYNp3OsGKL0",
+                imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
             }
         ]
     }
