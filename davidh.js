@@ -1,4 +1,4 @@
-// Titulo: PX.3 DÍAS NUEVA 
+// Titulo: PX.3 DÍAS NUEVA
 
 // Contenido de app_datos.js
 
@@ -11,23 +11,23 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Sentadilla Jaca en Máquina",
-                sets: 4,
-                reps: "12, 10, 8, 8",
+                name: "Prensa Inclinada en Máquina de Discos",
+                sets: 3,
+                reps: "5, 5, 10",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/P4iHoym5SxM",
-                imageUrl: "https://i.ytimg.com/vi/P4iHoym5SxM/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
+                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Press Banca en Multipower",
+                name: "Press Banca con Barra",
                 sets: 3,
-                reps: "15, 12, 10",
+                reps: "5, 5, 10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/w-5ovE5O5iU",
-                imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg"
+                videoUrl: "https://youtu.be/PKpsrFS2uac",
+                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -84,6 +84,16 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
                 imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Extensión de Codo Trasnuca con Cuerda en Polea Baja",
+                sets: 2,
+                reps: "12-15",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=iSC42Fn4VT0",
+                imageUrl: "https://i.ytimg.com/vi/iSC42Fn4VT0/mqdefault.jpg"
             }
         ]
     },
@@ -93,8 +103,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Hip Thrust con Barra",
-                sets: 4,
-                reps: "12, 10, 8, 8",
+                sets: 3,
+                reps: "5, 5, 10",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/sbl1qYdkzUc",
@@ -104,7 +114,7 @@ const workoutData = {
                 order: 2,
                 name: "Remo en Barra T",
                 sets: 3,
-                reps: "10,12",
+                reps: "5, 5, 10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=AgxCPp37waQ",
@@ -201,6 +211,16 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/4hKPsdWsXl8",
                 imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Curl Scott con Barra Z",
+                sets: 3,
+                reps: "12-15",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
+                imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
             }
         ]
     },
@@ -211,7 +231,7 @@ const workoutData = {
                 order: 1,
                 name: "Dominadas con Peso Corporal",
                 sets: 3,
-                reps: "6-8",
+                reps: "5, 5, 10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
@@ -221,7 +241,7 @@ const workoutData = {
                 order: 2,
                 name: "Fondos en Paralelas Lastrados",
                 sets: 3,
-                reps: "6-8",
+                reps: "5, 5, 10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/xsnhvnyl70I",
@@ -235,8 +255,8 @@ const workoutData = {
                     {
                         name: "Press Militar en Multipower",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "12, 10, 8",
+                        sets: 4,
+                        reps: "12, 10, 8, 8",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
                         imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
@@ -244,7 +264,7 @@ const workoutData = {
                     {
                         name: "Elevaciones Laterales con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10-12",
                         rest: "90s",
                         videoUrl: "https://youtu.be/rhmW_fhB4cs",
@@ -285,41 +305,42 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "Curl Araña con Barra Z",
+                name: "Dead Curl con Barra",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/HWs4EYCI8iE",
+                imageUrl: "https://i.ytimg.com/vi/HWs4EYCI8iE/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Press Francés + Press Cerrado con Barra Z",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Curl Araña con Barra Z",
+                        name: "Press Francés + Press Cerrado con Barra Z",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/ZGa2E8bi9Eg",
-                        imageUrl: "https://i.ytimg.com/vi/ZGa2E8bi9Eg/mqdefault.jpg"
-                    },
-                    {
-                        name: "Press Francés + Press Cerrado con Barra Z",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "10",
-                        rest: "90s",
                         videoUrl: "https://youtu.be/MpF94C3Z8_g",
                         imageUrl: "https://i.ytimg.com/vi/MpF94C3Z8_g/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/ZGa2E8bi9Eg",
-                imageUrl: "https://i.ytimg.com/vi/ZGa2E8bi9Eg/mqdefault.jpg"
+                videoUrl: "https://youtu.be/MpF94C3Z8_g",
+                imageUrl: "https://i.ytimg.com/vi/MpF94C3Z8_g/mqdefault.jpg"
             }
         ]
     }
 };
 
 const exerciseAlternatives = {
-    "Sentadilla Jaca en Máquina": [
+    "Prensa Inclinada en Máquina de Discos": [
         { name: "Prensa Inclinada en Máquina de Discos", videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0", imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg" }
     ],
-    "Press Banca en Multipower": [
+    "Press Banca con Barra": [
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ],
     "Hip Thrust con Barra": [
@@ -331,5 +352,3 @@ const exerciseAlternatives = {
 };
 
 console.log("Datos de rutina cargados desde el creador.");
-// Export if using modules in the target app, or remove if it's a simple script include
-// export { workoutData, exerciseAlternatives };
