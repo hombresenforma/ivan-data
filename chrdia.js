@@ -381,8 +381,8 @@ const workoutData = {
                 isSuperset: true,
                 circuitDetails: {
                     totalRounds: 8,
-                    restBetweenExercisesSeconds: 45,
-                    restBetweenRoundsSeconds: 0
+                    restBetweenExercisesSeconds: 0,
+                    restBetweenRoundsSeconds: 45
                 },
                 items: [
                     {
@@ -418,4 +418,3 @@ const exerciseAlternatives = {
         { name: "Curl Araña con Barra Z", videoUrl: "https://www.youtube.com/shorts/ZGa2E8bi9Eg", imageUrl: "https://i.ytimg.com/vi/ZGa2E8bi9Eg/mqdefault.jpg" }
     ]
 };
-
