@@ -269,7 +269,7 @@ const workoutData = {
                         name: "CARDIO - Correr (Suave)",
                         subOrder: 1,
                         sets: 1,
-                        reps: "20'",
+                        reps: "1200s",
                         isCircuitItem: true,
                         notes: "Caminando rápido en cinta",
                         videoUrl: "https://youtu.be/KKvRtNn904g",
@@ -418,3 +418,4 @@ const exerciseAlternatives = {
         { name: "Curl Araña con Barra Z", videoUrl: "https://www.youtube.com/shorts/ZGa2E8bi9Eg", imageUrl: "https://i.ytimg.com/vi/ZGa2E8bi9Eg/mqdefault.jpg" }
     ]
 };
+
