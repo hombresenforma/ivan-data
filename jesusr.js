@@ -55,17 +55,17 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Fondos en Paralelas con Peso Corporal",
+                name: "Fondos de Tríceps con Pies Elevados",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Fondos en Paralelas con Peso Corporal",
+                        name: "Fondos de Tríceps con Pies Elevados",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
-                        imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
+                        imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
                     },
                     {
                         name: "Extensión Tríceps Trasnuca con Mancuernas/Kettlebell",
@@ -78,8 +78,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
-                imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
+                imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
             }
         ]
     },
@@ -137,17 +137,17 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Curl Scott con Barra Z",
+                name: "Curl de Bíceps Apoyado en Banco con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Curl Scott con Barra Z",
+                        name: "Curl de Bíceps Apoyado en Banco con Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
-                        imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/hQ3ojFx5soY",
+                        imageUrl: "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
                     },
                     {
                         name: "Elevaciones Laterales con Mancuernas",
@@ -160,8 +160,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
-                imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/hQ3ojFx5soY",
+                imageUrl: "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
             }
         ]
     },
@@ -170,13 +170,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Sentadilla Anterior en Máquina Jaca",
+                name: "Sentadilla Trasera en Multipower",
                 sets: 3,
                 reps: "8",
                 rest: "120s",
                 notes: "Lastra con peso si puedes",
-                videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
-                imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
+                videoUrl: "https://youtu.be/la-dqygoIuk",
+                imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -210,13 +210,13 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Prensa Inclinada en Máquina de Discos",
+                name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
                 sets: 3,
                 reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
-                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
+                imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -233,14 +233,14 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
                     },
                     {
-                        name: "Sentadilla Goblet + Sentadilla Sumo con KTB",
+                        name: "Sentadilla con Salto",
                         subOrder: 2,
                         sets: 3,
-                        reps: "10",
+                        reps: "15",
                         notes: "10 de cada (20 en total)",
                         rest: "60s",
-                        videoUrl: "https://youtu.be/oz1SagvDVe8",
-                        imageUrl: "https://i.ytimg.com/vi/oz1SagvDVe8/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -476,9 +476,6 @@ const exerciseAlternatives = {
     ],
     "Dominadas con Peso Corporal": [
         { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
-    ],
-    "Sentadilla Anterior en Máquina Jaca": [
-        { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
     ],
     "Gomas - Zancada Avançada": [
         { name: "Gomas - Zancada Básica", videoUrl: "https://youtu.be/-NtzcHwp6fo", imageUrl: "https://i.ytimg.com/vi/-NtzcHwp6fo/mqdefault.jpg" }
