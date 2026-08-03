@@ -1,4 +1,6 @@
-// Titulo: P19_4D_PHAT_1_FEM
+// Titulo: P19_4D_PHAT_2_FEM
+// Notas: FUERZA: Cambiamos ORDEN ejercicios de fuerza + Variante de los del final.
+// VOLUMEN: Cambiamos patrón V-H en Potencia + Añadimos POTENCIA en básico de PIERNA.
 
 const workoutData = {
     "dia1": {
@@ -35,47 +37,47 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Dominadas Supinas",
+                name: "Fondos en Paralelas con Peso Corporal",
                 setTechniques: {},
                 sets: 3,
                 reps: "6",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
-                imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
+                imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Press Militar con Barra de Pie",
-                setTechniques: {},
-                sets: 3,
-                reps: "6",
-                rest: "120s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
-                imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
-            },
-            {
-                order: 4,
                 name: "Remo Inclinado en Landmine",
                 setTechniques: {},
                 sets: 3,
                 reps: "6",
-                rest: "90s",
+                rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/5gakUsid-Lg",
                 imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
             },
             {
-                order: 5,
-                name: "Fondos en Paralelas con Peso Corporal",
+                order: 4,
+                name: "Press Militar Unilateral en Landmine",
                 setTechniques: {},
                 sets: 3,
                 reps: "6",
-                rest: "90",
+                rest: "90s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
-                imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=p2OLvWOo9l0",
+                imageUrl: "https://i.ytimg.com/vi/p2OLvWOo9l0/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Jalón al Pecho Supino en Polea",
+                setTechniques: {},
+                sets: 3,
+                reps: "6",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/rimdRzyIJkA",
+                imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
             },
             {
                 order: 6,
@@ -132,6 +134,17 @@ const workoutData = {
             },
             {
                 order: 2,
+                name: "Hip Thrust con Barra (ExPLICADO)",
+                setTechniques: {},
+                sets: 3,
+                reps: "6",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
+                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+            },
+            {
+                order: 3,
                 name: "Sentadilla Trasera con Barra",
                 setTechniques: {},
                 sets: 4,
@@ -142,26 +155,15 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
             },
             {
-                order: 3,
-                name: "Prensa Inclinada en Máquina de Discos",
-                setTechniques: {},
-                sets: 3,
-                reps: "6",
-                rest: "120s",
-                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
-                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
-                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
-            },
-            {
                 order: 4,
-                name: "Hip Thrust con Barra (ExPLICADO)",
+                name: "Sentadilla Búlgara con Mancuerna o KTB",
                 setTechniques: {},
                 sets: 3,
                 reps: "6",
                 rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                videoUrl: "https://youtu.be/kA6bHiDdTO4",
+                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -218,25 +220,25 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Dominadas con Peso Corporal",
+                name: "Remo Inclinado en Landmine",
                 setTechniques: {},
                 sets: 5,
                 reps: "3",
                 rest: "60s",
                 notes: "NO FUERZA. POTENCIA",
-                videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
-                imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
+                videoUrl: "https://youtu.be/5gakUsid-Lg",
+                imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Remo Gironda en Polea",
+                name: "Hip Thrust con Barra (ExPLICADO)",
                 setTechniques: {},
-                sets: 4,
-                reps: "10",
-                rest: "90s",
-                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
-                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
-                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
+                sets: 5,
+                reps: "3",
+                rest: "60s",
+                notes: "NO FUERZA. POTENCIA",
+                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
+                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -314,28 +316,28 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Militar con Barra de Pie",
+                name: "Fondos en Paralelas con Peso Corporal",
                 setTechniques: {},
                 sets: 5,
                 reps: "3",
                 rest: "60s",
                 notes: "NO FUERZA. POTENCIA",
-                videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
-                imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
+                imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Press Cerrado en Banco Inclinado con Mancuernas",
+                name: "Sentadilla Trasera con Barra",
                 setTechniques: {},
-                sets: 4,
-                reps: "10",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/tdh7LSxUj1s",
-                imageUrl: "https://i.ytimg.com/vi/tdh7LSxUj1s/mqdefault.jpg"
+                sets: 5,
+                reps: "3",
+                rest: "60s",
+                notes: "NO FUERZA. POTENCIA",
+                videoUrl: "https://youtu.be/FK5XU_gaxAE",
+                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
             },
             {
-                order: 5,
+                order: 4,
                 name: "Press Militar Sentado con Mancuernas",
                 sets: 3,
                 reps: "12",
@@ -345,7 +347,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
             },
             {
-                order: 6,
+                order: 5,
                 name: "Flexiones / Deficit Push Ups con Discos al lado",
                 isSuperset: true,
                 items: [
@@ -377,11 +379,14 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
+    "Fondos en Paralelas con Peso Corporal": [
+        { name: "Press Cerrado con Barra", videoUrl: "https://youtu.be/_062fQmtry8", imageUrl: "https://i.ytimg.com/vi/_062fQmtry8/mqdefault.jpg" }
+    ],
     "Remo Inclinado en Landmine": [
         { name: "Remo con Barra", videoUrl: "https://youtu.be/MjnZ52mZgT0", imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg" }
     ],
-    "Fondos en Paralelas con Peso Corporal": [
-        { name: "Press Cerrado con Barra", videoUrl: "https://youtu.be/_062fQmtry8", imageUrl: "https://i.ytimg.com/vi/_062fQmtry8/mqdefault.jpg" }
+    "Press Militar Unilateral en Landmine": [
+        { name: "Press Banca en Multipower (ExPLICADO)", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
     ],
     "Sentadilla Trasera con Barra": [
         { name: "Sentadilla Anterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/saLWdiUe5eE", imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg" }
@@ -391,8 +396,5 @@ const exerciseAlternatives = {
     ],
     "Jalón al Pecho en Polea": [
         { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
-    ],
-    "Press Militar con Barra de Pie": [
-        { name: "Press Banca en Multipower (ExPLICADO)", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
     ]
 };
