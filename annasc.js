@@ -1,10 +1,10 @@
-// Titulo: P19_4D_PHAT_2_FEM
+// Titulo: P19_2D_PHAT_2_FEM
 // Notas: FUERZA: Cambiamos ORDEN ejercicios de fuerza + Variante de los del final.
 // VOLUMEN: Cambiamos patrón V-H en Potencia + Añadimos POTENCIA en básico de PIERNA.
 
 const workoutData = {
     "dia1": {
-        name: "TORSO Fuerza",
+        name: "TORSO Completo",
         exercises: [
             {
                 order: 1,
@@ -39,8 +39,8 @@ const workoutData = {
                 order: 2,
                 name: "Fondos en Paralelas con Peso Corporal",
                 setTechniques: {},
-                sets: 3,
-                reps: "6",
+                sets: 4,
+                reps: "6, 6, 6, 10",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
@@ -48,36 +48,42 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Remo Inclinado en Landmine",
+                name: "Dominadas Supinas",
                 setTechniques: {},
-                sets: 3,
+                sets: 4,
                 reps: "6",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/5gakUsid-Lg",
-                imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
+                imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
             },
             {
                 order: 4,
                 name: "Press Militar Unilateral en Landmine",
-                setTechniques: {},
-                sets: 3,
-                reps: "6",
-                rest: "90s",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Press Militar Unilateral en Landmine",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=p2OLvWOo9l0",
+                        imageUrl: "https://i.ytimg.com/vi/p2OLvWOo9l0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Unilateral en Landmine",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/DSMBCxZlts4",
+                        imageUrl: "https://i.ytimg.com/vi/DSMBCxZlts4/mqdefault.jpg"
+                    }
+                ],
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=p2OLvWOo9l0",
                 imageUrl: "https://i.ytimg.com/vi/p2OLvWOo9l0/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Jalón al Pecho Supino en Polea",
-                setTechniques: {},
-                sets: 3,
-                reps: "6",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/rimdRzyIJkA",
-                imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
             },
             {
                 order: 6,
@@ -106,11 +112,21 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/vll2f1bqDlA",
                 imageUrl: "https://i.ytimg.com/vi/vll2f1bqDlA/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Elevación Lateral Unilat en Polea Alta",
+                sets: 2,
+                reps: "10",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/8h_6GaA47HA",
+                imageUrl: "https://i.ytimg.com/vi/8h_6GaA47HA/mqdefault.jpg"
             }
         ]
     },
     "dia2": {
-        name: "PIERNA Fuerza",
+        name: "PIERNA Completa",
         exercises: [
             {
                 order: 1,
@@ -136,8 +152,8 @@ const workoutData = {
                 order: 2,
                 name: "Hip Thrust con Barra (ExPLICADO)",
                 setTechniques: {},
-                sets: 3,
-                reps: "6",
+                sets: 4,
+                reps: "6, 6, 6, 10",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
@@ -145,25 +161,42 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Sentadilla Trasera con Barra",
+                name: "Sentadilla Búlgara con Mancuerna o KTB",
                 setTechniques: {},
                 sets: 4,
                 reps: "6",
                 rest: "120s",
-                notes: "",
-                videoUrl: "https://youtu.be/FK5XU_gaxAE",
-                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Sentadilla Búlgara con Mancuerna o KTB",
-                setTechniques: {},
-                sets: 3,
-                reps: "6",
-                rest: "90s",
                 notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
                 videoUrl: "https://youtu.be/kA6bHiDdTO4",
                 imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Sentadilla Trasera con Barra",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Sentadilla Trasera con Barra",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/FK5XU_gaxAE",
+                        imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Zancadas Caminando con Mancuernas/KTB",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "16",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/7tRy9X0ibnk",
+                        imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/FK5XU_gaxAE",
+                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -192,187 +225,16 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM",
                 imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia3": {
-        name: "TRACCIÓN Volumen",
-        exercises: [
-            {
-                order: 1,
-                name: "Pull Over en Polea Alta",
-                isWarmup: true,
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Pull Over en Polea Alta",
-                        subOrder: 1,
-                        sets: 2,
-                        reps: "15",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/zWGbrVxoUpk",
-                        imageUrl: "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/zWGbrVxoUpk",
-                imageUrl: "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Remo Inclinado en Landmine",
-                setTechniques: {},
-                sets: 5,
-                reps: "3",
-                rest: "60s",
-                notes: "NO FUERZA. POTENCIA",
-                videoUrl: "https://youtu.be/5gakUsid-Lg",
-                imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Hip Thrust con Barra (ExPLICADO)",
-                setTechniques: {},
-                sets: 5,
-                reps: "3",
-                rest: "60s",
-                notes: "NO FUERZA. POTENCIA",
-                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Jalón al Pecho en Polea",
-                setTechniques: {},
-                sets: 3,
-                reps: "15",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/GYIhmy1P4vY",
-                imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Elevaciones Laterales con Mancuernas",
-                sets: 3,
-                reps: "15",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://youtu.be/rhmW_fhB4cs",
-                imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
             },
             {
                 order: 6,
-                name: "Curl Martillo con Cuerda en Polea Baja",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Curl Martillo con Cuerda en Polea Baja",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "8",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/fSTgTQr1WCk",
-                        imageUrl: "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
-                    },
-                    {
-                        name: "Face Pull al Cuello en Polea Alta",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "8",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/TaTjLum-_qI",
-                        imageUrl: "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/fSTgTQr1WCk",
-                imageUrl: "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia4": {
-        name: "EMPUJE Volumen",
-        exercises: [
-            {
-                order: 1,
-                name: "Flexiones / Deficit Push Ups con Discos al lado",
-                isWarmup: true,
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Flexiones / Deficit Push Ups con Discos al lado",
-                        subOrder: 1,
-                        sets: 2,
-                        reps: "15",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=nLnrNuQFlao",
-                        imageUrl: "https://i.ytimg.com/vi/nLnrNuQFlao/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=nLnrNuQFlao",
-                imageUrl: "https://i.ytimg.com/vi/nLnrNuQFlao/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Fondos en Paralelas con Peso Corporal",
-                setTechniques: {},
-                sets: 5,
-                reps: "3",
+                name: "Patada de Glúteo en Polea",
+                sets: 2,
+                reps: "10",
                 rest: "60s",
-                notes: "NO FUERZA. POTENCIA",
-                videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
-                imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Sentadilla Trasera con Barra",
-                setTechniques: {},
-                sets: 5,
-                reps: "3",
-                rest: "60s",
-                notes: "NO FUERZA. POTENCIA",
-                videoUrl: "https://youtu.be/FK5XU_gaxAE",
-                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Press Militar Sentado con Mancuernas",
-                sets: 3,
-                reps: "12",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
-                imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Flexiones / Deficit Push Ups con Discos al lado",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Flexiones / Deficit Push Ups con Discos al lado",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "8",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=nLnrNuQFlao",
-                        imageUrl: "https://i.ytimg.com/vi/nLnrNuQFlao/mqdefault.jpg"
-                    },
-                    {
-                        name: "Extensión de Tríceps en Polea con Cuerda",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "8",
-                        rest: "90s",
-                        videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
-                        imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=nLnrNuQFlao",
-                imageUrl: "https://i.ytimg.com/vi/nLnrNuQFlao/mqdefault.jpg"
+                notes: "Usa un disco o step para elevar el otro pie",
+                videoUrl: "https://www.youtube.com/watch?v=3KdH7vkEW6s",
+                imageUrl: "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
             }
         ]
     }
@@ -382,19 +244,10 @@ const exerciseAlternatives = {
     "Fondos en Paralelas con Peso Corporal": [
         { name: "Press Cerrado con Barra", videoUrl: "https://youtu.be/_062fQmtry8", imageUrl: "https://i.ytimg.com/vi/_062fQmtry8/mqdefault.jpg" }
     ],
-    "Remo Inclinado en Landmine": [
-        { name: "Remo con Barra", videoUrl: "https://youtu.be/MjnZ52mZgT0", imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg" }
-    ],
-    "Press Militar Unilateral en Landmine": [
-        { name: "Press Banca en Multipower (ExPLICADO)", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
-    ],
-    "Sentadilla Trasera con Barra": [
-        { name: "Sentadilla Anterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/saLWdiUe5eE", imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg" }
+    "Dominadas Supinas": [
+        { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
     ],
     "Curl Femoral Tumbado en Máquina": [
         { name: "Curl Femoral Sentado en Máquina", videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4", imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg" }
-    ],
-    "Jalón al Pecho en Polea": [
-        { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
     ]
 };
