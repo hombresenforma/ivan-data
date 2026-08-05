@@ -229,14 +229,14 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Remo Gironda en Polea",
+                name: "Peso Muerto Rumano con Barra",
                 setTechniques: {},
                 sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
-                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
-                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
+                videoUrl: "https://youtu.be/R7FKam5GyNw",
+                imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -267,7 +267,7 @@ const workoutData = {
                     {
                         name: "Curl Martillo con Cuerda en Polea Baja",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 2,
                         reps: "8",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/fSTgTQr1WCk",
@@ -276,7 +276,7 @@ const workoutData = {
                     {
                         name: "Face Pull al Cuello en Polea Alta",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 2,
                         reps: "8",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/TaTjLum-_qI",
@@ -286,6 +286,16 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/fSTgTQr1WCk",
                 imageUrl: "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
+            },
+            {
+                order: 7,
+                name: "Patada de Glúteo en Polea",
+                sets: 2,
+                reps: "15",
+                rest: "60s",
+                notes: "Usa un disco o step para elevar el otro pie",
+                videoUrl: "https://www.youtube.com/watch?v=3KdH7vkEW6s",
+                imageUrl: "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
             }
         ]
     },
@@ -325,14 +335,14 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Press Cerrado en Banco Inclinado con Mancuernas",
+                name: "Sentadilla Frontal con Barra",
                 setTechniques: {},
                 sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/tdh7LSxUj1s",
-                imageUrl: "https://i.ytimg.com/vi/tdh7LSxUj1s/mqdefault.jpg"
+                videoUrl: "https://youtu.be/ErXO1WKVlPI",
+                imageUrl: "https://i.ytimg.com/vi/ErXO1WKVlPI/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -352,7 +362,7 @@ const workoutData = {
                     {
                         name: "Flexiones / Deficit Push Ups con Discos al lado",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 2,
                         reps: "8",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=nLnrNuQFlao",
@@ -361,7 +371,7 @@ const workoutData = {
                     {
                         name: "Extensión de Tríceps en Polea con Cuerda",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 2,
                         reps: "8",
                         rest: "90s",
                         videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
@@ -371,12 +381,25 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=nLnrNuQFlao",
                 imageUrl: "https://i.ytimg.com/vi/nLnrNuQFlao/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Zancadas Caminando con Mancuernas/KTB",
+                sets: 2,
+                reps: "20",
+                rest: "90s",
+                notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
+                videoUrl: "https://youtu.be/7tRy9X0ibnk",
+                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
             }
         ]
     }
 };
 
 const exerciseAlternatives = {
+    "Press Militar con Barra de Pie": [
+        { name: "Press Banca en Multipower (ExPLICADO)", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
+    ],
     "Remo Inclinado en Landmine": [
         { name: "Remo con Barra", videoUrl: "https://youtu.be/MjnZ52mZgT0", imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg" }
     ],
@@ -391,8 +414,5 @@ const exerciseAlternatives = {
     ],
     "Jalón al Pecho en Polea": [
         { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
-    ],
-    "Press Militar con Barra de Pie": [
-        { name: "Press Banca en Multipower (ExPLICADO)", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
     ]
 };
