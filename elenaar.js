@@ -215,17 +215,6 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Box Glute Step Up Unilat con Mancuerna/KTB",
-                setTechniques: {"3":"DROPSET"},
-                sets: 3,
-                reps: "10",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/h73RCZp007M",
-                imageUrl: "https://i.ytimg.com/vi/h73RCZp007M/mqdefault.jpg"
-            },
-            {
-                order: 3,
                 name: "Sentadilla Búlgara con Mancuerna o KTB",
                 sets: 3,
                 reps: "10-12",
@@ -233,6 +222,17 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/kA6bHiDdTO4",
                 imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Abducción de Glúteo Unilat en el Suelo",
+                setTechniques: {"3":"DROPSET"},
+                sets: 3,
+                reps: "10",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+                imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
             },
             {
                 order: 4,
