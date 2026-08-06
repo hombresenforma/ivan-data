@@ -1,4 +1,4 @@
-// Titulo: P9_3D_FULLBODY_1
+// Titulo: P9_3D_FULLBODY_2
 
 const workoutData = {
     "dia1": {
@@ -7,8 +7,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Banca Inclinado con Barra",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "8, 8, 8, 15",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ",
@@ -16,22 +16,23 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Zancadas Caminando con Mancuernas/KTB",
+                name: "Peso Muerto Rumano con Mancuernas/KTB",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Zancadas Caminando con Mancuernas/KTB",
+                        name: "Peso Muerto Rumano con Mancuernas/KTB",
                         subOrder: 1,
                         sets: 3,
-                        reps: "20",
+                        reps: "15, 12, 10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                        imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                        notes: "Espalda recta en todo momento",
+                        videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
+                        imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                notes: "Espalda recta en todo momento",
+                videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
+                imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -89,8 +90,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Jalón al Pecho Unilateral con Polea",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "8, 8, 8, 15",
                 rest: "120s",
                 notes: "Lastra con peso si puedes",
                 videoUrl: "https://youtu.be/fxMPLrCpzeA",
@@ -171,8 +172,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Sentadilla Trasera con Barra Talones Elevados",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "8, 8, 8, 15",
                 rest: "120s",
                 notes: "Lastra con peso si puedes",
                 videoUrl: "https://youtube.com/shorts/FYuU4CAAT1I",
