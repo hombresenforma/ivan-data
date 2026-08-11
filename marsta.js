@@ -83,18 +83,18 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "CARDIO - Burpees con Jumping Jacks",
+                        name: "Over-Head Jumping Jack",
                         subOrder: 1,
                         sets: 1,
                         reps: "45s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/A21AiXaXi40",
-                        imageUrl: "https://i.ytimg.com/vi/A21AiXaXi40/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/ZU5OglDiAQY",
+                        imageUrl: "https://i.ytimg.com/vi/ZU5OglDiAQY/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/A21AiXaXi40",
-                imageUrl: "https://i.ytimg.com/vi/A21AiXaXi40/mqdefault.jpg"
+                videoUrl: "https://youtu.be/ZU5OglDiAQY",
+                imageUrl: "https://i.ytimg.com/vi/ZU5OglDiAQY/mqdefault.jpg"
             },
             {
                 order: 7,
@@ -242,17 +242,17 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Worm",
+                name: "Curl Cruzado + Zancada con KTB",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Worm",
+                        name: "Curl Cruzado + Zancada con KTB",
                         subOrder: 1,
                         sets: 2,
                         reps: "5",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
-                        imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/osSjzEvbOAY",
+                        imageUrl: "https://i.ytimg.com/vi/osSjzEvbOAY/mqdefault.jpg"
                     },
                     {
                         name: "Face Pull con KTB",
@@ -265,34 +265,15 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
-                imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/osSjzEvbOAY",
+                imageUrl: "https://i.ytimg.com/vi/osSjzEvbOAY/mqdefault.jpg"
             },
             {
                 order: 2,
                 name: "Devil Press + Thruster con Mancuernas",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Devil Press + Thruster con Mancuernas",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "6",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
-                        imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
-                    },
-                    {
-                        name: "Flexiones con Peso Corporal",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "12",
-                        notes: "En caso de no llegar a las repeticiones pautadas, se pueden hacer con rodilla",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
-                        imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
-                    }
-                ],
+                sets: 3,
+                reps: "8",
+                rest: "60s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
                 imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
@@ -377,13 +358,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
                     },
                     {
-                        name: "Plancha - Cambios de apoyo",
+                        name: "Plancha - Abrir y Cerrar Piernas",
                         subOrder: 2,
                         sets: 3,
                         reps: "10",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/Yg74EfwLBQY",
-                        imageUrl: "https://i.ytimg.com/vi/Yg74EfwLBQY/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/G8GPAq4110U",
+                        imageUrl: "https://i.ytimg.com/vi/G8GPAq4110U/mqdefault.jpg"
                     }
                 ],
                 notes: "",
