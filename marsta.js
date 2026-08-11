@@ -19,13 +19,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
                     },
                     {
-                        name: "Flexiones con Peso Corporal",
+                        name: "Hollow Abdominal Encogido",
                         subOrder: 2,
                         sets: 1,
                         reps: "15",
                         rest: "30s",
-                        videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
-                        imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/DUYZEFKjYxs",
+                        imageUrl: "https://i.ytimg.com/vi/DUYZEFKjYxs/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -83,18 +83,18 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Flexiones + Mountain Climbers",
+                        name: "CARDIO - Burpees con Jumping Jacks",
                         subOrder: 1,
                         sets: 1,
                         reps: "45s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
-                        imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/A21AiXaXi40",
+                        imageUrl: "https://i.ytimg.com/vi/A21AiXaXi40/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
-                imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/A21AiXaXi40",
+                imageUrl: "https://i.ytimg.com/vi/A21AiXaXi40/mqdefault.jpg"
             },
             {
                 order: 7,
