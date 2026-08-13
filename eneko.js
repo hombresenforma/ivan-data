@@ -4,6 +4,7 @@
 const workoutData = {
     "dia1": {
         name: "Posterior (Remo)",
+        isHidden: true,
         exercises: [
             {
                 order: 1,
@@ -270,6 +271,214 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
                 imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia4": {
+        name: "Empuje BÁSICOS",
+        exercises: [
+            {
+                order: 1,
+                name: "Gomas - Rotación Externa en Columna",
+                isWarmup: true,
+                sets: 2,
+                reps: "15",
+                rest: "30s",
+                notes: "Mantén tu codo prácticamente pegado al torso en todo momento",
+                videoUrl: "https://youtu.be/y8cSPoMahok",
+                imageUrl: "https://i.ytimg.com/vi/y8cSPoMahok/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "EMOM",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
+                },
+                items: [
+                    {
+                        name: "Sentadilla Frontal con Barra",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "12",
+                        isEMOMItem: true,
+                        notes: "Ajusta la carga entre ejercicios",
+                        videoUrl: "https://youtu.be/ErXO1WKVlPI",
+                        imageUrl: "https://i.ytimg.com/vi/ErXO1WKVlPI/mqdefault.jpg"
+                    },
+                    {
+                        name: "Press Militar con Barra de Pie",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "6",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
+                        imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+                    }
+                ],
+                notes: "Ajusta la carga entre ejercicios",
+                videoUrl: "https://youtu.be/ErXO1WKVlPI",
+                imageUrl: "https://i.ytimg.com/vi/ErXO1WKVlPI/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Press Inclinado con Mancuernas",
+                sets: 4,
+                reps: "12",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/ZE4M73kXB5A",
+                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                sets: 3,
+                reps: "16",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "EMOM",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 4,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Extensión Tríceps Trasnuca con Mancuernas/Kettlebell",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "10",
+                        isEMOMItem: true,
+                        notes: "Ajusta la carga entre ejercicios",
+                        videoUrl: "https://youtu.be/1MgU2PO4_rI",
+                        imageUrl: "https://i.ytimg.com/vi/1MgU2PO4_rI/mqdefault.jpg"
+                    },
+                    {
+                        name: "Flexiones / Deficit Push Ups con Discos al lado",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "10",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=nLnrNuQFlao",
+                        imageUrl: "https://i.ytimg.com/vi/nLnrNuQFlao/mqdefault.jpg"
+                    }
+                ],
+                notes: "Ajusta la carga entre ejercicios",
+                videoUrl: "https://youtu.be/1MgU2PO4_rI",
+                imageUrl: "https://i.ytimg.com/vi/1MgU2PO4_rI/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia5": {
+        name: "Tracción BÁSICOS ",
+        exercises: [
+            {
+                order: 1,
+                name: "Gomas - Rotación Externa en Columna",
+                isWarmup: true,
+                sets: 2,
+                reps: "15",
+                rest: "30s",
+                notes: "Mantén tu codo prácticamente pegado al torso en todo momento",
+                videoUrl: "https://youtu.be/y8cSPoMahok",
+                imageUrl: "https://i.ytimg.com/vi/y8cSPoMahok/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "EMOM",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
+                },
+                items: [
+                    {
+                        name: "Peso Muerto Rumano con Barra",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "12",
+                        isEMOMItem: true,
+                        notes: "Ajusta la carga entre ejercicios",
+                        videoUrl: "https://youtu.be/R7FKam5GyNw",
+                        imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+                    },
+                    {
+                        name: "Dominadas con Peso Corporal",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "6",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
+                        imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
+                    }
+                ],
+                notes: "Ajusta la carga entre ejercicios",
+                videoUrl: "https://youtu.be/R7FKam5GyNw",
+                imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Remo Seal con Mancuernas",
+                sets: 4,
+                reps: "12",
+                rest: "90s",
+                notes: "Trata de despegar el pecho al final del movimiento",
+                videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Curl Femoral desde Puente (Con TRX)",
+                sets: 3,
+                reps: "15",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=6NCkHTG4lHc",
+                imageUrl: "https://i.ytimg.com/vi/6NCkHTG4lHc/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "EMOM",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 4,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Curl de Bíceps Apoyado en Banco con Mancuernas",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "10",
+                        isEMOMItem: true,
+                        notes: "Ajusta la carga entre ejercicios",
+                        videoUrl: "https://youtube.com/shorts/hQ3ojFx5soY",
+                        imageUrl: "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
+                    },
+                    {
+                        name: "Face Pull con TRX",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "10",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
+                        imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
+                    }
+                ],
+                notes: "Ajusta la carga entre ejercicios",
+                videoUrl: "https://youtube.com/shorts/hQ3ojFx5soY",
+                imageUrl: "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
             }
         ]
     }
