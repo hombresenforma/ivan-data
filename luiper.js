@@ -111,17 +111,17 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "Fondos en Paralelas Lastrados",
+                name: "Fondos en Paralelas con Peso Corporal",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Fondos en Paralelas Lastrados",
+                        name: "Fondos en Paralelas con Peso Corporal",
                         subOrder: 1,
                         sets: 2,
                         reps: "10-12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/xsnhvnyl70I",
-                        imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
+                        imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
                     },
                     {
                         name: "Extensión de Codo en Polea Alta",
@@ -134,8 +134,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/xsnhvnyl70I",
-                imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
+                imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
             }
         ]
     },
@@ -164,13 +164,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Sentadilla Anterior en Máquina Jaca",
-                sets: 4,
-                reps: "6, 6, 12, 12",
+                name: "Sentadilla Trasera con Barra",
+                sets: 3,
+                reps: "6, 12, 12",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
-                imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
+                videoUrl: "https://youtu.be/FK5XU_gaxAE",
+                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -185,8 +185,8 @@ const workoutData = {
             {
                 order: 4,
                 name: "Zancada Trasera Alterna con Mancuernas/KTB",
-                sets: 3,
-                reps: "16",
+                sets: 2,
+                reps: "12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
@@ -258,7 +258,7 @@ const workoutData = {
                 order: 2,
                 name: "Dominadas Supinas",
                 sets: 4,
-                reps: "6, 6, 12, 12",
+                reps: "6, 6, 10, 10",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
@@ -395,23 +395,23 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Sentadilla Trasera con Barra Talones Elevados",
+                name: "Kettlebell - Swing con Sentadilla",
                 sets: 3,
-                reps: "6, 12, 12",
+                reps: "10-12",
                 rest: "120s",
                 notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
-                videoUrl: "https://youtube.com/shorts/FYuU4CAAT1I",
-                imageUrl: "https://i.ytimg.com/vi/FYuU4CAAT1I/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/MUJ2UiP5gjc",
+                imageUrl: "https://i.ytimg.com/vi/MUJ2UiP5gjc/mqdefault.jpg"
             },
             {
                 order: 4,
-                name: "Sentadilla Búlgara con Mancuerna o KTB",
+                name: "Sentadilla Isométrica",
                 sets: 3,
-                reps: "8",
+                reps: "35s",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/kA6bHiDdTO4",
-                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+                videoUrl: "https://youtu.be/epS5o03foYc",
+                imageUrl: "https://i.ytimg.com/vi/epS5o03foYc/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -452,7 +452,7 @@ const exerciseAlternatives = {
     "Máquina de Remo (Gironda)": [
         { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
     ],
-    "Sentadilla Anterior en Máquina Jaca": [
+    "Sentadilla Trasera con Barra": [
         { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
     ],
     "Peso Muerto Rumano con Barra": [
@@ -467,7 +467,7 @@ const exerciseAlternatives = {
     "Hip Thrust con Barra (ExPLICADO)": [
         { name: "Sentadilla Posterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/KII1KHKgr8o", imageUrl: "https://i.ytimg.com/vi/KII1KHKgr8o/mqdefault.jpg" }
     ],
-    "Sentadilla Trasera con Barra Talones Elevados": [
+    "Kettlebell - Swing con Sentadilla": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
     ]
 };
