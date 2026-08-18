@@ -6,12 +6,12 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "RotaciÃ³n Externa de Hombro Unilat con Polea",
+                name: "Rotación Externa de Hombro Unilat con Polea",
                 isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
-                        name: "RotaciÃ³n Externa de Hombro Unilat con Polea",
+                        name: "Rotación Externa de Hombro Unilat con Polea",
                         subOrder: 1,
                         sets: 2,
                         reps: "10",
@@ -20,7 +20,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg"
                     },
                     {
-                        name: "RotaciÃ³n Interna de Hombro Unilat con Polea",
+                        name: "Rotación Interna de Hombro Unilat con Polea",
                         subOrder: 2,
                         sets: 2,
                         reps: "10",
@@ -45,7 +45,7 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "MÃ¡quina de Remo (Gironda)",
+                name: "Máquina de Remo (Gironda)",
                 sets: 3,
                 reps: "8, 12, 12",
                 rest: "90s",
@@ -83,11 +83,11 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "JalÃ³n al Pecho Neutro en Polea",
+                name: "Jalón al Pecho Neutro en Polea",
                 isSuperset: true,
                 items: [
                     {
-                        name: "JalÃ³n al Pecho Neutro en Polea",
+                        name: "Jalón al Pecho Neutro en Polea",
                         subOrder: 1,
                         sets: 3,
                         reps: "8-10",
@@ -124,7 +124,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
                     },
                     {
-                        name: "ExtensiÃ³n de Codo en Polea Alta",
+                        name: "Extensión de Codo en Polea Alta",
                         subOrder: 2,
                         sets: 2,
                         reps: "12-15",
@@ -144,12 +144,12 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "RotaciÃ³n Externa de Hombro Unilat con Polea",
+                name: "Rotación Externa de Hombro Unilat con Polea",
                 isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
-                        name: "RotaciÃ³n Externa de Hombro Unilat con Polea",
+                        name: "Rotación Externa de Hombro Unilat con Polea",
                         subOrder: 1,
                         sets: 2,
                         reps: "10",
@@ -158,7 +158,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg"
                     },
                     {
-                        name: "RotaciÃ³n Interna de Hombro Unilat con Polea",
+                        name: "Rotación Interna de Hombro Unilat con Polea",
                         subOrder: 2,
                         sets: 2,
                         reps: "10",
@@ -234,7 +234,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos de TrÃ­ceps con Pies en el Suelo",
+                        name: "Fondos de Tríceps con Pies en el Suelo",
                         subOrder: 2,
                         sets: 3,
                         reps: "15",
@@ -282,12 +282,12 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "AducciÃ³n de Piernas en MÃ¡quina",
+                name: "Aducción de Piernas en Máquina",
                 isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
-                        name: "AducciÃ³n de Piernas en MÃ¡quina",
+                        name: "Aducción de Piernas en Máquina",
                         subOrder: 1,
                         sets: 2,
                         reps: "12",
@@ -322,7 +322,7 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Sentadilla BÃºlgara con Mancuerna o KTB",
+                name: "Sentadilla Búlgara con Mancuerna o KTB",
                 sets: 3,
                 reps: "8",
                 rest: "90s",
@@ -332,7 +332,7 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Curl Femoral Sentado en MÃ¡quina",
+                name: "Curl Femoral Sentado en Máquina",
                 sets: 3,
                 reps: "12",
                 rest: "60s",
@@ -347,12 +347,12 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Fondos de TrÃ­ceps con Pies Elevados",
+                name: "Fondos de Tríceps con Pies Elevados",
                 isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
-                        name: "Fondos de TrÃ­ceps con Pies Elevados",
+                        name: "Fondos de Tríceps con Pies Elevados",
                         subOrder: 1,
                         sets: 2,
                         reps: "12",
@@ -437,7 +437,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
                     },
                     {
-                        name: "ExtensiÃ³n TrÃ­ceps Trasnuca con Mancuernas/Kettlebell",
+                        name: "Extensión Tríceps Trasnuca con Mancuernas/Kettlebell",
                         subOrder: 2,
                         sets: 3,
                         reps: "10",
@@ -457,7 +457,7 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Gomas - Zancada AvanÃ§ada",
+                name: "Gomas - Zancada Avançada",
                 sets: 3,
                 reps: "10-12",
                 rest: "60s",
@@ -505,11 +505,11 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Fondos de TrÃ­ceps con Pies Elevados",
+                name: "Fondos de Tríceps con Pies Elevados",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Fondos de TrÃ­ceps con Pies Elevados",
+                        name: "Fondos de Tríceps con Pies Elevados",
                         subOrder: 1,
                         sets: 3,
                         reps: "15-20",
@@ -518,7 +518,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
                     },
                     {
-                        name: "Zancada DinÃ¡mica + Sentadilla",
+                        name: "Zancada Dinámica + Sentadilla",
                         subOrder: 2,
                         sets: 3,
                         reps: "10",
@@ -533,11 +533,11 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Worm + FlexiÃ³n",
+                name: "Worm + Flexión",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Worm + FlexiÃ³n",
+                        name: "Worm + Flexión",
                         subOrder: 1,
                         sets: 3,
                         reps: "6",
@@ -615,11 +615,11 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Gomas - Curl de BÃ­ceps en Columna",
+                name: "Gomas - Curl de Bíceps en Columna",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Gomas - Curl de BÃ­ceps en Columna",
+                        name: "Gomas - Curl de Bíceps en Columna",
                         subOrder: 1,
                         sets: 3,
                         reps: "15-20",
@@ -643,11 +643,11 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Gomas - Remo al MentÃ³n de Pie",
+                name: "Gomas - Remo al Mentón de Pie",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Gomas - Remo al MentÃ³n de Pie",
+                        name: "Gomas - Remo al Mentón de Pie",
                         subOrder: 1,
                         sets: 3,
                         reps: "6",
@@ -677,25 +677,25 @@ const exerciseAlternatives = {
     "Press Banca Inclinado en Multipower": [
         { name: "Press Banca Inclinado con Barra", videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ", imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg" }
     ],
-    "MÃ¡quina de Remo (Gironda)": [
+    "Máquina de Remo (Gironda)": [
         { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
     ],
     "Dominadas Supinas": [
-        { name: "JalÃ³n al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
+        { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
     ],
     "Press Militar en Multipower": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
     ],
     "Hip Thrust con Barra (ExPLICADO)": [
-        { name: "Sentadilla Posterior en MÃ¡quina Jaca", videoUrl: "https://youtube.com/shorts/KII1KHKgr8o", imageUrl: "https://i.ytimg.com/vi/KII1KHKgr8o/mqdefault.jpg" }
+        { name: "Sentadilla Posterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/KII1KHKgr8o", imageUrl: "https://i.ytimg.com/vi/KII1KHKgr8o/mqdefault.jpg" }
     ],
     "Press Militar Alterno con Mancuernas": [
-        { name: "Sentadilla Posterior en MÃ¡quina Jaca", videoUrl: "https://youtube.com/shorts/KII1KHKgr8o", imageUrl: "https://i.ytimg.com/vi/KII1KHKgr8o/mqdefault.jpg" }
+        { name: "Sentadilla Posterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/KII1KHKgr8o", imageUrl: "https://i.ytimg.com/vi/KII1KHKgr8o/mqdefault.jpg" }
     ],
-    "Gomas - Zancada AvanÃ§ada": [
-        { name: "Gomas - Zancada BÃ¡sica", videoUrl: "https://youtu.be/-NtzcHwp6fo", imageUrl: "https://i.ytimg.com/vi/-NtzcHwp6fo/mqdefault.jpg" }
+    "Gomas - Zancada Avançada": [
+        { name: "Gomas - Zancada Básica", videoUrl: "https://youtu.be/-NtzcHwp6fo", imageUrl: "https://i.ytimg.com/vi/-NtzcHwp6fo/mqdefault.jpg" }
     ],
     "Gomas - Peso Muerto": [
-        { name: "Gomas - Zancada BÃ¡sica", videoUrl: "https://youtu.be/-NtzcHwp6fo", imageUrl: "https://i.ytimg.com/vi/-NtzcHwp6fo/mqdefault.jpg" }
+        { name: "Gomas - Zancada Básica", videoUrl: "https://youtu.be/-NtzcHwp6fo", imageUrl: "https://i.ytimg.com/vi/-NtzcHwp6fo/mqdefault.jpg" }
     ]
 };
