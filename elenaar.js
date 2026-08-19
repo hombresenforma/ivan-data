@@ -1,4 +1,4 @@
-// Titulo: P23_4D_PostAntTorPier_VOLUMEN_1
+// Titulo: P23_4D_PostAntTorPier_VOLUMEN_1_FEM
 
 const workoutData = {
     "dia1": {
@@ -6,51 +6,51 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Banca Inclinado en Multipower",
+                name: "Press Militar en Máquina",
                 sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
-                videoUrl: "https://youtu.be/3GS7EjN7KSk",
-                imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/48CmkF61E7M",
+                imageUrl: "https://i.ytimg.com/vi/48CmkF61E7M/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Sentadilla Búlgara con Mancuerna o KTB",
+                name: "Sentadilla Anterior en Máquina Jaca",
                 sets: 3,
                 reps: "10",
                 rest: "90s",
                 notes: "Puedes hacerla cogido con una mano a alguna máquina.",
-                videoUrl: "https://youtu.be/kA6bHiDdTO4",
-                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
+                imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Press Banca con Mancuernas",
+                name: "Flexiones Tempo 1:1",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Banca con Mancuernas",
+                        name: "Flexiones Tempo 1:1",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/hXCJC2Apcdg",
-                        imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/-9Md7Htla-o",
+                        imageUrl: "https://i.ytimg.com/vi/-9Md7Htla-o/mqdefault.jpg"
                     },
                     {
-                        name: "Aperturas en Banco Inclinado con Mancuernas",
+                        name: "Curl + Press con Mancuernas",
                         subOrder: 2,
                         sets: 3,
                         reps: "15",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/Lx8d28YlcbQ",
-                        imageUrl: "https://i.ytimg.com/vi/Lx8d28YlcbQ/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/siOTRSu2ORY",
+                        imageUrl: "https://i.ytimg.com/vi/siOTRSu2ORY/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/hXCJC2Apcdg",
-                imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/-9Md7Htla-o",
+                imageUrl: "https://i.ytimg.com/vi/-9Md7Htla-o/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -82,13 +82,13 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Extensión de Tríceps Trasnuca en Polea Alta",
+                name: "Extensión de Tríceps en Polea con Cuerda",
                 sets: 3,
                 reps: "10",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://youtu.be/HSPEHrwmOv8",
-                imageUrl: "https://i.ytimg.com/vi/HSPEHrwmOv8/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
+                imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
             }
         ]
     },
@@ -97,13 +97,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Dominadas con Peso Corporal",
+                name: "Dominadas / Pull Ups asistidas con Goma",
                 sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
-                videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
-                imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=pll4AdUg17g",
+                imageUrl: "https://i.ytimg.com/vi/pll4AdUg17g/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -117,32 +117,32 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Remo Seal con Mancuernas",
+                name: "Remo Abierto en Máquina",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo Seal con Mancuernas",
+                        name: "Remo Abierto en Máquina",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
                         notes: "Trata de despegar el pecho al final del movimiento",
-                        videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
-                        imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/h_meCpwdm-8?feature=share",
+                        imageUrl: "https://i.ytimg.com/vi/h_meCpwdm-8/mqdefault.jpg"
                     },
                     {
-                        name: "Remo Unilat con Mancuerna/KTB (Explicado)",
+                        name: "Face Pull al Cuello en Polea Alta",
                         subOrder: 2,
                         sets: 3,
                         reps: "15",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/uH9Hg4nWOG8",
-                        imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/TaTjLum-_qI",
+                        imageUrl: "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg"
                     }
                 ],
                 notes: "Trata de despegar el pecho al final del movimiento",
-                videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
-                imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/h_meCpwdm-8?feature=share",
+                imageUrl: "https://i.ytimg.com/vi/h_meCpwdm-8/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -185,71 +185,6 @@ const workoutData = {
         ]
     },
     "dia3": {
-        name: "Torso Volumen",
-        exercises: [
-            {
-                order: 1,
-                name: "Press Banca con Barra",
-                sets: 4,
-                reps: "8",
-                rest: "120s",
-                notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
-                videoUrl: "https://youtu.be/PKpsrFS2uac",
-                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Remo en Máquina T Agarre Estrecho",
-                sets: 4,
-                reps: "8",
-                rest: "120s",
-                notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
-                videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
-                imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
-                sets: 4,
-                reps: "10",
-                rest: "90s",
-                notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
-                videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Jalón al Pecho Supino en Polea",
-                sets: 4,
-                reps: "10",
-                rest: "90s",
-                notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
-                videoUrl: "https://youtu.be/rimdRzyIJkA",
-                imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Press Cerrado con Barra",
-                sets: 3,
-                reps: "10",
-                rest: "90s",
-                notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
-                videoUrl: "https://youtu.be/_062fQmtry8",
-                imageUrl: "https://i.ytimg.com/vi/_062fQmtry8/mqdefault.jpg"
-            },
-            {
-                order: 6,
-                name: "Curl con Barra Recta",
-                sets: 3,
-                reps: "10",
-                rest: "90s",
-                notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
-                videoUrl: "https://youtu.be/0TjnWWqQfUw",
-                imageUrl: "https://i.ytimg.com/vi/0TjnWWqQfUw/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia4": {
         name: "Pierna Volumen ",
         exercises: [
             {
