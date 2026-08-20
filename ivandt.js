@@ -6,6 +6,25 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
+                name: "Jalón al Pecho Supino en Polea",
+                sets: 3,
+                reps: "12, 10, 8",
+                notes: "Stretch: pullover cable (60s)",
+                videoUrl: "https://youtu.be/rimdRzyIJkA",
+                imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Extensión de Tríceps en Polea con Cuerda",
+                sets: 1,
+                reps: "12, 10, 8",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
+                imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
+            },
+            {
+                order: 3,
                 name: "Press Banca con Barra",
                 sets: 3,
                 reps: "6, 6, 10",
@@ -15,29 +34,61 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
             },
             {
-                order: 2,
+                order: 4,
                 name: "Press MIlitar en Multipower - Rodillas",
-                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "10",
                 rest: "120s",
                 notes: "",
+                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 videoUrl: "https://youtube.com/shorts/ZtBQT2bnKEw?feature=share",
                 imageUrl: "https://i.ytimg.com/vi/ZtBQT2bnKEw/mqdefault.jpg"
             },
             {
-                order: 3,
+                order: 5,
                 name: "Extensión de Tríceps Unilat Trasnuca en Polea Alta",
-                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "15",
                 rest: "120s",
                 notes: "Stretch: elevación lateral cable (45s)",
+                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 videoUrl: "https://youtu.be/_2VPSbsjMQE",
                 imageUrl: "https://i.ytimg.com/vi/_2VPSbsjMQE/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 7,
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 15,
+                    restBetweenRoundsSeconds: 90
+                },
+                items: [
+                    {
+                        name: "Cardio - Press Dinámico Unilat con Landmine",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "10",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/9_faYEjxCTU",
+                        imageUrl: "https://i.ytimg.com/vi/9_faYEjxCTU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch - 90º",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "10",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/d_Abdeaygas",
+                        imageUrl: "https://i.ytimg.com/vi/d_Abdeaygas/mqdefault.jpg"
+                    }
+                ],
+                videoUrl: "https://youtu.be/9_faYEjxCTU",
+                imageUrl: "https://i.ytimg.com/vi/9_faYEjxCTU/mqdefault.jpg"
+            },
+            {
+                order: 6,
                 name: "Press Inclinado con Mancuernas",
                 sets: 3,
                 reps: "12",
@@ -45,40 +96,6 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/ZE4M73kXB5A",
                 imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "EMOM",
-                isSuperset: true,
-                isEMOM: true,
-                emomDetails: {
-                    totalIntervals: 5,
-                    workIntervalSeconds: 60
-                },
-                items: [
-                    {
-                        name: "Jalón al Pecho Supino en Polea",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "12, 10, 8",
-                        isEMOMItem: true,
-                        notes: "Stretch: pullover cable (60s)",
-                        videoUrl: "https://youtu.be/rimdRzyIJkA",
-                        imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
-                    },
-                    {
-                        name: "Extensión de Tríceps en Polea con Cuerda",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "12, 10, 8",
-                        isEMOMItem: true,
-                        videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
-                        imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
-                    }
-                ],
-                notes: "Stretch: pullover cable (60s)",
-                videoUrl: "https://youtu.be/rimdRzyIJkA",
-                imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
             }
         ]
     },
@@ -98,33 +115,33 @@ const workoutData = {
             {
                 order: 2,
                 name: "Dominadas Supinas Asistidas en Máquina",
-                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "10",
                 rest: "120s",
                 notes: "Puedes asistirte con banda elástica",
+                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 videoUrl: "https://www.youtube.com/shorts/E9DT2pv7Rp0",
                 imageUrl: "https://i.ytimg.com/vi/E9DT2pv7Rp0/mqdefault.jpg"
             },
             {
                 order: 3,
                 name: "Sentadilla Anterior en Máquina Jaca",
-                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "10",
                 rest: "120",
                 notes: "",
+                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
                 imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
             },
             {
                 order: 5,
                 name: "Curl Femoral Tumbado en Máquina",
-                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "15",
                 rest: "90s",
                 notes: "Stretch: estiramiento con peso (30s)",
+                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM",
                 imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
             },
@@ -152,7 +169,6 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/MtLsD20-EdE/mqdefault.jpg"
                     }
                 ],
-                notes: "",
                 videoUrl: "https://www.youtube.com/shorts/Z3DdhEK_0rw",
                 imageUrl: "https://i.ytimg.com/vi/Z3DdhEK_0rw/mqdefault.jpg"
             }
@@ -174,22 +190,22 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
-                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "10",
                 rest: "120s",
                 notes: "",
+                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
                 imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
             },
             {
                 order: 3,
                 name: "Press Francés con Barra Z en Banco Inclinado",
-                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "15",
                 rest: "120",
                 notes: "",
+                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 videoUrl: "https://youtu.be/hFk6xzt1DWM",
                 imageUrl: "https://i.ytimg.com/vi/hFk6xzt1DWM/mqdefault.jpg"
             },
@@ -227,7 +243,6 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
                     }
                 ],
-                notes: "",
                 videoUrl: "https://www.youtube.com/shorts/zWGbrVxoUpk",
                 imageUrl: "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg"
             }
@@ -249,22 +264,22 @@ const workoutData = {
             {
                 order: 2,
                 name: "Curl Scott con Barra Z",
-                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "15",
                 rest: "120",
                 notes: "",
+                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
                 imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
             },
             {
                 order: 3,
                 name: "Prensa Inclinada en Máquina de Discos",
-                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "10",
                 rest: "120s",
                 notes: "",
+                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
                 imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
             },
@@ -311,5 +326,4 @@ const workoutData = {
     }
 };
 
-const exerciseAlternatives = {
-};
+const exerciseAlternatives = {};
