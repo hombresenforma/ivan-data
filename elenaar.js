@@ -42,7 +42,7 @@ const workoutData = {
                         name: "Curl + Press con Mancuernas",
                         subOrder: 2,
                         sets: 3,
-                        reps: "15",
+                        reps: "12",
                         rest: "90s",
                         videoUrl: "https://youtu.be/siOTRSu2ORY",
                         imageUrl: "https://i.ytimg.com/vi/siOTRSu2ORY/mqdefault.jpg"
@@ -67,28 +67,18 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
                     },
                     {
-                        name: "Sentadilla Goblet con Mancuerna/KTB y Pies Elevados",
+                        name: "Extensión de Tríceps en Polea con Cuerda",
                         subOrder: 2,
                         sets: 3,
-                        reps: "20",
+                        reps: "12",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/E2n7V0o8B5A",
-                        imageUrl: "https://i.ytimg.com/vi/E2n7V0o8B5A/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
+                        imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
                     }
                 ],
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
                 imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Extensión de Tríceps en Polea con Cuerda",
-                sets: 3,
-                reps: "10",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
-                imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
             }
         ]
     },
@@ -159,28 +149,18 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg"
                     },
                     {
-                        name: "Kettlebell - Swing Ruso",
+                        name: "Curl de Bíceps Apoyado en Banco con Mancuernas",
                         subOrder: 2,
                         sets: 3,
-                        reps: "20",
+                        reps: "10",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/eKN0tj8q6Qc",
-                        imageUrl: "https://i.ytimg.com/vi/eKN0tj8q6Qc/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/hQ3ojFx5soY",
+                        imageUrl: "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
                     }
                 ],
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4",
                 imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Curl de Bíceps Apoyado en Banco con Mancuernas",
-                sets: 3,
-                reps: "10",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/hQ3ojFx5soY",
-                imageUrl: "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
             }
         ]
     },
@@ -210,9 +190,28 @@ const workoutData = {
             {
                 order: 3,
                 name: "Aducción de Piernas en Máquina",
-                sets: 4,
-                reps: "10",
-                rest: "90s",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Aducción de Piernas en Máquina",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "15",
+                        isSupersetStart: true,
+                        notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
+                        videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
+                        imageUrl: "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
+                    },
+                    {
+                        name: "Abducción de Glúteo Unilat en el Suelo",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "15",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+                        imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
+                    }
+                ],
                 notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
                 videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
                 imageUrl: "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
@@ -220,7 +219,7 @@ const workoutData = {
             {
                 order: 4,
                 name: "Zancada Unilat con Mancuerna/Kettlebell",
-                sets: 4,
+                sets: 3,
                 reps: "10",
                 rest: "90s",
                 notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
