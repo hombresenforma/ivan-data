@@ -1,4 +1,4 @@
-// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_1
+// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_2
 
 const workoutData = {
     "dia1": {
@@ -7,8 +7,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Prensa Inclinada en Máquina de Discos",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -18,8 +18,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Máquina de Remo (Gironda)",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -100,7 +100,6 @@ const workoutData = {
             {
                 order: 1,
                 name: "Aducción de Piernas en Máquina",
-                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
@@ -119,14 +118,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Box Step Up Unilat con Mancuerna/KTB",
-                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET","4":"DROPSET"},
-                sets: 3,
-                reps: "8",
+                name: "Devil Press + Thruster con Mancuernas",
+                sets: 4,
+                reps: "10-12",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/8gFbFqy2Y7s",
-                imageUrl: "https://i.ytimg.com/vi/8gFbFqy2Y7s/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
+                imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -149,22 +147,22 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/FYuU4CAAT1I/mqdefault.jpg"
                     },
                     {
-                        name: "Press Militar Unilat de Pie con Mancuerna/KTB",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "16",
-                        isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
-                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
-                    },
-                    {
                         name: "Gorilla Row con Kettlebells/Mancuernas",
-                        subOrder: 3,
+                        subOrder: 2,
                         sets: 1,
                         reps: "16",
                         isEMOMItem: true,
                         videoUrl: "https://youtu.be/4hKPsdWsXl8",
                         imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch - V",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "15",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/_SCqc7BCW9A",
+                        imageUrl: "https://i.ytimg.com/vi/_SCqc7BCW9A/mqdefault.jpg"
                     }
                 ],
                 notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
@@ -189,8 +187,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Banca en Multipower",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -200,8 +198,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET","4":"DROPSET"},
+                sets: 4,
                 reps: "8",
                 rest: "90s",
                 notes: "",
@@ -274,7 +272,6 @@ const workoutData = {
             {
                 order: 1,
                 name: "Abducción de Glúteo Unilat en el Suelo",
-                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
@@ -293,14 +290,14 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Worm + Burpee",
-                setTechniques: {"4":"DROPSET"},
-                sets: 3,
-                reps: "15",
+                name: "Curl + Press con Mancuernas",
+                setTechniques: {},
+                sets: 4,
+                reps: "12",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=qTLp4wcAAtQ",
-                imageUrl: "https://i.ytimg.com/vi/qTLp4wcAAtQ/mqdefault.jpg"
+                videoUrl: "https://youtu.be/siOTRSu2ORY",
+                imageUrl: "https://i.ytimg.com/vi/siOTRSu2ORY/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -322,22 +319,22 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
                     },
                     {
-                        name: "Thruster con Mancuernas",
+                        name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
                         subOrder: 2,
                         sets: 1,
                         reps: "20",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
-                        imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
+                        imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
                     },
                     {
-                        name: "Sentadilla con Salto",
+                        name: "Hollow Abdominal Encogido",
                         subOrder: 3,
                         sets: 1,
-                        reps: "20",
+                        reps: "45s",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
-                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/DUYZEFKjYxs",
+                        imageUrl: "https://i.ytimg.com/vi/DUYZEFKjYxs/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -365,8 +362,8 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
-                    workIntervalSeconds: 120
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
                 },
                 items: [
                     {
@@ -398,8 +395,8 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
-                    workIntervalSeconds: 120
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
                 },
                 items: [
                     {
