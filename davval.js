@@ -316,18 +316,185 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "FULLBODY Hyrox 1",
+        exercises: [
+            {
+                order: 1,
+                name: "Aducción de Piernas en Máquina",
+                isWarmup: true,
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Aducción de Piernas en Máquina",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "12",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
+                        imageUrl: "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
+                imageUrl: "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Box Step Up Unilat con Mancuerna/KTB",
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET","4":"DROPSET"},
+                sets: 3,
+                reps: "8",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/8gFbFqy2Y7s",
+                imageUrl: "https://i.ytimg.com/vi/8gFbFqy2Y7s/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "EMOM",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
+                },
+                items: [
+                    {
+                        name: "Sentadilla Trasera con Barra Talones Elevados",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "8",
+                        isEMOMItem: true,
+                        notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                        videoUrl: "https://youtube.com/shorts/FYuU4CAAT1I",
+                        imageUrl: "https://i.ytimg.com/vi/FYuU4CAAT1I/mqdefault.jpg"
+                    },
+                    {
+                        name: "Press Militar Unilat de Pie con Mancuerna/KTB",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "16",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Gorilla Row con Kettlebells/Mancuernas",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "16",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/4hKPsdWsXl8",
+                        imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
+                    }
+                ],
+                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                videoUrl: "https://youtube.com/shorts/FYuU4CAAT1I",
+                imageUrl: "https://i.ytimg.com/vi/FYuU4CAAT1I/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "CARDIO - Correr (Suave)",
+                sets: 3,
+                reps: "1",
+                rest: "120s",
+                notes: "400m RUN (ritmo moderado-alto)\n- 15 wall balls\n- 10 burpee broad jumps\n- 50m farmer carry (pesado)",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia5": {
+        name: "FULLBODY Hyrox 2",
+        exercises: [
+            {
+                order: 1,
+                name: "Abducción de Glúteo Unilat en el Suelo",
+                isWarmup: true,
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Abducción de Glúteo Unilat en el Suelo",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "12",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+                        imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+                imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Worm + Burpee",
+                setTechniques: {"4":"DROPSET"},
+                sets: 3,
+                reps: "15",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=qTLp4wcAAtQ",
+                imageUrl: "https://i.ytimg.com/vi/qTLp4wcAAtQ/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "EMOM",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
+                },
+                items: [
+                    {
+                        name: "Zancadas Caminando con Mancuernas/KTB",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "20",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/7tRy9X0ibnk",
+                        imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                    },
+                    {
+                        name: "Thruster con Mancuernas",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "20",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                        imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla con Salto",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "20",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/7tRy9X0ibnk",
+                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "CARDIO - Correr (Suave)",
+                sets: 3,
+                reps: "1",
+                rest: "150s",
+                notes: "400m RUN (ritmo moderado-alto)\n- 50m sled push \n- 50m sled pull\n- 500m skierg",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+            }
+        ]
     }
 };
 
 const exerciseAlternatives = {
-    "Prensa Inclinada en Máquina de Discos": [
-        { name: "Sentadilla Anterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/saLWdiUe5eE", imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg" }
-    ],
-    "Máquina de Remo (Gironda)": [
-        { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
-    ],
-    "Press Banca en Multipower": [
-        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
-    ]
 };
-
