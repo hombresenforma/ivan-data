@@ -1,10 +1,4 @@
 // Titulo: P5_3D_TPFB_2
-// Notas: Primer ejercicio subimos reps y 1 ronda. 
-// circuito final subimos 4 rondas
-// 
-// Ultimo día primer ejercicio subimos reps.
-// Superserie 3 plancha subimos 10 seg extra
-// Superserie 4 subimos ronda 4
 
 const workoutData = {
     "dia1": {
@@ -13,7 +7,6 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas Australianas en TRX",
-                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
@@ -26,13 +19,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
                     },
                     {
-                        name: "Flexiones con Peso Corporal",
+                        name: "Fondos de Tríceps con Pies en el Suelo",
                         subOrder: 2,
                         sets: 1,
                         reps: "15",
                         rest: "30s",
-                        videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
-                        imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/7mpEJQC_gRk",
+                        imageUrl: "https://i.ytimg.com/vi/7mpEJQC_gRk/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -84,24 +77,24 @@ const workoutData = {
                 name: "Ejercicio por tiempo",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 3,
+                    totalRounds: 4,
                     restBetweenExercisesSeconds: 0,
                     restBetweenRoundsSeconds: 60
                 },
                 items: [
                     {
-                        name: "Flexiones + Mountain Climbers",
+                        name: "Snatch + Thruster Unilat Alterno con Mancuerna",
                         subOrder: 1,
                         sets: 1,
                         reps: "45s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
-                        imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                        imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
-                imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
             },
             {
                 order: 7,
@@ -114,27 +107,27 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Curl en Polea Baja con Barra Recta",
+                        name: "Curl Martillo con Cuerda en Polea Baja",
                         subOrder: 1,
                         sets: 1,
                         reps: "15",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=obFKEQEAink",
-                        imageUrl: "https://i.ytimg.com/vi/obFKEQEAink/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/fSTgTQr1WCk",
+                        imageUrl: "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
                     },
                     {
-                        name: "Crunch - Normal",
+                        name: "Crunch - V Agrupado",
                         subOrder: 2,
                         sets: 1,
                         reps: "15",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/wNqGgCjBVaE",
-                        imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/bS10OysdlLg",
+                        imageUrl: "https://i.ytimg.com/vi/bS10OysdlLg/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=obFKEQEAink",
-                imageUrl: "https://i.ytimg.com/vi/obFKEQEAink/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/fSTgTQr1WCk",
+                imageUrl: "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
             }
         ]
     },
@@ -144,7 +137,6 @@ const workoutData = {
             {
                 order: 1,
                 name: "Jumping Jack",
-                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
@@ -192,13 +184,27 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Zancadas Caminando con Mancuernas/KTB",
-                sets: 3,
-                reps: "20",
-                rest: "60s",
-                notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
-                videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 15,
+                    restBetweenRoundsSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Step Up Alterno en Step",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/IwixiNKjpCA",
+                        imageUrl: "https://i.ytimg.com/vi/IwixiNKjpCA/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/IwixiNKjpCA",
+                imageUrl: "https://i.ytimg.com/vi/IwixiNKjpCA/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -221,13 +227,13 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Hip Thrust con Banda Elástica",
+                        name: "Aducción de Piernas en Máquina",
                         subOrder: 1,
                         sets: 1,
-                        reps: "15",
+                        reps: "20",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/ewSrH2uFits",
-                        imageUrl: "https://i.ytimg.com/vi/ewSrH2uFits/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
+                        imageUrl: "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
                     },
                     {
                         name: "Crunch Bicicleta Alterno",
@@ -240,8 +246,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/ewSrH2uFits",
-                imageUrl: "https://i.ytimg.com/vi/ewSrH2uFits/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
+                imageUrl: "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
             }
         ]
     },
@@ -250,18 +256,18 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Worm",
-                isWarmup: true,
+                name: "Activación - Deep Squat + Rotación",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Worm",
+                        name: "Activación - Deep Squat + Rotación",
                         subOrder: 1,
                         sets: 2,
-                        reps: "5",
+                        reps: "6",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
-                        imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
+                        notes: "Activación.",
+                        videoUrl: "https://youtu.be/sFbhjaZfdd8",
+                        imageUrl: "https://i.ytimg.com/vi/sFbhjaZfdd8/mqdefault.jpg"
                     },
                     {
                         name: "Face Pull con KTB",
@@ -273,9 +279,9 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
-                imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
+                notes: "Activación.",
+                videoUrl: "https://youtu.be/sFbhjaZfdd8",
+                imageUrl: "https://i.ytimg.com/vi/sFbhjaZfdd8/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -292,14 +298,14 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
                     },
                     {
-                        name: "Flexiones con Peso Corporal",
+                        name: "Sentadilla Goblet + Sentadilla Sumo con KTB",
                         subOrder: 2,
                         sets: 3,
-                        reps: "15",
+                        reps: "12",
                         notes: "En caso de no llegar a las repeticiones pautadas, se pueden hacer con rodilla",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
-                        imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/oz1SagvDVe8",
+                        imageUrl: "https://i.ytimg.com/vi/oz1SagvDVe8/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -386,13 +392,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
                     },
                     {
-                        name: "Plancha - Cambios de apoyo",
+                        name: "Hollow Abdominal Encogido",
                         subOrder: 2,
                         sets: 4,
-                        reps: "10",
+                        reps: "45s",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/Yg74EfwLBQY",
-                        imageUrl: "https://i.ytimg.com/vi/Yg74EfwLBQY/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/DUYZEFKjYxs",
+                        imageUrl: "https://i.ytimg.com/vi/DUYZEFKjYxs/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -404,9 +410,4 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Dominadas Supinas Asistidas en Máquina": [
-        { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
-    ]
 };
-
-
