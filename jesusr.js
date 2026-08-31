@@ -1,4 +1,6 @@
-// Titulo: P23_4D_PostAntTorPier_VOLUMEN_1
+// Titulo: P23_4D_PostAntTorPier_VOLUMEN_2
+// Notas: - Añadimos 1 serie a los básicos (máximo 5)
+// - Añadimos tercer ejercicio a las series de Pecho y Espalda
 
 const workoutData = {
     "dia1": {
@@ -7,7 +9,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Banca Inclinado en Multipower",
-                sets: 4,
+                sets: 5,
                 reps: "8",
                 rest: "120s",
                 notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
@@ -33,7 +35,7 @@ const workoutData = {
                         name: "Press Banca con Mancuernas",
                         subOrder: 1,
                         sets: 3,
-                        reps: "10",
+                        reps: "8",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/hXCJC2Apcdg",
                         imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
@@ -42,10 +44,18 @@ const workoutData = {
                         name: "Aperturas en Banco Inclinado con Mancuernas",
                         subOrder: 2,
                         sets: 3,
-                        reps: "15",
-                        rest: "90s",
+                        reps: "12",
                         videoUrl: "https://youtu.be/Lx8d28YlcbQ",
                         imageUrl: "https://i.ytimg.com/vi/Lx8d28YlcbQ/mqdefault.jpg"
+                    },
+                    {
+                        name: "Flexiones con Peso Corporal",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "20",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
+                        imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -98,7 +108,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas con Peso Corporal",
-                sets: 4,
+                sets: 5,
                 reps: "8",
                 rest: "120s",
                 notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
@@ -124,7 +134,7 @@ const workoutData = {
                         name: "Remo Seal con Mancuernas",
                         subOrder: 1,
                         sets: 3,
-                        reps: "10",
+                        reps: "8",
                         isSupersetStart: true,
                         notes: "Trata de despegar el pecho al final del movimiento",
                         videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
@@ -134,10 +144,18 @@ const workoutData = {
                         name: "Remo Unilat con Mancuerna/KTB (Explicado)",
                         subOrder: 2,
                         sets: 3,
-                        reps: "15",
-                        rest: "90s",
+                        reps: "12",
                         videoUrl: "https://youtu.be/uH9Hg4nWOG8",
                         imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+                    },
+                    {
+                        name: "Face Pull al Cuello en Polea Alta",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "20",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/TaTjLum-_qI",
+                        imageUrl: "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg"
                     }
                 ],
                 notes: "Trata de despegar el pecho al final del movimiento",
@@ -185,12 +203,12 @@ const workoutData = {
         ]
     },
     "dia3": {
-        name: "Torso Volumen",
+        name: "Toro Volumen",
         exercises: [
             {
                 order: 1,
                 name: "Press Banca con Barra",
-                sets: 4,
+                sets: 5,
                 reps: "8",
                 rest: "120s",
                 notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
@@ -200,7 +218,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Remo en Máquina T Agarre Estrecho",
-                sets: 4,
+                sets: 5,
                 reps: "8",
                 rest: "120s",
                 notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
@@ -255,7 +273,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Hip Thrust con Barra (ExPLICADO)",
-                sets: 4,
+                sets: 5,
                 reps: "8",
                 rest: "120s",
                 notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
@@ -265,7 +283,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Prensa Inclinada en Máquina de Discos",
-                sets: 4,
+                sets: 5,
                 reps: "8",
                 rest: "120s",
                 notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
