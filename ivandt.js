@@ -137,41 +137,41 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Fondos en Paralelas Lastrados",
+                name: "Curl con Barra Z",
                 sets: 2,
                 reps: "8, 12",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/xsnhvnyl70I",
-                imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
+                videoUrl: "https://youtu.be/4gYLTjNaTmw",
+                imageUrl: "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
             },
             {
                 order: 6,
-                name: "Extensión de Cuádriceps en Máquina",
+                name: "Elevaciones Laterales con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Extensión de Cuádriceps en Máquina",
+                        name: "Elevaciones Laterales con Mancuernas",
                         subOrder: 1,
                         sets: 2,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                        imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/rhmW_fhB4cs",
+                        imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
                     },
                     {
-                        name: "Extensión de Tríceps Unilat en Polea Alta",
+                        name: "Curl Martillo con Cuerda en Polea Baja",
                         subOrder: 2,
                         sets: 2,
                         reps: "10",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/oWLmfjBi6lM",
-                        imageUrl: "https://i.ytimg.com/vi/oWLmfjBi6lM/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/fSTgTQr1WCk",
+                        imageUrl: "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+                videoUrl: "https://youtu.be/rhmW_fhB4cs",
+                imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
             }
         ]
     },
