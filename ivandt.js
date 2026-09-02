@@ -18,7 +18,6 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Trasera con Barra",
-                setTechniques: {},
                 sets: 3,
                 reps: "8",
                 rest: "120s",
@@ -28,19 +27,17 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Press Banca Inclinado en Multipower",
-                setTechniques: {},
+                name: "Press Banca Inclinado con Barra",
                 sets: 3,
                 reps: "8, 8, 12",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/3GS7EjN7KSk",
-                imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ",
+                imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg"
             },
             {
                 order: 4,
                 name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
-                setTechniques: {},
                 sets: 2,
                 reps: "8, 12",
                 rest: "90s",
@@ -82,7 +79,6 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/oWLmfjBi6lM/mqdefault.jpg"
                     }
                 ],
-                notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
                 imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
             }
@@ -105,7 +101,6 @@ const workoutData = {
             {
                 order: 2,
                 name: "Remo en Máquina T Agarre Estrecho",
-                setTechniques: {},
                 sets: 3,
                 reps: "8",
                 rest: "120s",
@@ -116,7 +111,6 @@ const workoutData = {
             {
                 order: 3,
                 name: "Dominadas Supinas",
-                setTechniques: {},
                 sets: 3,
                 reps: "8, 8, 12",
                 rest: "120s",
@@ -127,7 +121,6 @@ const workoutData = {
             {
                 order: 4,
                 name: "Curl Femoral Sentado en Máquina",
-                setTechniques: {},
                 sets: 2,
                 reps: "8, 12",
                 rest: "90s",
@@ -169,7 +162,6 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
                     }
                 ],
-                notes: "",
                 videoUrl: "https://youtu.be/rhmW_fhB4cs",
                 imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
             }
@@ -192,7 +184,6 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Banca con Barra",
-                setTechniques: {},
                 sets: 3,
                 reps: "8",
                 rest: "120s",
@@ -203,7 +194,6 @@ const workoutData = {
             {
                 order: 3,
                 name: "Prensa Inclinada en Máquina de Discos",
-                setTechniques: {},
                 sets: 3,
                 reps: "8, 8, 12",
                 rest: "120s",
@@ -214,7 +204,6 @@ const workoutData = {
             {
                 order: 4,
                 name: "Press Inclinado con Mancuernas",
-                setTechniques: {},
                 sets: 2,
                 reps: "8, 12",
                 rest: "90s",
@@ -256,7 +245,6 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/O5wMBydqDHY/mqdefault.jpg"
                     }
                 ],
-                notes: "",
                 videoUrl: "https://youtu.be/Ht9awbF2fBA",
                 imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
             }
@@ -264,5 +252,4 @@ const workoutData = {
     }
 };
 
-const exerciseAlternatives = {
-};
+const exerciseAlternatives = {};
