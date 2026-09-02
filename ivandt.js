@@ -27,13 +27,13 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Press Banca Inclinado con Barra",
+                name: "Press Banca Inclinado en Multipower",
                 sets: 3,
                 reps: "8, 8, 12",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ",
-                imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg"
+                videoUrl: "https://youtu.be/3GS7EjN7KSk",
+                imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -236,13 +236,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
                     },
                     {
-                        name: "Extensión Tríceps Trasnuca con Barra Z",
+                        name: "Extensión de Codo Trasnuca con Cuerda en Polea Baja",
                         subOrder: 2,
                         sets: 2,
                         reps: "10",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/O5wMBydqDHY",
-                        imageUrl: "https://i.ytimg.com/vi/O5wMBydqDHY/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=iSC42Fn4VT0",
+                        imageUrl: "https://i.ytimg.com/vi/iSC42Fn4VT0/mqdefault.jpg"
                     }
                 ],
                 videoUrl: "https://youtu.be/Ht9awbF2fBA",
