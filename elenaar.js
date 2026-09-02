@@ -16,13 +16,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Sentadilla Anterior en Máquina Jaca",
+                name: "Sentadilla Trasera en Multipower",
                 sets: 3,
                 reps: "10",
                 rest: "90s",
-                notes: "Puedes hacerla cogido con una mano a alguna máquina.",
-                videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
-                imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
+                notes: "Utiliza la máquina jaca inclinada de tu gimnasio.",
+                videoUrl: "https://youtu.be/la-dqygoIuk",
+                imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -48,7 +48,6 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/siOTRSu2ORY/mqdefault.jpg"
                     }
                 ],
-                notes: "",
                 videoUrl: "https://www.youtube.com/shorts/-9Md7Htla-o",
                 imageUrl: "https://i.ytimg.com/vi/-9Md7Htla-o/mqdefault.jpg"
             },
@@ -76,7 +75,6 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
                     }
                 ],
-                notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
                 imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
             }
@@ -158,7 +156,6 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
                     }
                 ],
-                notes: "",
                 videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4",
                 imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg"
             }
@@ -240,5 +237,4 @@ const workoutData = {
     }
 };
 
-const exerciseAlternatives = {
-};
+const exerciseAlternatives = {};
