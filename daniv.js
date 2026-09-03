@@ -50,6 +50,17 @@ const workoutData = {
             },
             {
                 order: 5,
+                name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
+                setTechniques: {},
+                sets: 3,
+                reps: "10",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
+                imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
+            },
+            {
+                order: 6,
                 name: "Fondos en Paralelas Lastrados",
                 sets: 2,
                 reps: "8, 12",
@@ -59,7 +70,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
             },
             {
-                order: 6,
+                order: 7,
                 name: "Extensión de Cuádriceps en Máquina",
                 isSuperset: true,
                 items: [
@@ -137,6 +148,17 @@ const workoutData = {
             },
             {
                 order: 5,
+                name: "Remo Abierto en Máquina",
+                setTechniques: {},
+                sets: 3,
+                reps: "10",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/h_meCpwdm-8?feature=share",
+                imageUrl: "https://i.ytimg.com/vi/h_meCpwdm-8/mqdefault.jpg"
+            },
+            {
+                order: 6,
                 name: "Curl con Barra Z",
                 sets: 2,
                 reps: "8, 12",
@@ -146,7 +168,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
             },
             {
-                order: 6,
+                order: 7,
                 name: "Elevaciones Laterales con Mancuernas",
                 isSuperset: true,
                 items: [
@@ -224,6 +246,17 @@ const workoutData = {
             },
             {
                 order: 5,
+                name: "Aperturas Sentado en Polea",
+                setTechniques: {},
+                sets: 3,
+                reps: "10",
+                rest: "90s",
+                notes: "MUY inclinado (60º)",
+                videoUrl: "https://youtu.be/IaODfSloHRo",
+                imageUrl: "https://i.ytimg.com/vi/IaODfSloHRo/mqdefault.jpg"
+            },
+            {
+                order: 6,
                 name: "Zancadas Caminando con Mancuernas/KTB",
                 sets: 2,
                 reps: "16, 20",
@@ -233,7 +266,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
             },
             {
-                order: 6,
+                order: 7,
                 name: "Cruces en Polea Alta",
                 isSuperset: true,
                 items: [
@@ -311,6 +344,17 @@ const workoutData = {
             },
             {
                 order: 5,
+                name: "Remo Diagonal Unilat en Polea Alta",
+                setTechniques: {},
+                sets: 3,
+                reps: "10",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/ikKQhcynKmg",
+                imageUrl: "https://i.ytimg.com/vi/ikKQhcynKmg/mqdefault.jpg"
+            },
+            {
+                order: 6,
                 name: "Curl Scott con Barra Z",
                 sets: 2,
                 reps: "8, 12",
@@ -320,7 +364,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
             },
             {
-                order: 6,
+                order: 7,
                 name: "Face Pull al Cuello en Polea Alta",
                 isSuperset: true,
                 items: [
@@ -374,6 +418,9 @@ const exerciseAlternatives = {
         { name: "Sentadilla Anterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/saLWdiUe5eE", imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg" }
     ],
     "Jalón al Pecho Neutro en Polea": [
+        { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
+    ],
+    "Remo Diagonal Unilat en Polea Alta": [
         { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
     ],
     "Curl Scott con Barra Z": [
