@@ -1,4 +1,4 @@
-// Titulo: P20_6D_TorPier_DC_1
+// Titulo: P20_6D_TorPier_DC_2
 // Notas: Rutina para AVANZADOS -> ALTA INTENSIDAD, Bajo Volumen
 // - Usa un peso para 8 reps al fallo + 2 clusters. Objetivo de reps marcado. Tienes 4 reps de margen. Por ejemplo si pone 15 reps, margen de 11 a 15 reps. 
 
@@ -21,8 +21,8 @@ const workoutData = {
                 order: 2,
                 name: "Press MIlitar en Multipower - Rodillas",
                 setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"DROPSET"},
-                sets: 2,
-                reps: "15",
+                sets: 3,
+                reps: "15, 15, 10",
                 rest: "120s",
                 notes: "Stretch: elevación lateral cable (45s)",
                 videoUrl: "https://youtube.com/shorts/ZtBQT2bnKEw?feature=share",
@@ -32,8 +32,8 @@ const workoutData = {
                 order: 3,
                 name: "Extensión de Tríceps en Polea con Cuerda",
                 setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"DROPSET"},
-                sets: 2,
-                reps: "20",
+                sets: 3,
+                reps: "20, 20, 10",
                 rest: "120s",
                 notes: "Stretch: elevación lateral cable (45s)",
                 videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
@@ -88,8 +88,8 @@ const workoutData = {
                 order: 2,
                 name: "Curl Martillo con Mancuernas",
                 setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"DROPSET"},
-                sets: 2,
-                reps: "20",
+                sets: 3,
+                reps: "20, 20, 10",
                 rest: "120s",
                 notes: "Stretch: curl en banco inclinado (45s)",
                 videoUrl: "https://youtu.be/fcFsPoJY9lg",
@@ -99,8 +99,8 @@ const workoutData = {
                 order: 3,
                 name: "Sentadilla Anterior en Máquina Jaca",
                 setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"DROPSET"},
-                sets: 2,
-                reps: "15",
+                sets: 3,
+                reps: "15, 15, 10",
                 rest: "120",
                 notes: "Stretch: sentadilla profunda con peso (60s)",
                 videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
@@ -149,7 +149,6 @@ const workoutData = {
     },
     "dia3": {
         name: "A2 - Pecho/Hombros/Tríceps/Espalda",
-        isHidden: true,
         exercises: [
             {
                 order: 1,
@@ -166,8 +165,8 @@ const workoutData = {
                 order: 2,
                 name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                 setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"DROPSET"},
-                sets: 2,
-                reps: "15",
+                sets: 3,
+                reps: "15, 15, 10",
                 rest: "120s",
                 notes: "Stretch: elevación frontal cable (45s)",
                 videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
@@ -177,8 +176,8 @@ const workoutData = {
                 order: 3,
                 name: "Press Francés con Barra Z en Banco Inclinado",
                 setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"DROPSET"},
-                sets: 2,
-                reps: "20",
+                sets: 3,
+                reps: "20, 20, 10",
                 rest: "120",
                 notes: "Stretch: extensión overhead mancuerna (45s)",
                 videoUrl: "https://youtu.be/hFk6xzt1DWM",
@@ -216,7 +215,6 @@ const workoutData = {
     },
     "dia4": {
         name: "B2 - Espalda/Bíceps/Cuádriceps/Femoral/Gemelos",
-        isHidden: true,
         exercises: [
             {
                 order: 1,
@@ -233,8 +231,8 @@ const workoutData = {
                 order: 2,
                 name: "Curl Scott con Barra Z",
                 setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"DROPSET"},
-                sets: 2,
-                reps: "20",
+                sets: 3,
+                reps: "20, 20, 10",
                 rest: "120",
                 notes: "Stretch: curl Scott cable (45s)",
                 videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
@@ -244,8 +242,8 @@ const workoutData = {
                 order: 3,
                 name: "Prensa Inclinada en Máquina de Discos",
                 setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"DROPSET"},
-                sets: 2,
-                reps: "15",
+                sets: 3,
+                reps: "15, 15, 10",
                 rest: "120s",
                 notes: "Stretch: sentadilla sissy (60s)",
                 videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
@@ -295,7 +293,6 @@ const workoutData = {
     },
     "dia5": {
         name: "A3 - Pecho/Hombros/Tríceps/Espalda",
-        isHidden: true,
         exercises: [
             {
                 order: 1,
@@ -312,8 +309,8 @@ const workoutData = {
                 order: 2,
                 name: "Fondos en Paralelas Lastrados",
                 setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"DROPSET"},
-                sets: 2,
-                reps: "15",
+                sets: 3,
+                reps: "15, 15, 10",
                 rest: "120s",
                 notes: "Stretch: elevación lateral mancuerna (45s)",
                 videoUrl: "https://www.youtube.com/shorts/xsnhvnyl70I",
@@ -323,8 +320,8 @@ const workoutData = {
                 order: 3,
                 name: "Extensión Tríceps Trasnuca con Barra Z",
                 setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"DROPSET"},
-                sets: 2,
-                reps: "20",
+                sets: 3,
+                reps: "20, 20, 10",
                 rest: "120s",
                 notes: "Hazlo con cable mejor. ",
                 videoUrl: "https://youtu.be/O5wMBydqDHY",
@@ -363,7 +360,6 @@ const workoutData = {
     },
     "dia6": {
         name: "B3 - Espalda/Bíceps/Cuádriceps/Femoral/Gemelos",
-        isHidden: true,
         exercises: [
             {
                 order: 1,
@@ -380,8 +376,8 @@ const workoutData = {
                 order: 2,
                 name: "Dead Curl con Barra",
                 setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"DROPSET"},
-                sets: 2,
-                reps: "20",
+                sets: 3,
+                reps: "20, 20, 10",
                 rest: "120",
                 notes: "Stretch: curl en polea baja (45s)",
                 videoUrl: "https://www.youtube.com/shorts/HWs4EYCI8iE",
@@ -391,8 +387,8 @@ const workoutData = {
                 order: 3,
                 name: "Sentadilla Trasera con Barra",
                 setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"DROPSET"},
-                sets: 2,
-                reps: "15",
+                sets: 3,
+                reps: "15, 15, 10",
                 rest: "120",
                 notes: "Stretch: sentadilla búlgara (60s)",
                 videoUrl: "https://youtu.be/FK5XU_gaxAE",
