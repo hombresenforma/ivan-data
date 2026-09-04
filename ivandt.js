@@ -335,4 +335,8 @@ const workoutData = {
     }
 };
 
-const exerciseAlternatives = {};
+const exerciseAlternatives = {
+    "Press Militar Sentado con Mancuernas (ExPLICADO)": [
+        { name: "Press Militar en Multipower", videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI", imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg" }
+    ]
+};
