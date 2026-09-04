@@ -70,13 +70,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
                     },
                     {
-                        name: "Extensión de Tríceps Unilat en Polea Alta",
+                        name: "Extensión de Tríceps en Polea con Cuerda",
                         subOrder: 2,
                         sets: 2,
                         reps: "10",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/oWLmfjBi6lM",
-                        imageUrl: "https://i.ytimg.com/vi/oWLmfjBi6lM/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
+                        imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
                     }
                 ],
                 videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
@@ -335,8 +335,4 @@ const workoutData = {
     }
 };
 
-const exerciseAlternatives = {
-    "Press Militar Sentado con Mancuernas (ExPLICADO)": [
-        { name: "Press Militar en Multipower", videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI", imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg" }
-    ]
-};
+const exerciseAlternatives = {};
