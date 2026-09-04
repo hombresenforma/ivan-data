@@ -261,27 +261,9 @@ const workoutData = {
             {
                 order: 3,
                 name: "Patada de Glúteo en Polea",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Patada de Glúteo en Polea",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "12",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=3KdH7vkEW6s",
-                        imageUrl: "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
-                    },
-                    {
-                        name: "Crunch en Polea Alta",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "15",
-                        rest: "90s",
-                        videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
-                        imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
-                    }
-                ],
+                sets: 3,
+                reps: "12",
+                rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=3KdH7vkEW6s",
                 imageUrl: "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
@@ -316,23 +298,45 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Plancha - Normal",
-                sets: 3,
-                reps: "30-45seg",
-                rest: "60s",
-                notes: "Mantener espalda recta y glúteo apretado (retroversión de cadera)",
-                videoUrl: "https://youtu.be/DQ4wYExQRJo",
-                imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
-            },
-            {
-                order: 6,
-                name: "Crunch Bicicleta Alterno",
-                sets: 3,
-                reps: "15",
-                rest: "60s",
+                name: "Circuito Core",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 10,
+                    restBetweenRoundsSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Crunch en Polea Alta",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                        imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha - Normal",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/DQ4wYExQRJo",
+                        imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch Bicicleta Alterno",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/nUIfDzuMR00",
+                        imageUrl: "https://i.ytimg.com/vi/nUIfDzuMR00/mqdefault.jpg"
+                    }
+                ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/nUIfDzuMR00",
-                imageUrl: "https://i.ytimg.com/vi/nUIfDzuMR00/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
             }
         ]
     }
