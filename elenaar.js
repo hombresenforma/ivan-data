@@ -234,6 +234,107 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "Glúteo y Abdomen",
+        exercises: [
+            {
+                order: 1,
+                name: "Hip Thrust con Barra y Bandas de Glúteo",
+                sets: 4,
+                reps: "8",
+                rest: "120s",
+                notes: "Haz con el mismo peso todas las series hasta no ser capaz de llegar a 8.",
+                videoUrl: "https://www.youtube.com/watch?v=1SMcV-yzl4w",
+                imageUrl: "https://i.ytimg.com/vi/1SMcV-yzl4w/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Puente de Glúteo desde el Suelo con Barra",
+                sets: 3,
+                reps: "10",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=soGI_iVLya0",
+                imageUrl: "https://i.ytimg.com/vi/soGI_iVLya0/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Patada de Glúteo en Polea",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Patada de Glúteo en Polea",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "12",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=3KdH7vkEW6s",
+                        imageUrl: "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch en Polea Alta",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "15",
+                        rest: "90s",
+                        videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                        imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=3KdH7vkEW6s",
+                imageUrl: "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Patada de Glúteo en Hold en Banco",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Patada de Glúteo en Hold en Banco",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "12",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=JfJPwDmzyKM",
+                        imageUrl: "https://i.ytimg.com/vi/JfJPwDmzyKM/mqdefault.jpg"
+                    },
+                    {
+                        name: "Cuerpo Libre - Glúteo apertura lateral",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "15",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=9Urj31VEWUc",
+                        imageUrl: "https://i.ytimg.com/vi/9Urj31VEWUc/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=JfJPwDmzyKM",
+                imageUrl: "https://i.ytimg.com/vi/JfJPwDmzyKM/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Plancha - Normal",
+                sets: 3,
+                reps: "30-45seg",
+                rest: "60s",
+                notes: "Mantener espalda recta y glúteo apretado (retroversión de cadera)",
+                videoUrl: "https://youtu.be/DQ4wYExQRJo",
+                imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Crunch Bicicleta Alterno",
+                sets: 3,
+                reps: "15",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/nUIfDzuMR00",
+                imageUrl: "https://i.ytimg.com/vi/nUIfDzuMR00/mqdefault.jpg"
+            }
+        ]
     }
 };
 
