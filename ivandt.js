@@ -332,6 +332,89 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
             }
         ]
+    },
+    "dia5": {
+        name: "PRESS MILITAR",
+        exercises: [
+            {
+                order: 1,
+                name: "Gomas - Rotación Externa en Columna",
+                isWarmup: true,
+                sets: 3,
+                reps: "10",
+                rest: "60s",
+                notes: "Mantén tu codo prácticamente pegado al torso en todo momento",
+                videoUrl: "https://youtu.be/y8cSPoMahok",
+                imageUrl: "https://i.ytimg.com/vi/y8cSPoMahok/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Press Militar en Multipower",
+                sets: 3,
+                reps: "8",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
+                imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Hip Thrust con Barra (ExPLICADO)",
+                sets: 3,
+                reps: "8, 8, 12",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
+                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Remo Unilateral en Landmine",
+                sets: 2,
+                reps: "8, 12",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/DSMBCxZlts4",
+                imageUrl: "https://i.ytimg.com/vi/DSMBCxZlts4/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Sentadilla Búlgara con Mancuerna o KTB",
+                sets: 2,
+                reps: "8, 12",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/kA6bHiDdTO4",
+                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Elevaciones Laterales en Polea",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Elevaciones Laterales en Polea",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/UxII1sPTa9U",
+                        imageUrl: "https://i.ytimg.com/vi/UxII1sPTa9U/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch en Polea Alta",
+                        subOrder: 2,
+                        sets: 2,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                        imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+                    }
+                ],
+                videoUrl: "https://youtu.be/UxII1sPTa9U",
+                imageUrl: "https://i.ytimg.com/vi/UxII1sPTa9U/mqdefault.jpg"
+            }
+        ]
     }
 };
 
