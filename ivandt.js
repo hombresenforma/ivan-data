@@ -415,6 +415,90 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/UxII1sPTa9U/mqdefault.jpg"
             }
         ]
+    },
+    "dia6": {
+        name: "DOMINADAS",
+        exercises: [
+            {
+                order: 1,
+                name: "Gomas - FacePull en Columna",
+                isWarmup: true,
+                sets: 3,
+                reps: "10",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/KnnWfHUjsKg",
+                imageUrl: "https://i.ytimg.com/vi/KnnWfHUjsKg/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Dominadas / Pull Ups Agarre Neutro",
+                sets: 3,
+                reps: "8",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=3bt8gEDXDGw",
+                imageUrl: "https://i.ytimg.com/vi/3bt8gEDXDGw/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Remo en Barra T",
+                sets: 3,
+                reps: "8, 8, 12",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=AgxCPp37waQ",
+                imageUrl: "https://i.ytimg.com/vi/AgxCPp37waQ/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Peso Muerto Unipodal con Mancuerna/KTB",
+                sets: 2,
+                reps: "8, 12",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=1bAi304kd7s",
+                imageUrl: "https://i.ytimg.com/vi/1bAi304kd7s/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Extensión Lumbar en GHD",
+                sets: 2,
+                reps: "8, 12",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=dizQOJZwTDw",
+                imageUrl: "https://i.ytimg.com/vi/dizQOJZwTDw/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Pájaros en Polea",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Pájaros en Polea",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=F8bfnYgzIRs",
+                        imageUrl: "https://i.ytimg.com/vi/F8bfnYgzIRs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Press Pallof Alterno con Rotación en Polea",
+                        subOrder: 2,
+                        sets: 2,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://youtube.com/shorts/vqBP-GHoW5k",
+                        imageUrl: "https://i.ytimg.com/vi/vqBP-GHoW5k/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=F8bfnYgzIRs",
+                imageUrl: "https://i.ytimg.com/vi/F8bfnYgzIRs/mqdefault.jpg"
+            }
+        ]
     }
 };
 
