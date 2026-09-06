@@ -1,5 +1,10 @@
-// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_1_HOME
-// Notas: 3 sesiones FULLBODY (foco TORSO) con REST-PAUSE en todas las series del primer y segundo ejercicio.
+// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_2_HOME
+// Notas: AntPost:
+// - Ejercicio 1 añadimos 1 serie más con REST-PAUSE.
+// - Ejercicio 2 añadimos 1 serie más y cambiamos todo a DROP-SET.
+// 
+// Fullbody:
+// - EMOMs 1 y 2: Añadimos 1 vuelta y bajamos tiempo de 120 a 90s
 
 const workoutData = {
     "dia1": {
@@ -8,8 +13,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Sentadilla Frontal con Mancuernas/Kettlebells",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
+                sets: 4,
                 reps: "10",
                 rest: "120s",
                 notes: "",
@@ -19,7 +24,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Remo Unilat con Mancuerna/KTB (Explicado)",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "10",
                 rest: "120s",
@@ -108,19 +113,19 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Gomas - Flexiones con Resistencia",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                name: "Press Banca con Mancuernas",
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
+                sets: 4,
                 reps: "10",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/5y-98KIMKf0",
-                imageUrl: "https://i.ytimg.com/vi/5y-98KIMKf0/mqdefault.jpg"
+                videoUrl: "https://youtu.be/hXCJC2Apcdg",
+                imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
             },
             {
                 order: 2,
                 name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "10",
                 rest: "90s",
@@ -205,15 +210,15 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
-                    workIntervalSeconds: 120
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
                 },
                 items: [
                     {
                         name: "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
                         subOrder: 1,
                         sets: 1,
-                        reps: "12",
+                        reps: "8",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/NMlvYALcyBc",
                         imageUrl: "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
@@ -222,7 +227,7 @@ const workoutData = {
                         name: "Press Inclinado con Mancuernas",
                         subOrder: 2,
                         sets: 1,
-                        reps: "12",
+                        reps: "8",
                         isEMOMItem: true,
                         videoUrl: "https://youtu.be/ZE4M73kXB5A",
                         imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
@@ -238,8 +243,8 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
-                    workIntervalSeconds: 120
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
                 },
                 items: [
                     {
@@ -268,27 +273,27 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Gomas - Curl de Bíceps en Columna",
+                        name: "Curl con Mancuernas Sentado en Banco Inclinado",
                         subOrder: 1,
                         sets: 1,
                         reps: "10",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/JogvxqdpbMU",
-                        imageUrl: "https://i.ytimg.com/vi/JogvxqdpbMU/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/S32a3nYiWko",
+                        imageUrl: "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
                     },
                     {
-                        name: "Gomas - Extensión de Tríceps Trasnuca en Columna",
+                        name: "Press Francés con Mancuernas en Banco Inclinado",
                         subOrder: 2,
                         sets: 1,
                         reps: "10",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/yN_-LZKCEPI",
-                        imageUrl: "https://i.ytimg.com/vi/yN_-LZKCEPI/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/L__Q6Jl9Ics",
+                        imageUrl: "https://i.ytimg.com/vi/L__Q6Jl9Ics/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/JogvxqdpbMU",
-                imageUrl: "https://i.ytimg.com/vi/JogvxqdpbMU/mqdefault.jpg"
+                videoUrl: "https://youtu.be/S32a3nYiWko",
+                imageUrl: "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -492,7 +497,8 @@ const exerciseAlternatives = {
     "Sentadilla Frontal con Mancuernas/Kettlebells": [
         { name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)", videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY", imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg" }
     ],
-    "Gomas - Flexiones con Resistencia": [
+    "Press Banca con Mancuernas": [
         { name: "Floor Press con Mancuernas", videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ", imageUrl: "https://i.ytimg.com/vi/Iu02N3s7zgQ/mqdefault.jpg" }
     ]
 };
+
