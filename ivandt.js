@@ -38,8 +38,8 @@ const workoutData = {
             {
                 order: 4,
                 name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
-                sets: 2,
-                reps: "8, 12",
+                sets: 3,
+                reps: "8, 8, 12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
@@ -72,7 +72,7 @@ const workoutData = {
                     {
                         name: "Extensión de Tríceps en Polea con Cuerda",
                         subOrder: 2,
-                        sets: 2,
+                        sets: 3,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
@@ -120,6 +120,16 @@ const workoutData = {
             },
             {
                 order: 4,
+                name: "Remo en Banco con Pecho Apoyado con Mancuernas",
+                sets: 2,
+                reps: "10, 12",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=tlGl_Svh6Mk",
+                imageUrl: "https://i.ytimg.com/vi/tlGl_Svh6Mk/mqdefault.jpg"
+            },
+            {
+                order: 5,
                 name: "Curl Femoral Sentado en Máquina",
                 sets: 2,
                 reps: "8, 12",
@@ -129,7 +139,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg"
             },
             {
-                order: 5,
+                order: 6,
                 name: "Curl con Barra Z",
                 sets: 2,
                 reps: "8, 12",
@@ -139,7 +149,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
             },
             {
-                order: 6,
+                order: 7,
                 name: "Elevaciones Laterales con Mancuernas",
                 isSuperset: true,
                 items: [
@@ -155,7 +165,7 @@ const workoutData = {
                     {
                         name: "Curl Martillo con Cuerda en Polea Baja",
                         subOrder: 2,
-                        sets: 2,
+                        sets: 3,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/fSTgTQr1WCk",
@@ -223,6 +233,16 @@ const workoutData = {
             },
             {
                 order: 6,
+                name: "Elevaciones Laterales en Polea",
+                sets: 2,
+                reps: "12, 15",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/UxII1sPTa9U",
+                imageUrl: "https://i.ytimg.com/vi/UxII1sPTa9U/mqdefault.jpg"
+            },
+            {
+                order: 7,
                 name: "Cruces en Polea Alta",
                 isSuperset: true,
                 items: [
@@ -238,7 +258,7 @@ const workoutData = {
                     {
                         name: "Extensión de Codo Trasnuca con Cuerda en Polea Baja",
                         subOrder: 2,
-                        sets: 2,
+                        sets: 3,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=iSC42Fn4VT0",
@@ -287,8 +307,8 @@ const workoutData = {
             {
                 order: 4,
                 name: "Jalón al Pecho Neutro en Polea",
-                sets: 2,
-                reps: "8, 12",
+                sets: 3,
+                reps: "8, 10, 12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/5YzMH2KkMHc",
@@ -306,7 +326,17 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "Elevaciones Laterales con Mancuernas",
+                name: "Pájaros en Polea",
+                sets: 2,
+                reps: "12, 15",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=F8bfnYgzIRs",
+                imageUrl: "https://i.ytimg.com/vi/F8bfnYgzIRs/mqdefault.jpg"
+            },
+            {
+                order: 7,
+                name: "Face Pull en Polea Alta",
                 isSuperset: true,
                 items: [
                     {
@@ -328,175 +358,8 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/vll2f1bqDlA/mqdefault.jpg"
                     }
                 ],
-                videoUrl: "https://youtu.be/rhmW_fhB4cs",
-                imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia5": {
-        name: "PRESS MILITAR",
-        exercises: [
-            {
-                order: 1,
-                name: "Gomas - Rotación Externa en Columna",
-                isWarmup: true,
-                sets: 3,
-                reps: "10",
-                rest: "60s",
-                notes: "Mantén tu codo prácticamente pegado al torso en todo momento",
-                videoUrl: "https://youtu.be/y8cSPoMahok",
-                imageUrl: "https://i.ytimg.com/vi/y8cSPoMahok/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Press Militar en Multipower",
-                sets: 3,
-                reps: "8",
-                rest: "120s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
-                imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Hip Thrust con Barra (ExPLICADO)",
-                sets: 3,
-                reps: "8, 8, 12",
-                rest: "120s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Remo Unilateral en Landmine",
-                sets: 2,
-                reps: "8, 12",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/DSMBCxZlts4",
-                imageUrl: "https://i.ytimg.com/vi/DSMBCxZlts4/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Sentadilla Búlgara con Mancuerna o KTB",
-                sets: 2,
-                reps: "8, 12",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/kA6bHiDdTO4",
-                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
-            },
-            {
-                order: 6,
-                name: "Elevaciones Laterales en Polea",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Elevaciones Laterales en Polea",
-                        subOrder: 1,
-                        sets: 2,
-                        reps: "10",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/UxII1sPTa9U",
-                        imageUrl: "https://i.ytimg.com/vi/UxII1sPTa9U/mqdefault.jpg"
-                    },
-                    {
-                        name: "Crunch en Polea Alta",
-                        subOrder: 2,
-                        sets: 2,
-                        reps: "10",
-                        rest: "90s",
-                        videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
-                        imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
-                    }
-                ],
-                videoUrl: "https://youtu.be/UxII1sPTa9U",
-                imageUrl: "https://i.ytimg.com/vi/UxII1sPTa9U/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia6": {
-        name: "DOMINADAS",
-        exercises: [
-            {
-                order: 1,
-                name: "Gomas - FacePull en Columna",
-                isWarmup: true,
-                sets: 3,
-                reps: "10",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://youtu.be/KnnWfHUjsKg",
-                imageUrl: "https://i.ytimg.com/vi/KnnWfHUjsKg/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Dominadas / Pull Ups Agarre Neutro",
-                sets: 3,
-                reps: "8",
-                rest: "120s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=3bt8gEDXDGw",
-                imageUrl: "https://i.ytimg.com/vi/3bt8gEDXDGw/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Remo en Barra T",
-                sets: 3,
-                reps: "8, 8, 12",
-                rest: "120s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=AgxCPp37waQ",
-                imageUrl: "https://i.ytimg.com/vi/AgxCPp37waQ/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Peso Muerto Unipodal con Mancuerna/KTB",
-                sets: 2,
-                reps: "8, 12",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=1bAi304kd7s",
-                imageUrl: "https://i.ytimg.com/vi/1bAi304kd7s/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Extensión Lumbar en GHD",
-                sets: 2,
-                reps: "8, 12",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=dizQOJZwTDw",
-                imageUrl: "https://i.ytimg.com/vi/dizQOJZwTDw/mqdefault.jpg"
-            },
-            {
-                order: 6,
-                name: "Pájaros en Polea",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Pájaros en Polea",
-                        subOrder: 1,
-                        sets: 2,
-                        reps: "10",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=F8bfnYgzIRs",
-                        imageUrl: "https://i.ytimg.com/vi/F8bfnYgzIRs/mqdefault.jpg"
-                    },
-                    {
-                        name: "Press Pallof Alterno con Rotación en Polea",
-                        subOrder: 2,
-                        sets: 2,
-                        reps: "10",
-                        rest: "90s",
-                        videoUrl: "https://youtube.com/shorts/vqBP-GHoW5k",
-                        imageUrl: "https://i.ytimg.com/vi/vqBP-GHoW5k/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=F8bfnYgzIRs",
-                imageUrl: "https://i.ytimg.com/vi/F8bfnYgzIRs/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=tZN8KYDSCRo",
+                imageUrl: "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
             }
         ]
     }
