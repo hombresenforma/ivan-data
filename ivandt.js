@@ -368,19 +368,23 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Pallof press en polea",
+                name: "Press Pallof Excéntrico Unilat en Polea",
                 sets: 3,
-                reps: "12/lado",
+                reps: "8",
                 rest: "60s",
-                notes: "Core anti-rotación; tronco neutro."
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/r89c9qr-CB0",
+                imageUrl: "https://i.ytimg.com/vi/r89c9qr-CB0/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Dead bug",
+                name: "Dead Bug",
                 sets: 3,
-                reps: "10/lado",
+                reps: "10",
                 rest: "60s",
-                notes: "Control lumbar y respiración."
+                notes: "",
+                videoUrl: "https://youtu.be/0CteMtiMChQ",
+                imageUrl: "https://i.ytimg.com/vi/0CteMtiMChQ/mqdefault.jpg"
             },
             {
                 order: 3,
