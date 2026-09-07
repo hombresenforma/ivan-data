@@ -327,33 +327,33 @@ const workoutData = {
         exercises: [
             {
                 order: 2,
-                name: "Curl con Barra Z",
+                name: "Hip Thrust con Barra (ExPLICADO)",
                 sets: 3,
                 reps: "8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/4gYLTjNaTmw",
-                imageUrl: "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
+                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Press Cerrado con Barra",
+                name: "Remo en Máquina T Agarre Estrecho",
                 sets: 3,
                 reps: "8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/_062fQmtry8",
-                imageUrl: "https://i.ytimg.com/vi/_062fQmtry8/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
+                imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
             },
             {
                 order: 4,
-                name: "Sentadilla Trasera en Multipower",
+                name: "Press Banca con Mancuernas",
                 sets: 3,
                 reps: "8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/la-dqygoIuk",
-                imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
+                videoUrl: "https://youtu.be/hXCJC2Apcdg",
+                imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -361,22 +361,22 @@ const workoutData = {
                 isSuperset: true,
                 items: [
                     {
-                        name: "Curl Martillo con Mancuernas",
+                        name: "Extensión de Cuádriceps en Máquina",
                         subOrder: 1,
                         sets: 3,
                         reps: "15, 12, 10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/fcFsPoJY9lg",
-                        imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                        imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
                     },
                     {
-                        name: "Extensión Tríceps Trasnuca Unilateral con Mancuerna",
+                        name: "Curl Femoral Sentado en Máquina",
                         subOrder: 2,
                         sets: 3,
                         reps: "15, 12, 10",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/jGTquNttoRU",
-                        imageUrl: "https://i.ytimg.com/vi/jGTquNttoRU/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4",
+                        imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg"
                     }
                 ],
                 videoUrl: "https://youtu.be/fcFsPoJY9lg",
@@ -393,23 +393,23 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Zancadas Caminando con Mancuernas/KTB",
+                        name: "Assault Bike",
                         subOrder: 1,
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
-                        notes: "Utiliza mancuernas de 8-10kg para ambos ejercicios.",
-                        videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                        imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                        notes: "Mantén un ritmo intenso y constante durante todo el intervalo.",
+                        videoUrl: "https://www.youtube.com/watch?v=AqDZi0p7kN4",
+                        imageUrl: "https://i.ytimg.com/vi/AqDZi0p7kN4/mqdefault.jpg"
                     },
                     {
-                        name: "Burpee sin Flexión",
+                        name: "Mountain Climber",
                         subOrder: 2,
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
-                        videoUrl: "https://youtu.be/_liq4fAscDU",
-                        imageUrl: "https://i.ytimg.com/vi/_liq4fAscDU/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/GZWmYzClS3s",
+                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
                     }
                 ],
                 notes: "Utiliza mancuernas de 8-10kg para ambos ejercicios.",
