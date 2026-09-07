@@ -12,6 +12,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Worm + Rotaciones de Tronco",
+                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
@@ -149,17 +150,18 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Remo Gironda en Polea",
+                name: "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
+                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo Gironda en Polea",
+                        name: "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
                         subOrder: 1,
                         sets: 2,
                         reps: "8",
                         isSupersetStart: true,
-                        videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
-                        imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/NMlvYALcyBc",
+                        imageUrl: "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
                     },
                     {
                         name: "Mountain Climber",
@@ -172,8 +174,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
-                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/NMlvYALcyBc",
+                imageUrl: "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -286,6 +288,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Abducción de Glúteo Unilat en el Suelo",
+                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
