@@ -296,13 +296,13 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Remo con Barra",
+                name: "Remo Gironda en Polea",
                 sets: 3,
                 reps: "8, 8, 12",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/MjnZ52mZgT0",
-                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
+                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
             },
             {
                 order: 4,
