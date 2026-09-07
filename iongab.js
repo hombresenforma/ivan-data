@@ -1,4 +1,4 @@
-// P2_3D_FBCARDIO_1
+// Titulo: Plan de Entrenamiento
 
 const workoutData = {
     "dia1": {
@@ -158,17 +158,18 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Dominadas Australianas en TRX",
+                name: "Dominadas Australianas con Pies en el Suelo",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Dominadas Australianas en TRX",
+                        name: "Dominadas Australianas con Pies en el Suelo",
                         subOrder: 1,
                         sets: 3,
-                        reps: "10",
+                        reps: "12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
-                        imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
+                        notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
+                        videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
+                        imageUrl: "https://i.ytimg.com/vi/-GFyrw9BJVk/mqdefault.jpg"
                     },
                     {
                         name: "CARDIO - Burpees con Jumping Jacks",
@@ -180,9 +181,9 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/A21AiXaXi40/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
-                imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
+                notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
+                videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
+                imageUrl: "https://i.ytimg.com/vi/-GFyrw9BJVk/mqdefault.jpg"
             }
         ]
     },
