@@ -362,6 +362,47 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
             }
         ]
+    },
+    "dia5": {
+        name: "CORE Y BRAZOS",
+        exercises: [
+            {
+                order: 1,
+                name: "Pallof press en polea",
+                sets: 3,
+                reps: "12/lado",
+                rest: "60s",
+                notes: "Core anti-rotación; tronco neutro."
+            },
+            {
+                order: 2,
+                name: "Dead bug",
+                sets: 3,
+                reps: "10/lado",
+                rest: "60s",
+                notes: "Control lumbar y respiración."
+            },
+            {
+                order: 3,
+                name: "Curl con Barra Z",
+                sets: 3,
+                reps: "10, 12",
+                rest: "75s",
+                notes: "",
+                videoUrl: "https://youtu.be/4gYLTjNaTmw",
+                imageUrl: "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Extensión de Tríceps en Polea con Cuerda",
+                sets: 3,
+                reps: "10, 12",
+                rest: "75s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
+                imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
+            }
+        ]
     }
 };
 
